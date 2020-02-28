@@ -22,4 +22,4 @@ I hold Masters in Applied Mathematics, Machine Learning and Engineering from ENS
 
 ## <span style="color:darkblue">News </span>
 
-* 01/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).
+* 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).

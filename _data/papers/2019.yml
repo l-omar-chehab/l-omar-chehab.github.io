@@ -16,74 +16,10 @@
   selected: y
   year: 2019
   img: nips19_cat-min.png
-  title: "Sequence Modeling with Unconstrained Generation Order"
-  authors: "Dmitrii Emelianenko, <u>Elena Voita</u>, Pavel Serdyukov"
+  title: "A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
+  authors: "Mallory Carlu*, <u>Omar Chehab<\u>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
   doc-url:
-  conf: nips19.png
-  url: "https://arxiv.org/abs/1911.00176"
+  conf: jnp.jpeg
+  url: "https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019"
 
--
-  layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2019
-  img: emnlp19_evolution-min.png
-  title: "The Bottom-up Evolution of Representations in the Transformer: A Study with Machine Translation and Language Modeling Objectives"
-  authors: "<u>Elena Voita</u>, Rico Sennrich and Ivan Titov"
-  doc-url:
-  conf: emnlp19.png
-  url: "http://arxiv.org/abs/1909.01380"
-
--
-  layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2019
-  img: emnlp19_ctx-min.png
-  title: "Context-Aware Monolingual Repair for Neural Machine Translation"
-  authors: "<u>Elena Voita</u>, Rico Sennrich and Ivan Titov"
-  conf: emnlp19.png
-  url: "http://arxiv.org/abs/1909.01383"
-
--
-  layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2019
-  img: acl19_heads-min.png
-  title: "Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned"
-  authors: "<u>Elena Voita</u>, David Talbot, Fedor Moiseev, Rico Sennrich and Ivan Titov"
-  doc-url:
-  conf: acl19.png
-  arxiv: //arxiv.org/abs/1905.09418
-  url: "http://www.aclweb.org/anthology/P19-1580"
-  appendix:
-  booktitle: "Proceedings of ACL"
-  slides:
-  abstract: >
-      Multi-head self-attention is a key component of the Transformer, a state-of-the-art architecture for neural machine translation. In this work we evaluate the contribution made by individual attention heads in the encoder to the overall performance of the model and analyze the roles played by them. We find that the most important and confident heads play consistent and often linguistically-interpretable roles. When pruning heads using a method based on stochastic gates and a differentiable relaxation of the L0 penalty, we observe that specialized heads are last to be pruned. Our novel pruning method removes the vast majority of heads without seriously affecting performance. For example, on the English-Russian WMT dataset, pruning 38 out of 48 encoder heads results in a drop of only 0.15 BLEU.
-  bibtex: >
-
-    }
-
--
-  layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2019
-  img: acl19_ctx_scheme-min.png
-  title: "When a Good Translation is Wrong in Context: Context-Aware Machine Translation Improves on Deixis, Ellipsis, and Lexical Cohesion"
-  authors: "<u>Elena Voita</u>, Rico Sennrich and Ivan Titov"
-  doc-url:
-  conf: acl19.png
-  arxiv: //arxiv.org/abs/1905.05979
-  url: "http://www.aclweb.org/anthology/P19-1116"
-  appendix:
-  booktitle: "Proceedings of ACL"
-  slides:
-  abstract: >
-      Though machine translation errors caused by the lack of context beyond one sentence have long been acknowledged, the development of context-aware NMT systems is hampered by several problems. Firstly, standard metrics are not sensitive to improvements in consistency in document-level translations. Secondly, previous work on context-aware NMT assumed that the sentence-aligned parallel data consisted of complete documents while in most practical scenarios such document-level data constitutes only a fraction of the available parallel data. To address the first issue, we perform a human study on an English-Russian subtitles dataset and identify deixis, ellipsis and lexical cohesion as three main sources of inconsistency. We then create test sets targeting these phenomena. To address the second shortcoming, we consider a set-up in which a much larger amount of sentence-level data is available compared to that aligned at the document level. We introduce a model that is suitable for this scenario and demonstrate major gains over a context-agnostic baseline on our new benchmarks without sacrificing performance as measured with BLEU.
-  bibtex: >
-
-    }
 

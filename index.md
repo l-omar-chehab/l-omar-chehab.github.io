@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_a_fox](./img/people/lena-min.png){: style="float: right; margin: 0px 20px; width: 204px; height: 240px" name="fox"}
+![i_am_a_fox](./img/people/emir-bashir-chehab.jpg){: style="float: right; margin: 0px 20px; width: 204px; height: 240px" name="fox"}
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
@@ -20,12 +20,4 @@ I [teach NLP](https://github.com/yandexdataschool/nlp_course) at the [Yandex Sch
 
 ## <span style="color:darkblue">News </span>
 
-* 01/2020 Giving several talks, including talks at Google Research Berlin, [Naver Labs Europe](https://europe.naverlabs.com/research/seminars/analyzing-information-flow-in-transformers/), NLP track at [Applied Machine Learning Days at EPFL](https://appliedmldays.org/tracks/ai-nlp).
-* 09/2019 _To appear at __NeurIPS__ 2019_: [Sequence Modeling with Unconstrained Generation Order](https://arxiv.org/abs/1911.00176).
-* 08/2019 __2__ papers _accepted to __EMNLP__ 2019_!
-* 06/2019 Attending Google NLP summit in Zurich.
-* 05/2019 __2__ papers _accepted to __ACL__ 2019_, one is oral!
-* 03/2019 We are happy to host [Wilker Aziz](http://wilkeraziz.github.io) and Mirella Lapata at [Yandex NLP week](https://yandex.com/company/blog/nlp-week-2019)! More information is [here](https://academy.yandex.ru/events/data_analysis/NLP_week/), video and materials are [here](https://yandexdataschool.ru/edu-process/nlp-week)
-* 09/2018 We are launching a new [NLP course](https://github.com/yandexdataschool/nlp_course) at the Yandex School of Data Analysis!
-* 04/2018 Our paper [Context-Aware Neural Machine Translation Learns Anaphora Resolution](https://arxiv.org/pdf/1805.10163.pdf) has been _accepted to ACL 2018_ and selected for an _oral_ presentation.
-
+* 09/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).

@@ -1,6 +1,6 @@
 ---
 layout: photolist
-title: Talks & Service
+title: Talks 
 menu: yes
 order: 3
 ---

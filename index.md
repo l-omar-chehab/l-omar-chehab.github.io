@@ -16,9 +16,10 @@ I am Omar Chehab, an __incoming Ph.D. candidate__ at Inria, [Parietal](https://t
 I’m interested in the dynamical and inferential viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. *From a Machine Learning perspective*, this involves self-supervised (deep) representation learning and generative models to uncover meaningful latent structure (or grammar) in MagnetoEncephalographic (MEG) brain recordings. *From a theoretical perspective*, this involves eyeing deep neural network models as blunt surrogates to brain computations, and investigating both their information-processing and optimization as a dynamical system with control. *From a Computational Neuroscience perspective*, one keeps in mind mechanistic models of biological mechanisms as interpretable building blocks and recent developments in scaling them inferably. 
 I furthermore believe the Machine Learning community has much to gain from leveraging a more precise understanding of neuroscience topics, such as synaptic intelligence, stochastic dynamics, neural code, memory, and the different strata of analyses (from cellular to network to whole-brain), to cite a few. 
 I am also interested in causal inference and optimization (sparse, structured, accelerated, robust).
-My work is funded by the Bridging Artificial Intelligence and Neuroscience (BrAIN) grant of the French National Research Agency (ANR). 
-I hold Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris, and have previously interned at Facebook AI Research / ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. 
---->
+My work is funded by the Bridging Artificial Intelligence and Neuroscience (BrAIN) grant of the French National Research Agency (ANR).--->
+
+I hold Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris, and have previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. 
+
 
 ## <span style="color:darkblue">News </span>
 

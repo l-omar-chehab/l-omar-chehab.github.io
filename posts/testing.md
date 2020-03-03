@@ -23,6 +23,7 @@ l | then `Apple+D` to jointly select and modify other instances of the selected 
 
 Goal | Bash command | Comments
 --- | --- | ---
+*Export all file names contaning an expression* | `ls | grep expression > output.txt` | 
 *Delete all files with a specific extension* | `find . -name "*.bak" -type f -delete` | 
 *Interrupt running process* | `Ctrl+C ` | 
 *Clears text until beginning of line * | `Ctrl+U ` | useful to delete a chuck of commands directly written in the terminal  

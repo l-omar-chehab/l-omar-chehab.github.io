@@ -12,15 +12,18 @@ layout: default
 
 I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net). I currently work on self-supervised learning on brain data.
 
-<!--- 
-I’m interested in the dynamical and inferential viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. *From a Machine Learning perspective*, this involves self-supervised (deep) representation learning and generative models to uncover meaningful latent structure (or grammar) in MagnetoEncephalographic (MEG) brain recordings. *From a theoretical perspective*, this involves eyeing deep neural network models as blunt surrogates to brain computations, and investigating both their information-processing and optimization as a dynamical system with control. *From a Computational Neuroscience perspective*, one keeps in mind mechanistic models of biological mechanisms as interpretable building blocks and recent developments in scaling them inferably. 
+More generally, I am interested in the dynamics-with-control and inferential viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as proxy for the neural code, to investigate its structure <!--grammar--> in a top-down approach, using unsupervised representation learning. Conversely, in a bottom-up approach we can emulate neural code using biophysical, mechanistic models. 
+
+I am also interested in optimization (sparse, structured, accelerated, robust) on crossing different formalisms (ex: dynamical systems, optimization, information theory) within Machine Learning. <!--I am also interested in causal inference-->
+
+
+<!--
 I furthermore believe the Machine Learning community has much to gain from leveraging a more precise understanding of neuroscience topics, such as synaptic intelligence, stochastic dynamics, neural code, memory, and the different strata of analyses (from cellular to network to whole-brain), to cite a few. 
-I am also interested in causal inference and optimization (sparse, structured, accelerated, robust).
-My work is funded by the Bridging Artificial Intelligence and Neuroscience (BrAIN) grant of the French National Research Agency (ANR).--->
+-->
 
-I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. 
+I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. Previously, I completed Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris.
 
-Previously, I completed Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris.
+My work is funded by the "Bridging Artificial Intelligence and Neuroscience (BrAIN)" grant of the French National Research Agency (ANR).
 
 
 ## <span style="color:darkblue">News </span>

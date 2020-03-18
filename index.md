@@ -19,7 +19,7 @@ I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institu
 
 More generally, I am interested in the dynamics-with-control and inferential viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as proxy for the neural code, to investigate its structure <!--grammar--> in a top-down approach, using unsupervised representation learning. Conversely, in a bottom-up approach we can emulate neural code using biophysical, mechanistic models. 
 
-I am also interested in optimization (sparse, structured, accelerated, robust) on crossing different formalisms (ex: dynamical systems, optimization, information theory) within Machine Learning. <!--I am also interested in causal inference-->
+I am also interested in optimization (sparse, structured, accelerated, robust) and crossing different formalisms (ex: dynamical systems, optimization, information theory) within Machine Learning. <!--I am also interested in causal inference-->
 
 
 <!--

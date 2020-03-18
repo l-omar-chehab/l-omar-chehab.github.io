@@ -10,7 +10,7 @@ layout: default
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
 
 
-I am Omar Chehab, an __incoming Ph.D. candidate__ at Inria, [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net). I currently work on self-supervised learning on brain data.
+I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net). I currently work on self-supervised learning on brain data.
 
 <!--- 
 I’m interested in the dynamical and inferential viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. *From a Machine Learning perspective*, this involves self-supervised (deep) representation learning and generative models to uncover meaningful latent structure (or grammar) in MagnetoEncephalographic (MEG) brain recordings. *From a theoretical perspective*, this involves eyeing deep neural network models as blunt surrogates to brain computations, and investigating both their information-processing and optimization as a dynamical system with control. *From a Computational Neuroscience perspective*, one keeps in mind mechanistic models of biological mechanisms as interpretable building blocks and recent developments in scaling them inferably. 

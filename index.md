@@ -18,7 +18,9 @@ I furthermore believe the Machine Learning community has much to gain from lever
 I am also interested in causal inference and optimization (sparse, structured, accelerated, robust).
 My work is funded by the Bridging Artificial Intelligence and Neuroscience (BrAIN) grant of the French National Research Agency (ANR).--->
 
-I hold Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris, and have previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. 
+I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. 
+
+Previously, I completed Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris.
 
 
 ## <span style="color:darkblue">News </span>

@@ -9,6 +9,11 @@ layout: default
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
 
+<!--
+Twitter: 
+Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Neuro. 
+Former intern @FacebookAI. 
+-->
 
 I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net). I currently work on self-supervised learning on brain data.
 
@@ -24,6 +29,7 @@ I furthermore believe the Machine Learning community has much to gain from lever
 I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. Previously, I completed Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris.
 
 My work is funded by the "Bridging Artificial Intelligence and Neuroscience (BrAIN)" grant of the French National Research Agency (ANR).
+
 
 
 ## <span style="color:darkblue">News </span>

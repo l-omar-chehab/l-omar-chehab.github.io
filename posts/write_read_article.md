@@ -67,6 +67,18 @@ At the very end, verify spelling consistency (ex: s or z if UK / US Journal).
 
 <!-- "If our eyes can do better, the model(s) can too": understand why they are not performing well enough. -->
 
+--------------
+
+*Seasons in Machine Learning Submissions:*
+
+January: ICML <br /> 
+February: COLT <br /> <br /> 
+
+May: NeurIPS <br /> <br /> 
+
+September: ICLR <br /> 
+October: AI Stats <br /> 
+
 
 ## How to give a presentation
 

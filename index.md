@@ -28,7 +28,8 @@ I furthermore believe the Machine Learning community has much to gain from lever
 
 I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. Previously, I completed Masters in Applied Mathematics, Machine Learning and Engineering from ENS Paris-Saclay and ENSTA Paris.
 
-My work is funded by the "Bridging Artificial Intelligence and Neuroscience (BrAIN)" grant of the French National Research Agency (ANR).
+My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience".
+
 
 
 

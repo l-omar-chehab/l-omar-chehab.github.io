@@ -5,7 +5,7 @@
   selected: y
   year: 2019
   img: jnp_2019.png
-  title: "A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
+  title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
   authors: "Mallory Carlu*, <u>Omar Chehab</u>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
   doc-url:
   conf: jnp.png

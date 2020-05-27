@@ -1,9 +1,9 @@
 <div class="media">
 
-    {% if include.teaching.name %}{{ include.teaching.name }}.{% endif %} ,
-    {% if include.teaching.header %}<i>{{ include.teaching.header }}, {{ include.teaching.header }}</i>.{% endif %} -
-    {% if include.teaching.institution %}<i>{{ include.teaching.institution }}, {{ include.teaching.institution }}</i>.{% endif %} 
-    {% if include.teaching.year %}({{ include.teaching.year }}){% endif %}<br/>
+    {% if include.course.name %}{{ include.course.name }}{% endif %} ,
+    {% if include.course.header %}{{ include.course.header }}{% endif %} -
+    {% if include.course.institution %}<i>{{ include.course.institution }}</i>.{% endif %} 
+    {% if include.course.year %}({{ include.course.year }}){% endif %}<br/>
 
     <br/>
 

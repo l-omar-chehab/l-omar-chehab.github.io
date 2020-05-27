@@ -15,7 +15,7 @@ order: 4
 {% assign sortedyears = years | split:' ' | sort | reverse %}
 {% for year in sortedyears %}
 [comment]: <> (### {{ year }})
-{% for paper in hashes[year] %}
-{% include paper_lena.html paper=paper %}
+{% for course in hashes[year] %}
+{% include teaching_omar.html course=course %}
 {% endfor %}
 {% endfor %}

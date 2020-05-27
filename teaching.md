@@ -5,7 +5,7 @@ menu: yes
 order: 4
 ---
 
-{% assign hashes = (site.data.papers) %}
+{% assign hashes = (site.data.teaching) %}
 {% capture years %}
 {% for hash in hashes %}
 {{ hash[0] }}

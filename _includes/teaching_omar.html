@@ -1,0 +1,10 @@
+<div class="media">
+
+    {% if include.teaching.name %}{{ include.teaching.name }}.{% endif %} ,
+    {% if include.teaching.header %}<i>{{ include.teaching.header }}, {{ include.teaching.header }}</i>.{% endif %} -
+    {% if include.teaching.institution %}<i>{{ include.teaching.institution }}, {{ include.teaching.institution }}</i>.{% endif %} 
+    {% if include.teaching.year %}({{ include.teaching.year }}){% endif %}<br/>
+
+    <br/>
+
+</div>

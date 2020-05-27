@@ -1,8 +1,8 @@
 
 
-- layout: teaching_omar
-  name: bob the cat
-  institution: monty python school of jokes
+- layout: teaching_omar. # this does not change anything I think
+  name: Quadratic Optimization
+  institution: ENSTA, Institut Polytechnique de Paris
   year: 2020-2021
 
 

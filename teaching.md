@@ -5,6 +5,8 @@ menu: yes
 order: 4
 ---
 
+I am Teacher's Assistant ('chargé de TD') for the following courses. <br><br>
+
 {% assign hashes = (site.data.teaching) %}
 {% capture years %}
 {% for hash in hashes %}

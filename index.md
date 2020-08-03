@@ -28,10 +28,14 @@ I furthermore believe the Machine Learning community has much to gain from lever
 
 I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. I completed my graduate studies @ ENS Paris-Saclay and Institut Polytechnique de Paris (ENSTA) in Applied Mathematics, Machine Learning and Engineering.
 
-My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". <!-- I am also affiliated with [NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).-->
+My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated with [NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).
 
 
 
 ## <span style="color:darkblue">News </span>
 
+* 12/2019 _New preprint out!_: [Uncovering the structure of clinical EEG signals with self-supervised learning](https://arxiv.org/abs/2007.16104).
+<!--
 * 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).
+-->
+

@@ -36,6 +36,7 @@ My work is funded by European (ERC) and French (ANR) grants "Signal And Learning
 ## <span style="color:darkblue">News </span>
 
 * 08/2020 _New preprint out!_: [Uncovering the structure of clinical EEG signals with self-supervised learning](https://arxiv.org/abs/2007.16104).
+
 <!--
 * 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).
 -->

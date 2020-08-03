@@ -3,7 +3,8 @@ layout: default
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_a_fox](./img/people/profile_pic.png){: style="float: right; margin: 0px 20px; width: 204px; height: 240px" name="fox"}
+<!--![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 240px" name="fox"}-->
+![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 400px" name="fox"}
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">

@@ -18,7 +18,7 @@ Former intern @FacebookAI.
 
 I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net)<!--and collaborating with [Aapo Hyvärinen](https://www.cs.helsinki.fi/u/ahyvarin/)-->. I currently work on self-supervised learning on brain data.
 
-More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest on how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as proxy for the neural code, investigating its structure <!--grammar--> in a top-down approach, using unsupervised representation learning or conversely, emulating it using mechanistic biophysical models in a bottom-up approach.
+More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as proxy for the neural code, investigating its structure <!--grammar--> in a top-down approach, using unsupervised representation learning or conversely, emulating it using mechanistic biophysical models in a bottom-up approach.
 
 I am also interested in optimization (sparse, structured, accelerated, robust) and crossing different formalisms (ex: dynamical systems, optimization, information theory) within Machine Learning. <!--I am also interested in causal inference-->
 

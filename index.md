@@ -16,7 +16,7 @@ Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Ne
 Former intern @FacebookAI. 
 -->
 
-I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), [Parietal](https://team.inria.fr/parietal/) Team, supervised by [Alexandre Gramfort](http://alexandre.gramfort.net)<!--and collaborating with [Aapo Hyvärinen](https://www.cs.helsinki.fi/u/ahyvarin/)-->. I currently work on self-supervised learning on brain data.
+I am Omar Chehab, an __incoming Ph.D. candidate__ at the French National Institute of Computer Science (INRIA), <a href="https://team.inria.fr/parietal/" target="_blank">Parietal</a> Team, supervised by <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a> <!--and collaborating with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a>-->. I currently work on self-supervised learning on brain data.
 
 More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as a proxy for the neural code, investigating its structure <!--grammar--> in a top-down approach, using unsupervised representation learning, or conversely emulating it using mechanistic biophysical models in a bottom-up approach.
 
@@ -29,8 +29,7 @@ I furthermore believe the Machine Learning community has much to gain from lever
 
 I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. I completed my graduate studies @ ENS Paris-Saclay and Institut Polytechnique de Paris (ENSTA) in Applied Mathematics, Machine Learning and Engineering.
 
-My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated with [NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).
-
+My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated with <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>.
 
 
 ## <span style="color:darkblue">News </span>
@@ -39,5 +38,6 @@ My work is funded by European (ERC) and French (ANR) grants "Signal And Learning
 
 <!--
 * 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).
+[NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).
 -->
 

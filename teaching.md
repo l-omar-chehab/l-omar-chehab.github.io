@@ -16,7 +16,7 @@ I am Teacher's Assistant ('chargé de TD') for the following graduate courses. <
 
 {% assign sortedyears = years | split:' ' | sort | reverse %}
 {% for year in sortedyears %}
-[comment]: <> (### {{ year }})
+<!-- [comment]: <> (### {{ year }}) -->
 {% for course in hashes[year] %}
 {% include teaching_omar.html course=course %}
 {% endfor %}

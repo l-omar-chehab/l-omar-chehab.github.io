@@ -34,7 +34,7 @@ My work is funded by European (ERC) and French (ANR) grants "Signal And Learning
 
 ## <span style="color:darkblue">News </span>
 
-* 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabelled Brain Waves Spill Secrets'
+* 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 
 <!--
 * 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).

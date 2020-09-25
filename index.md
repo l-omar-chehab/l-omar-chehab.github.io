@@ -16,7 +16,7 @@ Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Ne
 Former intern @FacebookAI. 
 -->
 
-I am Omar Chehab, an __incoming Ph.D. candidate__ in the <a href="https://team.inria.fr/parietal/" target="_blank">Parietal team</a> at <a href="https://en.wikipedia.org/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation" target="_blank">Inria</a>, Université Paris-Saclay,  supervised by <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>. <!--and collaborating with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a>--> I currently work on self-supervised learning on brain data.
+I am Omar Chehab, an __incoming Ph.D. candidate__ in the <a href="https://team.inria.fr/parietal/" target="_blank">Parietal team</a> at <a href="https://en.wikipedia.org/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation" target="_blank">Inria</a>, Université Paris-Saclay,  supervised by <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>. <!--and collaborating with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a>--> I currently work on self-supervised learning from brain data.
 
 More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as a proxy for the neural code, investigating its structure <!--grammar--> in a top-down approach, using unsupervised representation learning, or conversely emulating it using mechanistic biophysical models in a bottom-up approach.
 

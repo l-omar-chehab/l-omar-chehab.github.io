@@ -9,7 +9,7 @@
   doc-url:
   conf: jnp.png
   url: "https://arxiv.org/abs/2007.16104"
-  conf2: Preprint
+  conf2: Journal of Neural Engineering
   summary: We introduce and benchmark Self-Supervised Deep Learning architectures to automatically uncover the structure of clinical EEG.
 
 

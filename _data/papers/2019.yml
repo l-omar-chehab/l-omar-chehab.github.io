@@ -8,7 +8,7 @@
   authors: "Hubert Banville*, <u>Omar Chehab</u>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
   doc-url:
   conf: jnp.png
-  url: "https://arxiv.org/abs/2007.16104"
+  url: "https://iopscience.iop.org/article/10.1088/1741-2552/abca18"
   conf2: Journal of Neural Engineering
   summary: We introduce and benchmark Self-Supervised Deep Learning architectures to automatically uncover the structure of clinical EEG.
 

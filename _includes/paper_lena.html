@@ -10,7 +10,7 @@
   <div class="media-body">
     <!-- citation -->
     {% if include.paper.logo %}<img src="/img/papers/{{ include.paper.logo }}" alt=""/>{% endif %}
-    <a href="{{include.paper.url}}">{{ include.paper.title }}</a><br/>
+    <a href="{{include.paper.url}}" target="_blank">{{ include.paper.title }}</a><br/>
     {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}<br/>
     {% if include.paper.conf2 %}<i>{{ include.paper.conf2 }}, {{ include.paper.year }}</i>.{% endif %}<br/>
     {% if include.paper.summary %}<small>[{{ include.paper.summary }}]</small>{% endif %}<br/>

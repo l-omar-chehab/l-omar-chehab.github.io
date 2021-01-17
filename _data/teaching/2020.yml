@@ -12,7 +12,7 @@
   year: 2020-2021
   professors: Jean-Christophe Pesquet
 
-- layout: teaching_omar. # this does not change anything I think
+- layout: teaching_omar. 
   name: Optimization for Data Science (expected)
   institution: Ecole Polytechnique, Institut Polytechnique de Paris
   year: 2021-2022

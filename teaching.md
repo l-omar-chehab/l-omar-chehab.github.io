@@ -5,7 +5,7 @@ menu: yes
 order: 4
 ---
 
-I am Teacher's Assistant ('chargé de TD') for the following graduate courses. <br><br>
+I am Teacher's Assistant ('chargé de TD') for the following Masters courses. <br><br>
 
 {% assign hashes = (site.data.teaching) %}
 {% capture years %}

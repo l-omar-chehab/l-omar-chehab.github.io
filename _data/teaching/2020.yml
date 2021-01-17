@@ -4,5 +4,10 @@
   name: Advanced Machine Learning
   institution: CentraleSupelec, Universite Paris-Saclay
   year: 2020-2021
+  
+- layout: teaching_omar. # this does not change anything I think
+  name: Optimization
+  institution: CentraleSupelec, Universite Paris-Saclay
+  year: 2020-2021
 
 

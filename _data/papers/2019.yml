@@ -5,7 +5,7 @@
   year: 2020
   img: ssl_2020.png
   title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
-  authors: "Hubert Banville*, <u>Omar Chehab</u>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
+  authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
   doc-url:
   conf: jnp.png
   url: "https://iopscience.iop.org/article/10.1088/1741-2552/abca18"
@@ -19,7 +19,7 @@
   year: 2019
   img: jnp_2019.png
   title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
-  authors: "Mallory Carlu*, <u>Omar Chehab</u>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
+  authors: "Mallory Carlu*, <b>Omar Chehab</b>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
   doc-url:
   conf: jnp.png
   url: "https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019"

@@ -3,12 +3,12 @@
   paper-type: inproceedings
   selected: y
   year: 2021
-  img: 
+  img: deepmeg_2021.png
   title: "Deep Recurrent Encoder: A scalable end-to-end network to model brain signals"
   authors: "<b>Omar Chehab</b>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
   doc-url:
   conf: 
-  url: to appear
+  url:
   conf2: Preprint
   summary: We study encoding models for sensory stimuli and propose a Deep Recurrent architecture to forecast MEG data.
 

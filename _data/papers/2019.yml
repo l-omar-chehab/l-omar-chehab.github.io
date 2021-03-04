@@ -10,7 +10,7 @@
   conf: 
   url: "https://arxiv.org/abs/2103.02339"
   conf2: Preprint
-  summary: We study encoding models for sensory stimuli and propose a Deep Recurrent architecture to forecast MEG data.
+  summary: We compare encoding models for sensory stimuli and propose a Deep Recurrent architecture to forecast MEG data.
 
 
 - layout: paper

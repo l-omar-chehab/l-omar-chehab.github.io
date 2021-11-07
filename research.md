@@ -1,7 +1,7 @@
 
 ---
 layout: photolist
-title: Talks 
+title: Research 
 menu: yes
 order: 3
 ---

@@ -19,3 +19,5 @@ order: 2
 {% include paper_lena.html paper=paper %}
 {% endfor %}
 {% endfor %}
+
+Reviewing duties: AISTATS (2022), ICLR (2022) 

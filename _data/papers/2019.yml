@@ -2,6 +2,20 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
+  year: 2022
+  img: nce_2022.png
+  title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
+  authors: "<b>Omar Chehab</b>*, Alexandre Gramfort, Aapo Hyvärinen"
+  doc-url:
+  conf: 
+  url: ""
+  conf2: Preprint
+  summary: We characterize the (statistically) optimal noise in a popular Contrastive Learning setup.
+
+
+- layout: paper
+  paper-type: inproceedings
+  selected: y
   year: 2021
   img: deepmeg_2021.png
   title: "Deep Recurrent Encoder: A scalable end-to-end network to model brain signals"

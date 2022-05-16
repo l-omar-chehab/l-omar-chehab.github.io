@@ -5,7 +5,7 @@
   year: 2022
   img: nce_2022.png
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
-  authors: "<b>Omar Chehab</b>*, Alexandre Gramfort, Aapo Hyvärinen"
+  authors: "<b>Omar Chehab</b>, Alexandre Gramfort, Aapo Hyvärinen"
   doc-url:
   conf: 
   url: "https://arxiv.org/abs/2203.01110"

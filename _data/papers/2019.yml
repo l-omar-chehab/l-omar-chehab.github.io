@@ -9,7 +9,7 @@
   doc-url:
   conf: 
   url: "https://arxiv.org/abs/2203.01110"
-  conf2: Preprint
+  conf2: Uncertainty in Artificial Intelligence (UAI)
   summary: We characterize the (statistically) optimal noise in a popular Contrastive Learning setup.
 
 

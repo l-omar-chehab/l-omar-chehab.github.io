@@ -1,6 +1,9 @@
 
 ---
 layout: default
+title: Posts
+menu: yes
+order: 5
 ---
 
 Tryout. <br><br>

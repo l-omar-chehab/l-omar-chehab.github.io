@@ -6,7 +6,7 @@ order: 2
 ---
 
 {% assign hashes = (site.data) %}
-{{hashes}}
+{% include paper_lena.html paper=hashes[{papers}] %}
 <--
 {% for paper in hashes[{papers.yml}] %}
 {% include paper_lena.html paper=paper %}

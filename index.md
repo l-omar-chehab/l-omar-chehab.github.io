@@ -44,3 +44,6 @@ My work is funded by European (ERC) and French (ANR) grants "Signal And Learning
 [NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).
 -->
 
+<span style="color:gray; font-size:12px; text-align: left; float: left;" align="right">
+The website template is Lena Voita's.
+</span>

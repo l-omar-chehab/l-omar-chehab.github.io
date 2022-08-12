@@ -14,6 +14,7 @@ Tryout. <br><br>
 {% endfor %}
 {% endcapture %}
 
+{% for title in titles %}
 {% for post in hashes[title] %}
 {
 <hr>
@@ -21,6 +22,7 @@ Tryout. <br><br>
 <a class="pull-right" href="/posts/{title}.html" onMouseOver="document.readmore3.src='../resources/posts/buttons/button_read_more_push-min.png';" onMouseOut="document.readmore3.src='../resources/posts/buttons/button_read_more-min.png';">
 <p></p>
 }
+{% endfor %}
 {% endfor %}
 
 

@@ -5,9 +5,9 @@ menu: yes
 order: 2
 ---
 
-{% assign hashes = (site.data) %}
-{% include paper_lena.html paper=hashes[{papers}] %}
+{% include paper_lena.html paper=hashes["papers"] %}
 <--
+{% assign hashes = (site.data) %}
 {% for paper in hashes[{papers.yml}] %}
 {% include paper_lena.html paper=paper %}
 {% endfor %}

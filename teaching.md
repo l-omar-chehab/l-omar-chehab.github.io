@@ -7,17 +7,7 @@ order: 4
 
 I am Teacher's Assistant ('chargé de TD') for the following Masters courses. <br><br>
 
-{% assign hashes = (site.data.teaching) %}
-{% capture years %}
+{% assign hashes = (site.data.courses) %}
 {% for hash in hashes %}
-{{ hash[0] }}
-{% endfor %}
-{% endcapture %}
-
-{% assign sortedyears = years | split:' ' | sort | reverse %}
-{% for year in sortedyears %}
-<!-- [comment]: <> (### {{ year }}) -->
-{% for course in hashes[year] %}
-{% include teaching_omar.html course=course %}
-{% endfor %}
+{% include teaching_omar.html course=hash %}
 {% endfor %}

@@ -1,12 +1,22 @@
--
-  layout: course
-  selected: y
-  year: 2018
-  event: 2018-present
-  img: nlp_course-min.png
-  title: Natural Language Processing
-  doc-url: https://github.com/yandexdataschool/nlp_course
-  institution: ysda.png
-  github: yandexdataschool/nlp_course
-  abstract: |
-    I coordinate and teach Natural Language Processing together with my colleagues from the Yandex Translate team David Talbot, Boris Kovarsky, Sergey Gubanov and Just Heuristic. This is a second-year course offered to Master-level students at the Yandex School of Data Analysis.
+
+
+- layout: teaching_omar. 
+  name: Optimization for Data Science
+  institution: Institut Polytechnique de Paris
+  year: 2021-2023
+  professors: Alexandre Gramfort, Pierre Ablin
+
+- layout: teaching_omar. # this does not change anything I think
+  name: Advanced Machine Learning
+  institution: CentraleSupelec, Universite Paris-Saclay
+  year: 2020-2022
+  professors: Emilie Chouzenoux, Frederic Pascal
+
+- layout: teaching_omar.
+  name: Optimization
+  institution: CentraleSupelec, Universite Paris-Saclay
+  year: 2020-2021
+  professors: Jean-Christophe Pesquet, Sorin Olaru, Stephane Font
+
+
+

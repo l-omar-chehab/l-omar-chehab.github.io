@@ -12,6 +12,5 @@ url: "http://l-omar-chehab.github.io" # the base hostname & protocol for your si
 #paginate: 3
 
 
-
 # Build settings
 markdown: kramdown

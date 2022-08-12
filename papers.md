@@ -5,12 +5,9 @@ menu: yes
 order: 2
 ---
 
-{% include paper_lena.html paper=hashes["papers"] %}
-<--
-{% assign hashes = (site.data) %}
-{% for paper in hashes[{papers.yml}] %}
-{% include paper_lena.html paper=paper %}
+{% assign hashes = (site.data.publications) %}
+{% for hash in hashes %}
+{% include paper_lena.html paper=hash %}
 {% endfor %}
--->
 
-Reviewing duties: AISTATS (2022), ICLR (2022), NeurIPS (2022)
+Reviewing duties: AISTATS (2022), ICLR (2022), NeurIPS (2022).

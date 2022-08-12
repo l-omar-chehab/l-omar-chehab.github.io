@@ -5,13 +5,13 @@
   year: 2022
   img: nce_2022.png
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
-  authors: "<b>Omar Chehab</b>, Alexandre Gramfort, Aapo Hyvärinen"
-  doc-url:
-  conf: 
+  authors: "<b>Chehab</b>, Gramfort, Hyvärinen"
+  # authors: "<b>Omar Chehab</b>, Alexandre Gramfort, Aapo Hyvärinen"
   url: "https://arxiv.org/abs/2203.01110"
-  conf2: Uncertainty in Artificial Intelligence (UAI)
+  conf_name: Uncertainty in Artificial Intelligence
   summary: We characterize the statistically efficient noise in a popular Contrastive Learning setup.
-
+  code: "https://github.com/l-omar-chehab/nce-noise-var"
+  poster:
 
 - layout: paper
   paper-type: inproceedings
@@ -19,13 +19,13 @@
   year: 2022
   img: deepmeg_2021.png
   title: "Deep Recurrent Encoder: A scalable end-to-end network to model brain signals"
-  authors: "<b>Omar Chehab</b>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
-  doc-url:
-  conf: 
+  authors: "<b>Chehab</b>*, Defossez*, Loiseau, Gramfort, King"
+  # authors: "<b>Omar Chehab</b>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
   url: "https://arxiv.org/abs/2103.02339"
-  conf2: Journal of Neurons, Behavior, Data analysis, and Theory
+  conf_name: Journal of Neurons, Behavior, Data analysis, and Theory
   summary: We compare encoding models for sensory stimuli and propose a Deep Recurrent architecture to forecast MEG data.
-
+  code: "https://github.com/facebookresearch/deepmeg-recurrent-encoder"
+  poster:
 
 - layout: paper
   paper-type: inproceedings
@@ -33,13 +33,12 @@
   year: 2020
   img: ssl_2020.png
   title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
-  authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
-  doc-url:
-  conf: jnp.png
-  url: "https://iopscience.iop.org/article/10.1088/1741-2552/abca18"
-  conf2: Journal of Neural Engineering
+  authors: "Banville*, <b>Chehab</b>, Hyvärinen, Engemann, Gramfort"
+  # authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
+  url: "https://arxiv.org/abs/2007.16104"
+  conf_name: Journal of Neural Engineering
   summary: We introduce and benchmark Self-Supervised Deep Learning architectures to automatically uncover the structure of clinical EEG.
-
+  code: "https://braindecode.org/auto_examples/plot_relative_positioning.html"
 
 - layout: paper
   paper-type: inproceedings
@@ -47,13 +46,12 @@
   year: 2019
   img: jnp_2019.png
   title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
-  authors: "Mallory Carlu*, <b>Omar Chehab</b>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
-  doc-url:
-  conf: jnp.png
-  url: "https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019"
-  conf2: Journal of Neurophysiology
+  authors: "Carlu*, <b>Chehab</b>*, Dalla Porta*, Depannemaecker*, Héricé*, Jedynak*, Köksal Ersöz*, Muratore*, Souihel*, Capone, Zerlaut, Destexhe, di Volo"
+  # authors: "Mallory Carlu*, <b>Omar Chehab</b>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
+  url: "https://www.biorxiv.org/content/10.1101/870345"
+  conf_name: Journal of Neurophysiology
   summary: We learn (simulated) Neuronal Population Dynamics using a semi-analytical Mean-Field model.
-
+  poster:
 
 # - **O. Chehab** \*, G. Bareilles \*, O. Domingues (2019). *Understanding Identification between Probabilistic Inference and Reinforcement Learning*. Arxiv.
 # --------------

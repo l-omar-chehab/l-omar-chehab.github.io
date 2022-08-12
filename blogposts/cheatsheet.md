@@ -16,8 +16,6 @@ l | then `Apple+D` to jointly select and modify other instances of the selected 
 
 
 
-
-
 ### Useful tricks in the terminal (bash)
 
 

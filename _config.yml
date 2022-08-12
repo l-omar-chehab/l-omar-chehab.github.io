@@ -1,5 +1,5 @@
 # Site settings
-exclude: [README.md,example1.md,example2.md]
+exclude: [README.md]
 title: Omar Chehab
 email: l-emir-omar.chehab@inria.fr
 github: l-omar-chehab

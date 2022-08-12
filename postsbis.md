@@ -5,7 +5,7 @@ layout: default
 
 Tryout. <br><br>
 
-{% assign hashes = (site.posts) %}
+{% assign hashes = (site._posts) %}
 {% capture titles %}
 {% for hash in hashes %}
 {{ hash[0] }}

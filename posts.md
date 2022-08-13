@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: photolist
 title: Posts
 menu: yes
 order: 1

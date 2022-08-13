@@ -30,10 +30,10 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  year: 2020
+  year: 2021
   img: ssl_2020.png
   title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
-  authors: "Banville*, <b>Chehab</b>, Hyvärinen, Engemann, Gramfort"
+  authors: "Banville, <b>Chehab</b>, Hyvärinen, Engemann, Gramfort"
   # authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
   url: "https://arxiv.org/abs/2007.16104"
   conf_name: Journal of Neural Engineering

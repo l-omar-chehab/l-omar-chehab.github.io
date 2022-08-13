@@ -43,7 +43,7 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  year: 2019
+  year: 2020
   img: jnp_2019.png
   title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
   authors: "Carlu*, <b>Chehab</b>*, Dalla Porta*, Depannemaecker*, Héricé*, Jedynak*, Köksal Ersöz*, Muratore*, Souihel*, Capone, Zerlaut, Destexhe, di Volo"

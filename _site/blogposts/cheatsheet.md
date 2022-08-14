@@ -1,6 +1,7 @@
 
 
-<object data="/img/resume.pdf#view=FitH" type="application/pdf">
+<object data="/img/resume.pdf#view=FitH" width="810" type="application/pdf">
+    <!-- width="810" obtained by chrome inspect -->
     <!-- <embed src="/img/resume.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/img/resume.pdf">Download PDF</a>.</p>
     </embed> -->

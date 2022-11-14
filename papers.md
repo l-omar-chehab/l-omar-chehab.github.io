@@ -12,4 +12,4 @@ order: 2
 
 <br>
 
-Reviewing duties: AISTATS (2022), ICLR (2022), NeurIPS (2022).
+I was lucky to be selected as a Top Reviewer for AISTATS (2022) and NeurIPS (2022).

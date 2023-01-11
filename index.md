@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<!-- (comment) the image below can be found in img folder of this very project-->
-<!--![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 240px" name="fox"}-->
-![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"}
+<!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
+![i_am_a_fox](./img/people/profile_pic.jpeg){: style="display:block; margin-left: auto; margin-right: auto; width: 204px; height: 300px" name="fox"}
+
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
@@ -31,17 +31,12 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 
 My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>.
 
-
+<!--
 ## <span style="color:darkblue">News </span>
-
 
 * 03/2021 _Our work is featured in towardsdatascience, as_ <a href="https://towardsdatascience.com/stay-updated-with-neuroscience-march-2021-must-reads-bf19bd73560e" target="_blank">March Must-Reads</a>
 
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
-
-<!--
-* 12/2019 _To appear in the __Journal of Neurophysiology__ 2019_: [A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models](https://journals.physiology.org/doi/abs/10.1152/jn.00399.2019).
-[NeuroSpin](http://www.paris-neuroscience.fr/en/centre-de-recherche/neurospin).
 -->
 
 <span style="color:gray; font-size:12px; text-align: left; float: left;" align="right">

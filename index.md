@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: photolist
 ---
 
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->

@@ -9,16 +9,38 @@ order: 4
 </object> -->
 
 
-{% assign hashes = (site.data.posts) %}
+<!-- {% assign hashes = (site.data.posts) %}
 {% for hash in hashes %}
-<a style="color:darkblue;font-size:28px;" href="/blogposts/{{ hash.filename }}.html">
+<a style="color:darkblue;font-size:21px;" href="/blogposts/{{ hash.filename }}.html">
 {{ hash.name }}
 </a>  
-<span style="font-size:15px; text-align: right; float: bottom; color:gray">
+<span style="font-size:14px; text-align: right; color:gray">
 {{ hash.date }}
 </span>
 <hr>
+{% endfor %} -->
+
+
+{% assign hashes = (site.data.posts) %}
+{% for hash in hashes %}
+<div>
+    <!-- blogpost title -->
+    <div style="display:inline-block; float:left">
+        <a style="color:darkblue; font-size:21px;" href="/blogposts/{{ hash.filename }}.html">
+        {{ hash.name }}
+        </a>  
+    </div>
+    <!-- blogpost date -->
+    <div style="display:inline-block; float:right">
+        <span style="font-size:14px; color:gray">
+        {{ hash.date }}
+        </span>
+    </div>
+</div>
 {% endfor %}
+
+
+
 
 
 

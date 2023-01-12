@@ -2,7 +2,7 @@
 layout: photolist
 title: Posts
 menu: yes
-order: 1
+order: 4
 ---
 
 <!-- <object data="/img/resume.pdf" width="100%" height="800px" type="application/pdf">

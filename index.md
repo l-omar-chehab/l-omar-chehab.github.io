@@ -16,20 +16,17 @@ Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Ne
 Former intern @FacebookAI. 
 -->
 
+Welcome!
 
-Hi there - I am Omar, a __Ph.D. student__ in the <a href="https://team.inria.fr/parietal/" target="_blank">MIND team</a> at <a href="https://en.wikipedia.org/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation" target="_blank">Inria</a>, Université Paris-Saclay, working with <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a> and <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a>. I'm currently interested in learning energy-based models with contrastive and self-supervised methods. 
+I am a PhD student in machine learning at Inria near Paris. I currently work on efficient estimation of energy-based models and self-supervised learning.
 
 <!--
 More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as a proxy for the neural code, investigating its structure (grammar) in a top-down approach, using unsupervised representation learning, or conversely emulating it using mechanistic biophysical models in a bottom-up approach.
 
-I am also interested in optimization (sparse, structured, accelerated, robust) and crossing different formalisms (ex: dynamical systems, optimization, information theory) within Machine Learning.
-
 I furthermore believe the Machine Learning community has much to gain from leveraging a more precise understanding of neuroscience topics, such as synaptic intelligence, stochastic dynamics, neural code, memory, and the different strata of analyses (from cellular to network to whole-brain), to cite a few. 
 
-I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France. I completed my graduate studies @ ENS Paris-Saclay and Institut Polytechnique de Paris (ENSTA) in Applied Mathematics, Machine Learning and Engineering.
+I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France.
 -->
-
-My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>.
 
 <!--
 ## <span style="color:darkblue">News </span>
@@ -39,6 +36,6 @@ My work is funded by European (ERC) and French (ANR) grants "Signal And Learning
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-<span style="color:gray; font-size:12px; text-align: left; float: left;" align="right">
+<span style="color:gray; font-size:11px; text-align:center;">
 The website template is Lena Voita's.
 </span>

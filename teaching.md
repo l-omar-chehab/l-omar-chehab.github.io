@@ -2,7 +2,7 @@
 layout: photolist
 title: Teaching
 menu: yes
-order: 4
+order: 6
 ---
 
 I am Teacher's Assistant ('chargé de TD') for the following Masters courses. <br><br>

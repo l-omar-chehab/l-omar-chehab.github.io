@@ -1,4 +1,4 @@
-In construction. Template: all Lena Voita's.
+In construction. Template from Lena Voita.
 
 To run the jekyll-powered website locally:
 

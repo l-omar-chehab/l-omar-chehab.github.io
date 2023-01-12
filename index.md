@@ -36,6 +36,7 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
+<!-- 
 <span style="color:gray; font-size:11px; text-align:center;">
 The website template is Lena Voita's.
-</span>
+</span> -->

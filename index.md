@@ -18,7 +18,7 @@ Former intern @FacebookAI.
 
 Welcome!
 
-I am a PhD student in machine learning at Inria near Paris. I currently work on efficient estimation of energy-based models and self-supervised learning.
+I am a PhD student in machine learning at Inria Paris-Saclay. I currently work on efficient estimation of energy-based models and self-supervised learning.
 
 <!--
 More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as a proxy for the neural code, investigating its structure (grammar) in a top-down approach, using unsupervised representation learning, or conversely emulating it using mechanistic biophysical models in a bottom-up approach.

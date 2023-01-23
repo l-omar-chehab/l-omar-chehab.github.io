@@ -16,8 +16,6 @@ Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Ne
 Former intern @FacebookAI. 
 -->
 
-Welcome!
-
 I am a PhD student in machine learning at Inria Paris-Saclay. I currently work on efficient estimation of energy-based models and self-supervised learning.
 
 <!--

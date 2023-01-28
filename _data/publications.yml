@@ -5,9 +5,8 @@
   year: 2023
   img: submitted_2023.png
   title: "Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation"
-  authors: "<b>Chehab</b>, Gramfort, Hyvärinen"
-  # authors: "<b>Omar Chehab</b>, Alexandre Gramfort, Aapo Hyvärinen"
-  url: ""
+  authors: "<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen"
+  url: "https://arxiv.org/abs/2301.09696"
   conf_name: Submitted
   summary: We show that Noise-Contrastive Estimation (NCE) generalizes Importance Sampling and we characterize the statistically efficient choice of noise distribution and proportion.
   code: "https://github.com/l-omar-chehab/nce-noise-var"
@@ -19,8 +18,7 @@
   year: 2022
   img: nce_2022.png
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
-  authors: "<b>Chehab</b>, Gramfort, Hyvärinen"
-  # authors: "<b>Omar Chehab</b>, Alexandre Gramfort, Aapo Hyvärinen"
+  authors: "<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen"
   url: "https://arxiv.org/abs/2203.01110"
   conf_name: Uncertainty in Artificial Intelligence
   summary: We characterize the statistically efficient noise in a popular Contrastive Learning setup.
@@ -33,7 +31,7 @@
   year: 2022
   img: deepmeg_2021.png
   title: "Deep Recurrent Encoder: A scalable end-to-end network to model brain signals"
-  authors: "<b>Chehab</b>*, Defossez*, Loiseau, Gramfort, King"
+  authors: "<b>O. Chehab</b>*, A. Defossez*, J.C. Loiseau, A. Gramfort, J.R. King"
   # authors: "<b>Omar Chehab</b>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
   url: "https://arxiv.org/abs/2103.02339"
   conf_name: Journal of Neurons, Behavior, Data analysis, and Theory
@@ -47,7 +45,7 @@
   year: 2021
   img: ssl_2020.png
   title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
-  authors: "Banville, <b>Chehab</b>, Hyvärinen, Engemann, Gramfort"
+  authors: "H. Banville, <b>O. Chehab</b>, A. Hyvärinen, D. Engemann, A. Gramfort"
   # authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
   url: "https://arxiv.org/abs/2007.16104"
   conf_name: Journal of Neural Engineering
@@ -60,7 +58,7 @@
   year: 2020
   img: jnp_2019.png
   title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
-  authors: "Carlu*, <b>Chehab</b>*, Dalla Porta*, Depannemaecker*, Héricé*, Jedynak*, Köksal Ersöz*, Muratore*, Souihel*, Capone, Zerlaut, Destexhe, di Volo"
+  authors: "M. Carlu*, <b>O. Chehab</b>*, L. Dalla Porta*, D. Depannemaecker*, C. Héricé*, M. Jedynak*, E. Köksal Ersöz*, P. Muratore*, S. Souihel*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo"
   # authors: "Mallory Carlu*, <b>Omar Chehab</b>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
   url: "https://www.biorxiv.org/content/10.1101/870345"
   conf_name: Journal of Neurophysiology

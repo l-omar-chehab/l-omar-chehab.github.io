@@ -4,7 +4,7 @@
   selected: y
   year: 2023
   img: submitted_2023.png
-  title: "Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation"
+  title: "Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation"
   authors: "<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen"
   url: "https://arxiv.org/abs/2301.09696"
   conf_name: Submitted

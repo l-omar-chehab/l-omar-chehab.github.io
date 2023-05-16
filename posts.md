@@ -1,7 +1,7 @@
 ---
 layout: photolist
 title: Posts
-menu: yes
+menu: no
 order: 4
 ---
 

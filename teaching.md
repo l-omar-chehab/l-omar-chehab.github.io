@@ -1,7 +1,7 @@
 ---
 layout: photolist
 title: Teaching
-menu: yes
+menu: no
 order: 6
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: photolist
 title: Contact
-menu: yes
+menu: no
 order: 7
 ---
 

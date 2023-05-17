@@ -44,7 +44,7 @@ H. Banville, <b>O. Chehab</b>, A. Hyvärinen, D. Engemann, A. Gramfort
 <br>
 <i>Journal of Neural Engineering, 2021</i>
 
-A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models
+A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models
 <br>
 M. Carlu\*, <b>O. Chehab</b>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo
 <br>

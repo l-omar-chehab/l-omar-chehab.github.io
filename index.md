@@ -50,6 +50,8 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 <!-- (See also my <a href="https://scholar.google.com/citations?user={{site.scholar_id}}" target="_blank">google scholar</a>) -->
 
+<!-- #### <span style="color:darkblue"> Optimization and Sampling </span> -->
+
 
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
@@ -58,6 +60,7 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 <b>O. Chehab</b>,  A. Hyvärinen, A. Risteski
 <br>
 <i>Submitted</i> -->
+
 
 Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation
 <br>
@@ -73,7 +76,6 @@ The Optimal Noise in Noise-Contrastive Learning Is Not What You Think
 
 #### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
 
-
 Deep Recurrent Encoder: A scalable end-to-end network to model brain signals
 <br>
 <b>O. Chehab</b>*, A. Defossez\*, J.C. Loiseau, A. Gramfort, J.R. King
@@ -86,7 +88,7 @@ H. Banville, <b>O. Chehab</b>, A. Hyvärinen, D. Engemann, A. Gramfort
 <br>
 <i>Journal of Neural Engineering, 2021</i>
 
-A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models
+A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models
 <br>
 M. Carlu\*, <b>O. Chehab</b>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo
 <br>

@@ -36,11 +36,11 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-I am a last-year Ph.D. student at <a href="https://www.inria.fr/en" target="_blank">Inria</a>, in the <a href="https://team.inria.fr/parietal/" target="_blank">Mind team</a> (formerly Parietal). I work with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a> on statistical estimation of energy-based models, with an applicative interest in neuroscience.
+I am a third-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a>, in the <a href="https://team.inria.fr/parietal/" target="_blank">Mind team</a> (formerly Parietal). I work with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a> on statistical estimation of energy-based models, with an applicative interest in neuroscience.
 
 <!-- My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>. -->
 
-I hold a master’s degree in applied mathematics and engineering from **ENSTA Paris**, and a master’s degree in machine learning from **ENS Paris-Saclay**.
+I hold a master’s degree in applied mathematics and engineering from ENSTA Paris, and a master’s degree in machine learning from ENS Paris-Saclay.
 
 You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
@@ -55,44 +55,64 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
-<!-- Provable benefits of annealing for estimating normalizing constants 
-<br>
-<b>O. Chehab</b>,  A. Hyvärinen, A. Risteski
-<br>
-<i>Submitted</i> -->
+<!-- <i>O. Chehab</i>, A. Hyvärinen, A. Risteski. <b>Provable benefits of annealing for
+estimating normalizing constants</b>. Submitted. -->
 
+<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen. <b>Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation</b>. Submitted.
 
-Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation
-<br>
-<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen
-<br>
-<i>Submitted</i>
+<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen. <b>The Optimal Noise in Noise-Contrastive Learning Is Not What You Think</b>. Conference on Uncertainty in Artificial Intelligence (UAI), 2022.
 
-The Optimal Noise in Noise-Contrastive Learning Is Not What You Think
-<br>
-<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen
-<br>
-<i>Uncertainty in Artificial Intelligence (UAI), 2022</i>
 
 #### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
 
-Deep Recurrent Encoder: A scalable end-to-end network to model brain signals
+<i>O. Chehab</i>\*, A. Defossez\*, J.C. Loiseau, A. Gramfort, J.R. King. <b>Deep Recurrent Encoder: A scalable end-to-end network to model brain signals</b>.
+Journal of Neurons, Behavior, Data analysis, and Theory, 2022.
+
+H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann, A. Gramfort. <b>Uncovering the structure of clinical EEG signals with self-supervised learning</b>. 
+Journal of Neural Engineering, 2021.
+
+M. Carlu\*, et al. 
+<!-- <i>O. Chehab</i>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo.  -->
+<b>A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models</b>.
+Journal of Neurophysiology, 2020.
+
+
+
+<!-- #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
+
+<b>Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation</b>
 <br>
-<b>O. Chehab</b>*, A. Defossez\*, J.C. Loiseau, A. Gramfort, J.R. King
+<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen
+<br>
+<i>Submitted</i>
+
+<b>The Optimal Noise in Noise-Contrastive Learning Is Not What You Think</b>
+<br>
+<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen
+<br>
+<i>Uncertainty in Artificial Intelligence (UAI), 2022</i>
+
+
+#### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
+
+
+<b>Deep Recurrent Encoder: A scalable end-to-end network to model brain signals</b>
+<br>
+<i>O. Chehab</i>*, A. Defossez\*, J.C. Loiseau, A. Gramfort, J.R. King
 <br>
 <i>Journal of Neurons, Behavior, Data analysis, and Theory, 2022</i>
 
-Uncovering the structure of clinical EEG signals with self-supervised learning
+<b>Uncovering the structure of clinical EEG signals with self-supervised learning</b>
 <br>
-H. Banville, <b>O. Chehab</b>, A. Hyvärinen, D. Engemann, A. Gramfort
+H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann, A. Gramfort
 <br>
 <i>Journal of Neural Engineering, 2021</i>
 
-A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models
+<b>A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models</b>
 <br>
-M. Carlu\*, <b>O. Chehab</b>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo
+M. Carlu\*, <i>O. Chehab</i>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo
 <br>
-<i>Journal of Neurophysiology, 2020</i>
+<i>Journal of Neurophysiology, 2020</i> -->
 
 <br>
 

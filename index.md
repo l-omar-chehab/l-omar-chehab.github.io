@@ -55,8 +55,8 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
-<!-- <i>O. Chehab</i>, A. Hyvärinen, A. Risteski. <b>Provable benefits of annealing for
-estimating normalizing constants</b>. Submitted. -->
+<i>O. Chehab</i>, A. Hyvärinen, A. Risteski. <b>Provable benefits of annealing for
+estimating normalizing constants</b>. Submitted.
 
 <i>O. Chehab</i>, A. Gramfort, A. Hyvärinen. <b>Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation</b>. Submitted.
 

@@ -7,16 +7,18 @@
 
 // Our variables
 // $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-family: "Quattrocento Sans",sans-serif;
-$base-font-size:   16px;
+$base-font-family: apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+// $base-font-family: "Nunito",sans-serif;
+// $base-font-family: "Quattrocento Sans",sans-serif;
+$base-font-size:   16px;  
 // $small-font-size:  $base-font-size * 0.875;
 $small-font-size:  $base-font-size * 1;
 // $base-line-height: 1.5;
-$base-line-height: 27px;
+$base-line-height: 23px;
 $spacing-unit:     30px;
 
-// $text-color:       #111;
-$text-color:       #666;
+$text-color:       #111;  
+// $text-color:       #666;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -28,6 +30,26 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+// omar added
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-left {
+    width: 15%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    // border: 2px solid red;
+}
+
+.flex-right {
+    width: 85%;
+    margin: 5px;
+    padding: 5px;
+    // border: 2px solid green;
+}
 
 // Using media queries with like this:
 // @include media-query($palm) {

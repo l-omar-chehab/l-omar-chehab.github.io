@@ -120,53 +120,13 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
     </div>
     <div class="flex-right">
         <b style="letter-spacing:0.7px;">A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models</b> <br>
-        M. Carlu*, <i>O. Chehab</i>*, et al. <br>
+        M. Carlu*, <i>O. Chehab</i>*, [...], A. Destexhe, M. di Volo <br>
         <i>Journal of Neurophysiology, 2020.</i>
     </div>
 </div>
 
 
-
 <!-- <i>O. Chehab</i>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo.  -->
-
-
-
-
-<!-- #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
-
-<b>Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation</b>
-<br>
-<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen
-<br>
-<i>Submitted</i>
-
-<b>The Optimal Noise in Noise-Contrastive Learning Is Not What You Think</b>
-<br>
-<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen
-<br>
-<i>Uncertainty in Artificial Intelligence (UAI), 2022</i>
-
-
-#### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
-
-
-<b>Deep Recurrent Encoder: A scalable end-to-end network to model brain signals</b>
-<br>
-<i>O. Chehab</i>*, A. Defossez\*, J.C. Loiseau, A. Gramfort, J.R. King
-<br>
-<i>Journal of Neurons, Behavior, Data analysis, and Theory, 2022</i>
-
-<b>Uncovering the structure of clinical EEG signals with self-supervised learning</b>
-<br>
-H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann, A. Gramfort
-<br>
-<i>Journal of Neural Engineering, 2021</i>
-
-<b>A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models</b>
-<br>
-M. Carlu\*, <i>O. Chehab</i>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo
-<br>
-<i>Journal of Neurophysiology, 2020</i> -->
 
 <br>
 

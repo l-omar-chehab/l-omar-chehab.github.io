@@ -36,15 +36,29 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-I am a third-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a>, 
+I am a third-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a> in Machine Learning, advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>.
 <!-- in the <a href="https://team.inria.fr/parietal/" target="_blank">Mind team</a> (formerly Parietal).  -->
-where I work with <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a> on statistical estimation of energy-based models, with an applicative interest in neuroscience.
 
-<!-- My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>. -->
+I work on self-supervised learning which consists in having a machine learn stuff from data by solving a task. 
+<!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
+I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity. 
 
 I hold a master’s degree in applied mathematics and engineering from ENSTA Paris, and a master’s degree in machine learning from ENS Paris-Saclay.
 
 You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
+
+
+<!-- <br> -->
+
+<!-- ### <span style="color:darkblue"> Research </span> -->
+
+<!-- <b>What is being learnt from a self-supervised task?</b>  -->
+<!-- We provide some answers in our recent work, using tools from energy-based modeling, asymptotic statistics, information geometry, and classification. For example, we <a href="https://arxiv.org/abs/2301.09696" target="_blank">here</a> connected a basic self-supervised task (classifying between data and noise) to a family of importance sampling estimators that are well-established in statistics. In some other work, we also look at the optimal way to break down an easy task (e.g. hot vs. cold) in a series of harder ones (e.g. hot vs. warm, warm vs. cold). -->
+
+<!-- <b>How do we design self-supervised tasks to be sample-efficient?</b>  -->
+
+<!-- My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>. -->
+
 
 <br>
 

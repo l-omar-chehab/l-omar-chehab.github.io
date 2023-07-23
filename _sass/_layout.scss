@@ -12,7 +12,10 @@
 }
 
 .site-title {
-    font-size: 26px;
+    // font-size: 26px;
+    font-size: 25pt;
+    font-weight: 300;
+    font-family: Lato, sans-serif;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -23,7 +26,8 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        // color: $grey-color-dark;
+        color: rgba(100,7,87,1);
     }
 }
 

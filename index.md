@@ -36,12 +36,16 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-I am a third-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a> in Machine Learning, advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>.
-<!-- in the <a href="https://team.inria.fr/parietal/" target="_blank">Mind team</a> (formerly Parietal).  -->
-
-I work on self-supervised learning which consists in having a machine learn stuff from data by solving a task. 
-<!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
+I am a final-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a> in Machine Learning, advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>. 
+I am currently working on self-supervised learning which consists in having a machine learn patterns from data by solving a prediction task. 
 I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity. 
+
+
+Starting December 2023, I will be a postdoctoral researcher at the Center of Research of Economics and Statistics (CREST) in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data. 
+
+<!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
+
+<!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
 I hold a master’s degree in applied mathematics and engineering from ENSTA Paris, and a master’s degree in machine learning from ENS Paris-Saclay.
 

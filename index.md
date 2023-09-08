@@ -41,13 +41,14 @@ I am currently working on self-supervised learning which consists in having a ma
 I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity. 
 
 
-Starting December 2023, I will be a postdoctoral researcher at the Center of Research of Economics and Statistics (CREST) in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data. 
+<!-- I am a postdoctoral research fellow at CREST - Center for Research in Economics and Statistics - in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data.  -->
+
 
 <!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
 
 <!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
-I hold a master’s degree in applied mathematics and engineering from ENSTA Paris, and a master’s degree in machine learning from ENS Paris-Saclay.
+I hold a master’s degree in engineering from ENSTA Paris, and another in machine learning (MVA) from ENS Paris-Saclay.
 
 You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 

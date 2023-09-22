@@ -2,11 +2,13 @@
 layout: photolist
 ---
 
+<!-- ![i_am_a_fox](./img/people/profile_pic_2.jpg){: style="float: right; margin: 0px 20px; width: 70px; height: 250px" name="fox"} -->
+
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
 
 
-<!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="display:block; margin-left: auto; margin-right: auto; width: 204px; height: 300px" name="fox"} -->
-
+<!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="display:block; margin-left: auto; margin-right: auto; width: 204px; height: 300px" name="fox"}
+ -->
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
@@ -78,12 +80,12 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/neurips_2023.png" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
         <b style="letter-spacing:0.7px;">Provable benefits of annealing for estimating normalizing constants</b> <br>
         <i>O. Chehab</i>, A. Hyvärinen, A. Risteski <br>
-        <i>Submitted.</i>
+        <i>Neural Information Processing Systems (NeurIPS), 2023.</i> Spotlight.
     </div>
 </div>
 

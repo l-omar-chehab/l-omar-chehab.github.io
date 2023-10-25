@@ -17,6 +17,6 @@ My Ph.D. defense will take place **Friday, November 24**, at **2pm at Inria Sacl
 
 #### <span style="color:darkblue"> Afterparty </span>
 
-An afterparty will likely be planned in **Friday, November 24 evening in Paris**. Details to come. 
+An afterparty will likely be planned on **Friday, November 24 evening in Paris**. Details to come. 
 
 <i>How to register?</i> If you plan to attend, **confirmation is recommended before Monday, November 6** as I will need a headcount to make a reservation at a bar. To confirm, please drop me a message to let me know if you plan to come. 

@@ -5,7 +5,7 @@ menu: yes
 order: 1
 ---
 
-Hi, you will find here the updated information on my **Ph.D. defense**. 
+Hi, you will find here the updated information on my **Ph.D. defense** on *Advances in Self-Supervised Learning: applications to neuroscience and sample-efficiency*. 
 
 #### <span style="color:darkblue"> Ph.D. Defense </span>
 

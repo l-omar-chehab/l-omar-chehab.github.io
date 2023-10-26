@@ -5,7 +5,7 @@ menu: yes
 order: 1
 ---
 
-I'm excited to share updated details regarding my **Ph.D. defense** on *Advances in Self-Supervised Learning: Applications to Neuroscience and Sample-Efficiency*.
+I am happy to share updated details regarding my **Ph.D. defense** on *Advances in Self-Supervised Learning: Applications to Neuroscience and Sample-Efficiency*.
 
 #### <span style="color:darkblue"> Ph.D. Defense </span>
 

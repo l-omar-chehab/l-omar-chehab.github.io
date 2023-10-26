@@ -27,7 +27,7 @@ I am aware this event is during work hours and is not near the city center, so t
 #### <span style="color:darkblue"> Afterparty </span>
 
 - **When**: Friday, November 24, 8pm.
-- **Where**: a bar in Paris (details to come). 
+- **Where**: a bar in Paris (details will be communicated later). 
 
 If you plan to attend, please drop me a message so I can plan the headcount. 
 

@@ -12,7 +12,7 @@ Hi, you will find here the updated information on my **Ph.D. defense** on *Advan
 - **When**: Friday, November 24, 2pm.
 - **Where**: room Gilles Kahn, Inria Saclay, 1 Rue Honoré d'Estienne d'Orves, 91120.
 - **Zoom link**: will be posted later. 
-- **Registration deadline**: Wednesday, November 15 (drop me a message).
+- **Registration deadline to attend in-person**: Wednesday, November 15 (drop me a message).
 
 Due to current security measures, you will have to provide a valid ID upon entry.
 

@@ -12,7 +12,7 @@ Here are details regarding my **Ph.D. defense** on *Advances in Self-Supervised 
 - **Date & Time**: Friday, November 24, 2:00 - 4:30 p.m.
 - **Location**: Room Gilles Kahn, Inria Saclay, 1 Rue Honoré d'Estienne d'Orves, 91120.
 - **RSVP for In-Person Attendance**: By Wednesday, November 15. Please message me to confirm.
-- **Virtual Attendance**: Zoom link to be provided later.
+- **Virtual Attendance**: webex link <a href="https://inria.webex.com/inria/j.php?MTID=mcd92609102fed3203484edbd7b270e6a" target="_blank">here</a> (you can watch in your browser, no download needed)
 
 **Note**: Due to security protocols, a valid ID is required for entry. If the location or timing is inconvenient, you may consider joining virtually.
 

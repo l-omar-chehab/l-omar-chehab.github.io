@@ -16,11 +16,17 @@ Here are details regarding my **Ph.D. defense** on *Advances in Self-Supervised 
 
 **Note**: Due to security protocols, a valid ID is required for entry. If the location or timing is inconvenient, you may consider joining virtually.
 
-**Directions**: From Paris, it's an hour by public transport or 40 minutes by car. For public transit, take RER B to Massy Palaiseau, followed by a 5-minute walk to bus 91.10. Stop at Ferme de la Vauve and walk for 10 minutes.
+**Directions**: From Paris, it's an hour by public transport or 40 minutes by car. For public transit, take RER B to Massy Palaiseau, followed by a 5-minute walk to bus 91.10 or 91.06. Stop at Ferme de la Vauve and walk for 10 minutes to the Alain Turing building of Inria Saclay. This should match the itenerary suggested by Google Maps, for example:
+
+<div class="flex-container">
+        <img src="/img/itinerary.png" alt="" style="width:auto; height:auto; max-width:40%;">
+</div>
+
+
 
 #### <span style="color:darkblue"> Afterparty </span>
 
 - **Date & Time**: Friday, November 24, 8:00 p.m.
-- **Location**: A bar in Paris (specific details will be shared later).
+- **Location**: the Long Hop Pub in Paris (5th arrondissement).
 
 If you're joining the afterparty, kindly message me for headcount planning.

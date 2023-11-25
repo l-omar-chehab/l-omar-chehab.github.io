@@ -94,4 +94,4 @@ M. Carlu\*, <b>O. Chehab</b>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héric
 
 <!-- <br>
 
-I was selected to be in the pool of Top Reviewers for AISTATS (2022) and NeurIPS (2022). -->
+I was selected to be in the pool of Top Reviewers for AISTATS (2022) and NeurIPS (2022, 2023). -->

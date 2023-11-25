@@ -38,9 +38,14 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-I am a final-year Ph.D. candidate at <a href="https://www.inria.fr/en" target="_blank">Inria</a> in Machine Learning, advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>. 
-I am currently working on self-supervised learning which consists in having a machine learn patterns from data by solving a prediction task. 
-I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity. 
+### <span style="color:darkblue"> About </span>
+
+I am joining the <a href="https://crest.science/research/research-fields/statistics/" target="_blank">Statistics Department</a> of the Center for Research in Economics and Statistics (CREST) as a postdoctoral research fellow, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on the development and analysis of sampling algorithms <a href="https://simons.berkeley.edu/programs/geometric-methods-optimization-sampling" target="_blank">from an optimization perspective</a>.
+
+I completed my Ph.D. at <a href="https://www.inria.fr/en" target="_blank">Inria</a> under the supervision of <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>, focusing on self-supervised learning, its statistical aspects and its applications to cognitive neuroscience. I also hold a master’s degree in engineering from ENSTA Paris and another in machine learning (MVA) from ENS Paris-Saclay.
+
+<!-- I am currently working on self-supervised learning which consists in having a machine learn patterns from data by solving a prediction task. 
+I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity.  -->
 
 
 <!-- I am a postdoctoral research fellow at CREST - Center for Research in Economics and Statistics - in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data.  -->
@@ -50,7 +55,7 @@ I also have an applicative interest in neuroscience, namely in how to learn "goo
 
 <!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
-I hold a master’s degree in engineering from ENSTA Paris, and another in machine learning (MVA) from ENS Paris-Saclay.
+
 
 You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
@@ -160,7 +165,7 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 ### <span style="color:darkblue"> Teaching </span>
 
-I am Teacher's Assistant ('chargé de TD') for the following Masters courses. <br>
+I was Teacher's Assistant for the following Masters courses. <br>
 
 {% assign hashes = (site.data.courses) %}
 {% for hash in hashes %}

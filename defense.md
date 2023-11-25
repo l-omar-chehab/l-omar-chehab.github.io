@@ -1,7 +1,7 @@
 ---
 layout: photolist
 title: Defense 
-menu: yes
+menu: no
 order: 1
 ---
 

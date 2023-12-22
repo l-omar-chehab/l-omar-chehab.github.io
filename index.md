@@ -188,10 +188,6 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 {% endfor %}
 
-{% endif %}
-
-{% endfor %}
-
 
 
 

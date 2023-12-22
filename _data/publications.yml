@@ -1,69 +1,102 @@
 
+
+
 - layout: paper
   paper-type: inproceedings
   selected: y
+  category: "estimation"
   year: 2023
-  img: submitted_2023.png
+  title: "Provable benefits of annealing for estimating normalizing constants: Importance Sampling, Noise-Contrastive Estimation, and beyond"
+  authors: <i>O. Chehab</i>, A. Hyvärinen, A. Risteski 
+  venue_name: Neural Information Processing Systems (NeurIPS)
+  summary: "Annealing with the right paths can exponentially reduce the sample-complexity of some estimators."
+  url_paper: https://arxiv.org/abs/2310.03902
+  url_code: https://github.com/l-omar-chehab/annealing-normalizing-constants
+  img_file: neurips_2023.png
+  poster_file: poster_neurips_2023.pdf
+
+- layout: paper
+  paper-type: inproceedings
+  selected: y
+  category: "estimation"
+  year: 2023
   title: "Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation"
-  authors: "<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen"
-  url: "https://arxiv.org/abs/2301.09696"
-  conf_name: Submitted
-  summary: We show that Noise-Contrastive Estimation (NCE) generalizes Importance Sampling and we characterize the statistically efficient choice of noise distribution and proportion.
-  code: "https://github.com/l-omar-chehab/nce-noise-var"
-  poster:
+  authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
+  venue_name: Submitted
+  summary: "Unnormalized distributions are identified by their energy and normalizing constants. Importance sampling estimates the latter while Noise-Contrastive Estimation estimates both: we draw a formal connection."
+  url_paper: https://arxiv.org/abs/2301.09696
+  url_code: https://github.com/l-omar-chehab/nce-noise-var
+  img_file:
+  poster_file:
 
 - layout: paper
   paper-type: inproceedings
   selected: y
+  category: "estimation"
   year: 2022
-  img: nce_2022.png
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
-  authors: "<b>O. Chehab</b>, A. Gramfort, A. Hyvärinen"
-  url: "https://arxiv.org/abs/2203.01110"
-  conf_name: Uncertainty in Artificial Intelligence
-  summary: We characterize the statistically efficient noise in a popular Contrastive Learning setup.
-  code: "https://github.com/l-omar-chehab/nce-noise-var"
-  poster:
+  authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
+  venue_name: Uncertainty in Artificial Intelligence (UAI)
+  summary: "In many setups, the noise distribution that minimizes the estimation error can be very different to the data distribution." 
+  url_paper: "https://arxiv.org/abs/2203.01110"
+  url_code: "https://github.com/l-omar-chehab/nce-noise-var"
+  img_file: uai_2022.png
+  poster_file: poster_uai_2022.pdf
+  bibtex: "@InProceedings{chehab2022optimalnoisence,
+            title = 	 {The optimal noise in noise-contrastive learning is not what you think},
+            author =       {Chehab, Omar and Gramfort, Alexandre and Hyv{\"a}rinen, Aapo},
+            booktitle = 	 {Uncertainty in Artificial Intelligence (UAI)},
+            pages = 	 {307--316},
+            year = 	 {2022},
+            volume = 	 {180},
+            series = 	 {Proceedings of Machine Learning Research},
+            publisher =    {PMLR},
+            }"
 
 - layout: paper
   paper-type: inproceedings
   selected: y
+  category: "neuro"
   year: 2022
   img: deepmeg_2021.png
   title: "Deep Recurrent Encoder: A scalable end-to-end network to model brain signals"
-  authors: "<b>O. Chehab</b>*, A. Defossez*, J.C. Loiseau, A. Gramfort, J.R. King"
-  # authors: "<b>Omar Chehab</b>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
-  url: "https://arxiv.org/abs/2103.02339"
-  conf_name: Journal of Neurons, Behavior, Data analysis, and Theory
-  summary: We compare encoding models for sensory stimuli and propose a Deep Recurrent architecture to forecast MEG data.
+  authors: "<i>O. Chehab</i>*, A. Defossez*, J.C. Loiseau, A. Gramfort, J.R. King"
+  venue_name: Journal of Neurons, Behavior, Data analysis, and Theory
+  summary: "A deep learning architecture best predicts brain activity caused by visual stimuli. It uses the interaction between the initial cognitive state and the visual stimulus for prediction." 
   code: "https://github.com/facebookresearch/deepmeg-recurrent-encoder"
-  poster:
+  url_paper: "https://arxiv.org/abs/2103.02339"
+  url_code:     
+  img_file: nbdt_2022.png
+  poster_file:
 
 - layout: paper
   paper-type: inproceedings
   selected: y
+  category: "neuro"
   year: 2021
-  img: ssl_2020.png
   title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
-  authors: "H. Banville, <b>O. Chehab</b>, A. Hyvärinen, D. Engemann, A. Gramfort"
-  # authors: "Hubert Banville*, <b>Omar Chehab</b>, Aapo Hyvärinen, Denis-Alexander Engemann, Alexandre Gramfort"
-  url: "https://arxiv.org/abs/2007.16104"
-  conf_name: Journal of Neural Engineering
-  summary: We introduce and benchmark Self-Supervised Deep Learning architectures to automatically uncover the structure of clinical EEG.
+  authors: "H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann, A. Gramfort"
+  venue_name: Journal of Neural Engineering
+  summary: "Self-supervised learning can produce features that correlate with sleep stages, pathology, and other neurophysiological markers." 
   code: "https://braindecode.org/auto_examples/plot_relative_positioning.html"
+  url_paper: "https://arxiv.org/abs/2007.16104"
+  url_code:   
+  img_file: jne_2021.png
+  poster_file: 
 
 - layout: paper
   paper-type: inproceedings
   selected: y
+  category: "neuro"
   year: 2020
-  img: jnp_2019.png
-  title: "A mean-field approach to the dynamics of networks of complex neurons, \n from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
-  authors: "M. Carlu*, <b>O. Chehab</b>*, L. Dalla Porta*, D. Depannemaecker*, C. Héricé*, M. Jedynak*, E. Köksal Ersöz*, P. Muratore*, S. Souihel*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo"
-  # authors: "Mallory Carlu*, <b>Omar Chehab</b>*, Leonardo Dalla Porta*, Damien Depannemaecker*, Charlotte Héricé*, Maciej Jedynak*, Elif Köksal Ersöz*, Paolo Muratore*, Selma Souihel*, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
-  url: "https://www.biorxiv.org/content/10.1101/870345"
-  conf_name: Journal of Neurophysiology
-  summary: We learn (simulated) Neuronal Population Dynamics using a semi-analytical Mean-Field model.
-  poster:
+  title: "A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
+  authors: "M. Carlu*, <i>O. Chehab</i>*, [...], A. Destexhe, M. di Volo"
+  venue_name: Journal of Neurophysiology
+  summary: "Mean-Field analysis can effectively summarize complex network dynamics that model neuronal activity."
+  url_paper: "https://www.biorxiv.org/content/10.1101/870345"
+  url_code: 
+  img_file: jnp_2020.png
+  poster_file: 
 
 # - **O. Chehab** \*, G. Bareilles \*, O. Domingues (2019). *Understanding Identification between Probabilistic Inference and Reinforcement Learning*. Arxiv.
 # --------------

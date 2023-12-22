@@ -1,8 +1,8 @@
 .flex-container { display: flex; flex-direction: row; }
 
-.flex-left { width: 15%; height: auto; margin: 5px; padding: 5px; }
+.flex-left { width: 25%; height: auto; margin: 5px; padding: 5px; }
 
-.flex-right { width: 85%; margin: 5px; padding: 5px; }
+.flex-right { width: 85%; margin: 5px; padding: 5px; font-size: 15px; line-height: 18px; }
 
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }

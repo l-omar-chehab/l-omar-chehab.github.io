@@ -37,7 +37,8 @@ $on-laptop:        800px;
 }
 
 .flex-left {
-    width: 15%;
+    // width: 15%;
+    width: 25%;
     height: auto;
     margin: 5px;
     padding: 5px;
@@ -49,6 +50,8 @@ $on-laptop:        800px;
     margin: 5px;
     padding: 5px;
     // border: 2px solid green;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 // Using media queries with like this:

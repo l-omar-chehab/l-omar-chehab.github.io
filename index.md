@@ -83,64 +83,119 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
 
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
-<div class="flex-container">
-    <div class="flex-left">
-        <img src="/img/paper/neurips_2023.png" alt="" style="width:auto; height:auto; max-width:100%;">
-    </div>
-    <div class="flex-right">
-        <b style="letter-spacing:0.7px;">Provable benefits of annealing for estimating normalizing constants</b> <br>
-        <i>O. Chehab</i>, A. Hyvärinen, A. Risteski <br>
-        <i>Neural Information Processing Systems (NeurIPS), 2023.</i> Spotlight.
-    </div>
-</div>
+{% assign hashes = (site.data.publications) %}
+{% for hash in hashes %}
+
+{% if hash.category == "estimation" %}
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:0.7px;">Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation</b> <br>
-        <i>O. Chehab</i>, A. Gramfort, A. Hyvärinen <br>
-        <i>Submitted.</i>
+        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <br>
+        {{ hash.authors }}
+        <br>
+        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <br>
+        <!-- Links to paper (if exists)  -->
+        {% if hash.url_paper %}
+        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to poster (if exists)  -->
+        {% if hash.poster_file %}
+        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to code (if exists)  -->
+        {% if hash.url_code %}
+        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        &nbsp;
+        {% endif %}
+        <!-- Copy bibtex (if exists)  -->
+        <!-- {% if hash.bibtex %} -->
+        <!-- <button onclick="copyText()">Bibtex</button> -->
+        <!-- {% endif %} -->
+        <!-- One-sentence summary  -->
+        <p style="margin-top:10px;">
+        {{ hash.summary }}
+        </p>
     </div>
 </div>
 
-<div class="flex-container">
-    <div class="flex-left">
-        <img src="/img/paper/nce_2022.png" alt="" style="width:auto; height:auto; max-width:100%;">
-    </div>
-    <div class="flex-right">
-        <b style="letter-spacing:0.7px;">The Optimal Noise in Noise-Contrastive Learning Is Not What You Think</b> <br>
-        <i>O. Chehab</i>, A. Gramfort, A. Hyvärinen <br>
-        <i>Uncertainty in Artificial Intelligence (UAI), 2022.</i>
-    </div>
-</div>
+{% endif %}
+
+{% endfor %}
+
+<!-- 
+<script>
+    function copyText() {
+    
+        /* Copy text into clipboard */
+        navigator.clipboard.writeText
+            ("blabla");
+    }
+</script> -->
+
 
 #### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
 
-<div class="flex-container">
-    <div class="flex-left">
-        <img src="/img/paper/deepmeg_2021.png" alt="" style="width:auto; height:auto; max-width:100%;">
-    </div>
-    <div class="flex-right">
-        <b style="letter-spacing:0.7x;">Deep Recurrent Encoder: A scalable end-to-end network to model brain signals</b> <br>
-        <i>O. Chehab</i>*, A. Defossez*, J.C. Loiseau, A. Gramfort, J.R. King <br>
-        <i>Journal of Neurons, Behavior, Data analysis, and Theory, 2022.</i> 
-    </div>
-</div>
+{% assign hashes = (site.data.publications) %}
+{% for hash in hashes %}
+
+{% if hash.category == "neuro" %}
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/ssl_2020.png" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:0.7px;">Uncovering the structure of clinical EEG signals with self-supervised learning</b> <br>
-        H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann, A. Gramfort <br>
-        <i>Journal of Neural Engineering, 2021.</i>
+        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <br>
+        {{ hash.authors }}
+        <br>
+        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <br>
+        <!-- Links to paper (if exists)  -->
+        {% if hash.url_paper %}
+        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to poster (if exists)  -->
+        {% if hash.poster_file %}
+        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to code (if exists)  -->
+        {% if hash.url_code %}
+        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        &nbsp;
+        {% endif %}
+        <!-- Copy bibtex (if exists)  -->
+        <!-- {% if hash.bibtex %} -->
+        <!-- <button onclick="copyText()">Bibtex</button> -->
+        <!-- {% endif %} -->
+        <!-- One-sentence summary  -->
+        <p style="margin-top:10px;">
+        {{ hash.summary }}
+        </p>
     </div>
 </div>
 
-<div class="flex-container">
+{% endif %}
+
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}
+
+
+
+
+<!-- <div class="flex-container">
     <div class="flex-left">
         <img src="/img/paper/jnp_2019.png" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
@@ -148,20 +203,19 @@ You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
         <b style="letter-spacing:0.7px;">A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models</b> <br>
         M. Carlu*, <i>O. Chehab</i>*, [...], A. Destexhe, M. di Volo <br>
         <i>Journal of Neurophysiology, 2020.</i>
+        <br>
+        <a href="https://www.biorxiv.org/content/10.1101/870345v1" target="_blank">Paper</a>
+        <p style="margin-top:10px;">
+        Mean-Field analysis can effectively summarize complex network dynamics that model neuronal activity.
+        </p> 
     </div>
-</div>
+</div> -->
 
 
-<!-- <i>O. Chehab</i>\*, L. Dalla Porta\*, D. Depannemaecker\*, C. Héricé\*, M. Jedynak\*, E. Köksal Ersöz\*, P. Muratore\*, S. Souihel\*, C. Capone, Y. Zerlaut, A. Destexhe, M. di Volo.  -->
+
 
 <br>
 
-<!-- ### <span style="color:darkblue"> Selected Talks </span>
-
-* 03/2023 <span style="color:#5a8f3b">_Optimizing the Noise: from Importance Sampling to Noise-Contrastive Estimation_</span>, for the Self-Supervised Learning Reading Group at the University of Toronto
-
-* 02/2020 <span style="color:#5a8f3b">_Principles of Self-Supervised Learning_</span>, for the <a href="https://team.inria.fr/parietal/first-international-workshop-on-nonlinear-ica/" target="_blank">Nonlinear ICA workshop</a> at Inria
- -->
 
 ### <span style="color:darkblue"> Teaching </span>
 

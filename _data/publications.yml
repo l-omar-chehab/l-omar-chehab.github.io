@@ -92,7 +92,7 @@
   title: "A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin-Huxley models"
   authors: "M. Carlu*, <i>O. Chehab</i>*, [...], A. Destexhe, M. di Volo"
   venue_name: Journal of Neurophysiology
-  summary: "Mean-Field analysis can effectively summarize complex network dynamics that model neuronal activity."
+  summary: "Mean-Field analysis effectively summarizes complex network dynamics that model neuronal activity."
   url_paper: "https://www.biorxiv.org/content/10.1101/870345"
   url_code: 
   img_file: jnp_2020.png

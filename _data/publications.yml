@@ -23,7 +23,7 @@
   title: "Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation"
   authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
   venue_name: Submitted
-  summary: "Unnormalized distributions are identified by their energy and normalizing constants. Importance sampling estimates the latter while Noise-Contrastive Estimation estimates both: we draw a formal connection."
+  summary: "Unnormalized distributions are identified by their energy and normalizing constant. Importance sampling estimates the latter, while Noise-Contrastive Estimation estimates both: we draw a formal connection."
   url_paper: https://arxiv.org/abs/2301.09696
   url_code: https://github.com/l-omar-chehab/nce-noise-var
   img_file:
@@ -37,7 +37,7 @@
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
   authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
   venue_name: Uncertainty in Artificial Intelligence (UAI)
-  summary: "In many setups, the noise distribution that minimizes the estimation error is very different to the data distribution." 
+  summary: "In many setups, the noise distribution that minimizes the estimation error is very different from the data distribution." 
   url_paper: "https://arxiv.org/abs/2203.01110"
   url_code: "https://github.com/l-omar-chehab/nce-noise-var"
   img_file: uai_2022.png

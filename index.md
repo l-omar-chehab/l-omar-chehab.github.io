@@ -56,8 +56,7 @@ I also have an applicative interest in neuroscience, namely in how to learn "goo
 <!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
 
-
-You can reach me at <i>l-emir-omar.chehab [AT] inria.fr</i>
+You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 
 <!-- <br> -->

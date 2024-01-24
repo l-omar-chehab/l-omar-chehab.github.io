@@ -154,9 +154,13 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
         <br>
         {{ hash.authors }}
-        <br>
+        </br>
         <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
-        <br>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        {{ hash.distinction }}.
+        {% endif %}
+        </br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
         <a href="{{ hash.url_paper }}" target="_blank">Paper</a>

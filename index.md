@@ -6,10 +6,8 @@ layout: photolist
 
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
 
-
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="display:block; margin-left: auto; margin-right: auto; width: 204px; height: 300px" name="fox"}
  -->
-
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
@@ -47,17 +45,13 @@ I completed my Ph.D. at <a href="https://www.inria.fr/en" target="_blank">Inria<
 <!-- I am currently working on self-supervised learning which consists in having a machine learn patterns from data by solving a prediction task. 
 I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity.  -->
 
-
 <!-- I am a postdoctoral research fellow at CREST - Center for Research in Economics and Statistics - in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data.  -->
-
 
 <!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
 
 <!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
-
 You can reach me at <i>emir.chehab [AT] ensae.fr</i>
-
 
 <!-- <br> -->
 
@@ -70,7 +64,6 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <!-- My work is funded by European (ERC) and French (ANR) grants "Signal And Learning Applied To Brain Data" and "Bridging Artificial Intelligence and Neuroscience". I am also affiliated to <a href="http://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin/unicog.aspx" target="_blank">NeuroSpin</a>. -->
 
-
 <br>
 
 ### <span style="color:darkblue"> Publications </span>
@@ -78,7 +71,6 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 <!-- (See also my <a href="https://scholar.google.com/citations?user={{site.scholar_id}}" target="_blank">google scholar</a>) -->
 
 <!-- #### <span style="color:darkblue"> Optimization and Sampling </span> -->
-
 
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
@@ -191,9 +183,6 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 {% endfor %}
 
-
-
-
 <!-- <div class="flex-container">
     <div class="flex-left">
         <img src="/img/paper/jnp_2019.png" alt="" style="width:auto; height:auto; max-width:100%;">
@@ -210,15 +199,11 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
     </div>
 </div> -->
 
-
-
-
-<br>
-
+</br>
 
 ### <span style="color:darkblue"> Teaching </span>
 
-I was Teacher's Assistant for the following Masters courses. <br>
+I was Teacher's Assistant for the following Masters courses.</br>
 
 {% assign hashes = (site.data.courses) %}
 {% for hash in hashes %}

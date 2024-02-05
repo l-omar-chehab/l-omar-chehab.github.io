@@ -92,6 +92,11 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <br>
         {{ hash.authors }}
         <br>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        {{ hash.distinction }},
+        {% endif %}
+        <!-- Venue and year of paper (if exists)  -->
         <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
         <br>
         <!-- Links to paper (if exists)  -->
@@ -151,11 +156,12 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <br>
         {{ hash.authors }}
         <br>
-        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
         <!-- Distinction for paper (if exists)  -->
         {% if hash.distinction %}
-        {{ hash.distinction }}.
+        {{ hash.distinction }},
         {% endif %}
+        <!-- Venue and year of paper (if exists)  -->
+        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}

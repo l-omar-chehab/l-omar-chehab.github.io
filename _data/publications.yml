@@ -1,5 +1,19 @@
 
 
+- layout: paper
+  paper-type: inproceedings
+  selected: y
+  category: "sampling"
+  year: 2024
+  title: "A Practical Difusion Path for Sampling"
+  authors: <i>O. Chehab</i>, A. Korba 
+  venue_name: SPIGM Workshop, International Conference on Machine Learning (ICML)
+  summary: "Use a popular path of distributions to steer particles toward a target distribution that is not known by its samples, but by its (unnormalized) density."
+  url_paper: https://arxiv.org/abs/2406.14040
+  url_code: 
+  img_file: icml_workshop_2024.png
+  poster_file:
+  distinction:
 
 - layout: paper
   paper-type: inproceedings
@@ -86,6 +100,23 @@
   url_code:   
   img_file: jne_2021.png
   poster_file: 
+
+- layout: paper
+  paper-type: inproceedings
+  selected: y
+  category: "neuro"
+  year: 2021
+  title: "Learning with self-supervision on EEG data"
+  authors: "A. Gramfort, H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann"
+  venue_name: International Winter Workshop on Brain-Computer Interface (BCI)
+  summary: "Self-supervised learning can produce features that correlate with sleep stages, pathology, and other neurophysiological markers." 
+  code: "https://braindecode.org/auto_examples/plot_relative_positioning.html"
+  url_paper: "https://ieeexplore.ieee.org/abstract/document/9385345"
+  url_code:   
+  img_file: jne_2021.png
+  poster_file: 
+
+
 
 - layout: paper
   paper-type: inproceedings

@@ -76,6 +76,60 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <!-- #### <span style="color:darkblue"> Optimization and Sampling </span> -->
 
+#### <span style="color:darkblue"> Sampling </span>
+
+{% assign hashes = (site.data.publications) %}
+{% for hash in hashes %}
+
+{% if hash.category == "sampling" %}
+
+<div class="flex-container">
+    <div class="flex-left">
+        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
+    </div>
+    <div class="flex-right">
+        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <br>
+        {{ hash.authors }}
+        <br>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        {{ hash.distinction }},
+        {% endif %}
+        <!-- Venue and year of paper (if exists)  -->
+        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <br>
+        <!-- Links to paper (if exists)  -->
+        {% if hash.url_paper %}
+        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to poster (if exists)  -->
+        {% if hash.poster_file %}
+        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to code (if exists)  -->
+        {% if hash.url_code %}
+        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        &nbsp;
+        {% endif %}
+        <!-- Copy bibtex (if exists)  -->
+        <!-- {% if hash.bibtex %} -->
+        <!-- <button onclick="copyText()">Bibtex</button> -->
+        <!-- {% endif %} -->
+        <!-- One-sentence summary  -->
+        <p style="margin-top:10px;">
+        {{ hash.summary }}
+        </p>
+    </div>
+</div>
+
+{% endif %}
+
+{% endfor %}
+
+
 #### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
 
 {% assign hashes = (site.data.publications) %}

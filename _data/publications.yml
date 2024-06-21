@@ -5,7 +5,7 @@
   selected: y
   category: "sampling"
   year: 2024
-  title: "A Practical Difusion Path for Sampling"
+  title: "A Practical Diffusion Path for Sampling"
   authors: <i>O. Chehab</i>, A. Korba 
   venue_name: SPIGM Workshop, International Conference on Machine Learning (ICML)
   summary: "Use a popular path of distributions to steer particles toward a target distribution that is not known by its samples, but by its (unnormalized) density."

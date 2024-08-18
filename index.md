@@ -6,8 +6,8 @@ layout: photolist
 
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
 
-<!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="display:block; margin-left: auto; margin-right: auto; width: 204px; height: 300px" name="fox"}
- -->
+![i_am_a_fox](./img/people/profile.pdf){: style="display:block; margin-left: auto; margin-right: auto; width: 350px; height: auto" name="fox"}
+
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
@@ -36,24 +36,26 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 * 08/2020 _Our work is featured in Andrew Ng's Deep Learning Newsletter_ <a href="https://blog.deeplearning.ai/blog/the-batch-training-1-trillion-parameters-medical-ai-gets-a-shot-in-the-arm-does-bert-have-common-sense-revitalizing-chess" target="_blank">The Batch!</a>, as 'Unlabeled Brain Waves Spill Secrets'
 -->
 
-### <span style="color:darkblue"> About </span>
 
-I am currently a postdoctoral fellow in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE-CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>. I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>.
+<!-- ### <span style="color:darkblue">About</span> -->
+<span style="font-size: 30px; font-weight: 350">About</span>
+<br> 
 
-My research is in machine learning. More specifically, I work on estimating and sampling energy-based models, on density-ratio estimation, and on representation learning for brain imaging data. My latest publication is on optimal distribution paths for annealed importance sampling.
+
+I am a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE Paris and CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>. 
+
+Previously, I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>.
+
+My research is in machine learning. More specifically, I work on estimating and sampling energy-based models, on density-ratio estimation, and on representation learning for brain imaging data. My latest publications are on optimal distribution paths for estimation and sampling problems.
 
 <!-- I am a postdoctoral research fellow in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank">Statistics Department</a> of the Center for Research in Economics and Statistics (CREST), working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on the development and analysis of sampling algorithms <a href="https://simons.berkeley.edu/programs/geometric-methods-optimization-sampling" target="_blank">from an optimization perspective</a>.
 
-I completed my Ph.D. at <a href="https://www.inria.fr/en" target="_blank">Inria</a> under the supervision of <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank">Alexandre Gramfort</a>, focusing on self-supervised learning, its statistical aspects and its applications to cognitive neuroscience. I also hold a master’s degree in engineering from ENSTA Paris and another in machine learning (MVA) from ENS Paris-Saclay. -->
+I also hold a master’s degree in engineering from ENSTA Paris and another in machine learning (MVA) from ENS Paris-Saclay. -->
 
 <!-- I am currently working on self-supervised learning which consists in having a machine learn patterns from data by solving a prediction task. 
 I also have an applicative interest in neuroscience, namely in how to learn "good" representations of brain activity.  -->
 
-<!-- I am a postdoctoral research fellow at CREST - Center for Research in Economics and Statistics - in France, working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on algorithms for sampling data.  -->
-
 <!-- For example, if the data is a book, one task you can give the machine is to recognize sentences of the book where the words are ordered from sentences where the words are scrambled. To solve this task, the machine might have to identify grammatical rules and writing style, and would therefore learn meaningful stuff from the book. I have been interested in two key questions: <i>what exactly is being learnt from such tasks? and what makes a task better than another?</i>  -->
-
-<!-- I obtained a PhD from Mila (Université de Montréal) under the supervision of Aaron Courville. In my thesis, I investigated deep learning methods for visual dialogue applications. I was also fortunate enough to spend time at the research labs of Facebook, Twitter, and INRIA. -->
 
 You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
@@ -70,7 +72,9 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <br>
 
-### <span style="color:darkblue"> Publications </span>
+<!-- ### <span style="color:darkblue"> Publications </span> -->
+<span style="font-size: 30px; font-weight: 350">Publications</span>
+<br> 
 
 <!-- (See also my <a href="https://scholar.google.com/citations?user={{site.scholar_id}}" target="_blank">google scholar</a>) -->
 
@@ -88,7 +92,7 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <b style="letter-spacing:normal;">{{ hash.title }}</b>
         <br>
         {{ hash.authors }}
         <br>
@@ -101,17 +105,17 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
-        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        <a href="{{ hash.url_paper }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">PAPER</a>
         &nbsp;
         {% endif %}
         <!-- Links to poster (if exists)  -->
         {% if hash.poster_file %}
-        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        <a href="/documents/posters/{{ hash.poster_file }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">POSTER</a>
         &nbsp;
         {% endif %}
         <!-- Links to code (if exists)  -->
         {% if hash.url_code %}
-        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
         &nbsp;
         {% endif %}
         <!-- Copy bibtex (if exists)  -->
@@ -119,9 +123,11 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <!-- <button onclick="copyText()">Bibtex</button> -->
         <!-- {% endif %} -->
         <!-- One-sentence summary  -->
-        <p style="margin-top:10px;">
-        {{ hash.summary }}
-        </p>
+        <!-- <div class="flex-right-standard">
+            <p style="margin-top:10px;">
+            {{ hash.summary }}
+            </p>
+        </div> -->
     </div>
 </div>
 
@@ -142,7 +148,7 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <b style="letter-spacing:normal;">{{ hash.title }}</b> 
         <br>
         {{ hash.authors }}
         <br>
@@ -155,17 +161,17 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
-        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        <a href="{{ hash.url_paper }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">PAPER</a>
         &nbsp;
         {% endif %}
         <!-- Links to poster (if exists)  -->
         {% if hash.poster_file %}
-        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        <a href="/documents/posters/{{ hash.poster_file }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">POSTER</a>
         &nbsp;
         {% endif %}
         <!-- Links to code (if exists)  -->
         {% if hash.url_code %}
-        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
         &nbsp;
         {% endif %}
         <!-- Copy bibtex (if exists)  -->
@@ -173,9 +179,11 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <!-- <button onclick="copyText()">Bibtex</button> -->
         <!-- {% endif %} -->
         <!-- One-sentence summary  -->
-        <p style="margin-top:10px;">
-        {{ hash.summary }}
-        </p>
+        <!-- <div class="flex-right-standard">
+            <p style="margin-top:10px;">
+            {{ hash.summary }}
+            </p>
+        </div> -->
     </div>
 </div>
 
@@ -206,7 +214,7 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:0.7px;">{{ hash.title }}</b> 
+        <b style="letter-spacing:normal;">{{ hash.title }}</b> 
         <br>
         {{ hash.authors }}
         <br>
@@ -219,17 +227,17 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
-        <a href="{{ hash.url_paper }}" target="_blank">Paper</a>
+        <a href="{{ hash.url_paper }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">PAPER</a>
         &nbsp;
         {% endif %}
         <!-- Links to poster (if exists)  -->
         {% if hash.poster_file %}
-        <a href="/documents/posters/{{ hash.poster_file }}" target="_blank">Poster</a>
+        <a href="/documents/posters/{{ hash.poster_file }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">POSTER</a>
         &nbsp;
         {% endif %}
         <!-- Links to code (if exists)  -->
         {% if hash.url_code %}
-        <a href="{{ hash.url_code }}" target="_blank">Code</a>
+        <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
         &nbsp;
         {% endif %}
         <!-- Copy bibtex (if exists)  -->
@@ -237,9 +245,11 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <!-- <button onclick="copyText()">Bibtex</button> -->
         <!-- {% endif %} -->
         <!-- One-sentence summary  -->
-        <p style="margin-top:10px;">
-        {{ hash.summary }}
-        </p>
+        <!-- <div class="flex-right-standard">
+            <p style="margin-top:10px;">
+            {{ hash.summary }}
+            </p>
+        </div> -->
     </div>
 </div>
 
@@ -265,7 +275,9 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <br>
 
-### <span style="color:darkblue"> Teaching </span>
+<!-- ### <span style="color:darkblue"> Teaching </span> -->
+<span style="font-size: 30px; font-weight: 350">Teaching</span>
+<br> 
 
 I was Teacher's Assistant for the following Masters courses.<br>
 

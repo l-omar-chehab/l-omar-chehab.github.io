@@ -10,11 +10,11 @@
 $base-font-family: apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 // $base-font-family: "Nunito",sans-serif;
 // $base-font-family: "Quattrocento Sans",sans-serif;
-$base-font-size:   16px;  
+$base-font-size:   17px;  
 // $small-font-size:  $base-font-size * 0.875;
 $small-font-size:  $base-font-size * 1;
 // $base-line-height: 1.5;
-$base-line-height: 23px;
+$base-line-height: 25px;
 $spacing-unit:     30px;
 
 $text-color:       #111;  
@@ -50,8 +50,39 @@ $on-laptop:        800px;
     margin: 5px;
     padding: 5px;
     // border: 2px solid green;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.flex-right-standard {
+    width: 85%;
+    margin: 5px;
+    padding: 5px;
+    // border: 2px solid green;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 300;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: .375rem .75rem;
+    font-size:11px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    box-shadow: none !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 // Using media queries with like this:

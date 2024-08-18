@@ -6,27 +6,17 @@ layout: photolist
 
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
 
-![i_am_a_fox](./img/people/profile.pdf){: style="display:block; margin-left: auto; margin-right: auto; width: 350px; height: auto" name="fox"}
+![profile](./img/people/profile.pdf){: style="display:block; margin-left: auto; margin-right: auto; width: 350px; height: auto" name="fox"}
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
 
 <!--
-Twitter: 
-Incoming PhD student @INRIA Parietal team, Machine Learning and Computational Neuro. 
-Former intern @FacebookAI. 
--->
-
-<!-- I am a PhD student in machine learning at Inria Paris-Saclay. I currently work on efficient estimation of energy-based models and self-supervised learning. -->
-
-<!--
 More generally, I am interested in the inferential and dynamics-with-control viewpoints on learning and computation in the brain, and what they suggest about how the brain encodes and processes (visual, auditory, linguistic) stimuli. We use neuroimaging data as a proxy for the neural code, investigating its structure (grammar) in a top-down approach, using unsupervised representation learning, or conversely emulating it using mechanistic biophysical models in a bottom-up approach.
 
 I furthermore believe the Machine Learning community has much to gain from leveraging a more precise understanding of neuroscience topics, such as synaptic intelligence, stochastic dynamics, neural code, memory, and the different strata of analyses (from cellular to network to whole-brain), for example. 
 
-I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <a href="http://probability.ca/jeff/" target="_blank">Jeff Rosenthal</a>, Inria Parietal and AXA France.
--->
 
 <!--
 ## <span style="color:darkblue">News </span>
@@ -42,7 +32,7 @@ I've previously interned at Facebook AI Research, ENS Paris, U of Toronto with <
 <br> 
 
 
-I am a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE Paris and CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>. 
+I am a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE Paris and CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>.
 
 Previously, I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>.
 
@@ -89,19 +79,19 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/{{ hash.img_file }}" class="z-depth-1 rounded" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:normal;">{{ hash.title }}</b>
+        <b style="font-weight: 500; letter-spacing:normal;">{{ hash.title }}</b>
         <br>
         {{ hash.authors }}
         <br>
-        <!-- Distinction for paper (if exists)  -->
-        {% if hash.distinction %}
-        {{ hash.distinction }},
-        {% endif %}
         <!-- Venue and year of paper (if exists)  -->
         <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        <span style="color: red">{{ hash.distinction }}</span>.
+        {% endif %}
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
@@ -118,7 +108,7 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
         <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
         &nbsp;
         {% endif %}
-        <!-- Copy bibtex (if exists)  -->
+        <!-- Copy bibtex (if exists) -->
         <!-- {% if hash.bibtex %} -->
         <!-- <button onclick="copyText()">Bibtex</button> -->
         <!-- {% endif %} -->
@@ -145,19 +135,19 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/{{ hash.img_file }}" class="z-depth-1 rounded" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:normal;">{{ hash.title }}</b> 
+        <b style="font-weight: 500; letter-spacing:normal;">{{ hash.title }}</b> 
         <br>
         {{ hash.authors }}
         <br>
-        <!-- Distinction for paper (if exists)  -->
-        {% if hash.distinction %}
-        {{ hash.distinction }},
-        {% endif %}
         <!-- Venue and year of paper (if exists)  -->
         <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        <span style="color: red">{{ hash.distinction }}</span>.
+        {% endif %}
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}
@@ -211,19 +201,19 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <div class="flex-container">
     <div class="flex-left">
-        <img src="/img/paper/{{ hash.img_file }}" alt="" style="width:auto; height:auto; max-width:100%;">
+        <img src="/img/paper/{{ hash.img_file }}" class="z-depth-1 rounded" alt="" style="width:auto; height:auto; max-width:100%;">
     </div>
     <div class="flex-right">
-        <b style="letter-spacing:normal;">{{ hash.title }}</b> 
+        <b style="font-weight: 500; letter-spacing:normal;">{{ hash.title }}</b> 
         <br>
         {{ hash.authors }}
         <br>
-        <!-- Distinction for paper (if exists)  -->
-        {% if hash.distinction %}
-        {{ hash.distinction }},
-        {% endif %}
         <!-- Venue and year of paper (if exists)  -->
         <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        <span style="color: red">{{ hash.distinction }}</span>.
+        {% endif %}
         <br>
         <!-- Links to paper (if exists)  -->
         {% if hash.url_paper %}

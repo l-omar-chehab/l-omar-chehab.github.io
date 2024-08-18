@@ -7,7 +7,7 @@
   year: 2024
   title: "A Practical Diffusion Path for Sampling"
   authors: <i>O. Chehab</i>, A. Korba 
-  venue_name: SPIGM Workshop, International Conference on Machine Learning (ICML)
+  venue_name: SPIGM Workshop, International Conference on Machine Learning
   summary: "Use a popular path of distributions to steer particles toward a target distribution that is not known by its samples, but by its (unnormalized) density."
   url_paper: https://arxiv.org/abs/2406.14040
   url_code: 
@@ -22,7 +22,7 @@
   year: 2023
   title: "Provable benefits of annealing for estimating normalizing constants: Importance Sampling, Noise-Contrastive Estimation, and beyond"
   authors: <i>O. Chehab</i>, A. Hyvärinen, A. Risteski 
-  venue_name: Neural Information Processing Systems (NeurIPS)
+  venue_name: Neural Information Processing Systems
   summary: "Annealing with the right paths exponentially increases the sample-efficiency of some estimators."
   url_paper: https://arxiv.org/abs/2310.03902
   url_code: https://github.com/l-omar-chehab/annealing-normalizing-constants
@@ -52,7 +52,7 @@
   year: 2022
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
   authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
-  venue_name: Uncertainty in Artificial Intelligence (UAI)
+  venue_name: Uncertainty in Artificial Intelligence
   summary: "In many setups, the noise distribution that minimizes the estimation error is very different from the data distribution." 
   url_paper: "https://arxiv.org/abs/2203.01110"
   url_code: "https://github.com/l-omar-chehab/nce-noise-var"
@@ -108,7 +108,7 @@
   year: 2021
   title: "Learning with self-supervision on EEG data"
   authors: "A. Gramfort, H. Banville, <i>O. Chehab</i>, A. Hyvärinen, D. Engemann"
-  venue_name: International Winter Workshop on Brain-Computer Interface (BCI)
+  venue_name: International Winter Workshop on Brain-Computer Interface
   summary: "Self-supervised learning can produce features that correlate with sleep stages, pathology, and other neurophysiological markers." 
   code: "https://braindecode.org/auto_examples/plot_relative_positioning.html"
   url_paper: "https://ieeexplore.ieee.org/abstract/document/9385345"

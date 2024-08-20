@@ -7,7 +7,7 @@ Code for my website: <a href="l-omar-chehab.github.io" target="_blank">l-omar-ch
 Once this is downloaded into a local repository, run
 
 ```bash
-# Simulate the website
+# Run the website locally
 bundle exec jekyll serve
 ```
 

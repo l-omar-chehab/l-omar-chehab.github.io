@@ -20,10 +20,11 @@ order: 1
 
 I am a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE Paris and CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>.
 
-Previously, I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>.
-<!-- My background is in applied mathematics and engineering, as I hold a master’s degree in applied maths and engineering from ENSTA Paris and another in applied maths for machine learning (MVA) from ENS Paris-Saclay. -->
+I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>. I also hold a Master's in Applied Mathematics and Engineering from  <a href="https://www.ensta-paris.fr/en/node" target="_blank" rel="noopener">ENSTA Paris</a> and another in Mathematics, Vision and Learning (MVA) from <a href="https://ens-paris-saclay.fr/en/school/ens-paris-saclay" target="_blank" rel="noopener">Ecole Normale Superieure Paris-Saclay</a>.
 
-My research is in machine learning. More specifically, I use statistical theory to optimize the design of modern generative A.I. and also learn useful representations of brain activity.
+My research is in machine learning, particularly on efficient algorithms for estimating and sampling from probabilistic models, as well as on learning useful representations of brain activity.
+
+<!-- questions of  statistical theory to optimize the design of modern generative A.I. . -->
 <!-- More specifically, I work on estimating and sampling energy-based models, on density-ratio estimation, and on representation learning for brain imaging data. -->
 <!-- My latest publications are on optimal distribution paths for estimation and sampling problems. -->
 
@@ -33,12 +34,13 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <br><span style="font-size: 30px; font-weight: 350">Publications</span><br> 
 
-#### <span style="color:darkblue"> Statistical Theory for Generative A.I. </span>
+
+#### <span style="color:darkblue"> Sampling from Energy-Based Probabilistic Models<span>
 
 {% assign hashes = (site.data.publications) %}
 {% for hash in hashes %}
 
-{% if hash.category == "stats" %}
+{% if hash.category == "sampling" %}
 
 <div class="flex-container">
     <div class="flex-left">
@@ -88,6 +90,62 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 {% endfor %}
 
+#### <span style="color:darkblue"> Estimating Energy-Based Probabilistic Models<span>
+
+{% assign hashes = (site.data.publications) %}
+{% for hash in hashes %}
+
+{% if hash.category == "estimation" %}
+
+<div class="flex-container">
+    <div class="flex-left">
+        <img src="/img/paper/{{ hash.img_file }}" class="z-depth-1 rounded" alt="" style="width:auto; height:auto; max-width:100%;">
+    </div>
+    <div class="flex-right">
+        <b style="font-weight: 500; letter-spacing:normal;">{{ hash.title }}</b>
+        <br>
+        {{ hash.authors }}
+        <br>
+        <!-- Venue and year of paper (if exists)  -->
+        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
+        <!-- Distinction for paper (if exists)  -->
+        {% if hash.distinction %}
+        <span style="color: red">{{ hash.distinction }}</span>.
+        {% endif %}
+        <br>
+        <!-- Links to paper (if exists)  -->
+        {% if hash.url_paper %}
+        <a href="{{ hash.url_paper }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">PAPER</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to poster (if exists)  -->
+        {% if hash.poster_file %}
+        <a href="/documents/posters/{{ hash.poster_file }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">POSTER</a>
+        &nbsp;
+        {% endif %}
+        <!-- Links to code (if exists)  -->
+        {% if hash.url_code %}
+        <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
+        &nbsp;
+        {% endif %}
+        <!-- Copy bibtex (if exists) -->
+        <!-- {% if hash.bibtex %} -->
+        <!-- <button onclick="copyText()">Bibtex</button> -->
+        <!-- {% endif %} -->
+        <!-- One-sentence summary  -->
+        <!-- <div class="flex-right-standard">
+            <p style="margin-top:10px;">
+            {{ hash.summary }}
+            </p>
+        </div> -->
+    </div>
+</div>
+
+{% endif %}
+
+{% endfor %}
+
+
 <!-- 
 <script>
     function copyText() {
@@ -99,6 +157,8 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 </script> -->
 
 #### <span style="color:darkblue"> Learning Representations of Brain Activity </span>
+
+<!-- #### <span style="color:darkblue"> Deep Learning for Cognitive Neuroscience </span> -->
 
 {% assign hashes = (site.data.publications) %}
 {% for hash in hashes %}

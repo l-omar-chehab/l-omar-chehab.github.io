@@ -3,7 +3,22 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  category: "stats"
+  category: "sampling"
+  year: 2024
+  title: "Provable Convergence and Limitations of Geometric Tempering for Langevin Dynamics"
+  authors: <i>O. Chehab</i>, A. Korba, A. Stromme, A. Vacher
+  venue_name: Submitted
+  summary: "Prove that using a popular path of distribution to steer the Langevin sampler often does not accelerate convergence."
+  url_paper: 
+  url_code: 
+  img_file: 
+  poster_file:
+  distinction:
+
+- layout: paper
+  paper-type: inproceedings
+  selected: y
+  category: "sampling"
   year: 2024
   title: "A Practical Diffusion Path for Sampling"
   authors: <i>O. Chehab</i>, A. Korba 
@@ -18,7 +33,7 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  category: "stats"
+  category: "estimation"
   year: 2023
   title: "Provable benefits of annealing for estimating normalizing constants: Importance Sampling, Noise-Contrastive Estimation, and beyond"
   authors: <i>O. Chehab</i>, A. Hyvärinen, A. Risteski 
@@ -33,7 +48,7 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  category: "stats"
+  category: "estimation"
   year: 2023
   title: "Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation"
   authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"
@@ -48,7 +63,7 @@
 - layout: paper
   paper-type: inproceedings
   selected: y
-  category: "stats"
+  category: "estimation"
   year: 2022
   title: "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
   authors: "<i>O. Chehab</i>, A. Gramfort, A. Hyvärinen"

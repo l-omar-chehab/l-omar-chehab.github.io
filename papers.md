@@ -2,7 +2,7 @@
 layout: photolist
 title: Publications
 menu: no
-order: 3
+order: 2
 ---
 
 You can find my publications here or on <a href="https://scholar.google.com/citations?user={{site.scholar_id}}" target="_blank">google scholar</a>.
@@ -11,7 +11,7 @@ You can find my publications here or on <a href="https://scholar.google.com/cita
 
 ### Self-Supervised Learning and Statistical Estimation 
 
-Provable benefits of annealing for estimating normalizing constants 
+Provable benefits of annealing for estimating normalizing constants
 <br>
 <b>O. Chehab</b>,  A. Hyvärinen, A. Risteski
 <br>

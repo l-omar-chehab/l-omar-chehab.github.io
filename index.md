@@ -1,12 +1,21 @@
 ---
 layout: photolist
+title: Home
+menu: no
+order: 1
 ---
 
 <!-- ![i_am_a_fox](./img/people/profile_pic_2.jpg){: style="float: right; margin: 0px 20px; width: 70px; height: 250px" name="fox"} -->
 
 <!-- ![i_am_a_fox](./img/people/profile_pic.jpeg){: style="float: right; margin: 0px 20px; width: 204px; height: 300px" name="fox"} -->
 
+<!-- Picture and heading -->
+
 ![profile](./img/people/profile.pdf){: style="display:block; margin-left: auto; margin-right: auto; width: 350px; height: auto" name="fox"}
+
+<p style="text-align: center; font-size: 24px; font-weight: 300; font-family: montserrat, sans-serif;">Postdoctoral Researcher</p>
+
+<p style="text-align: center; font-size: 24px; font-weight: 300; font-family: montserrat, sans-serif;">ENSAE Paris</p>
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
@@ -36,7 +45,10 @@ I am a postdoctoral researcher in the <a href="https://crest.science/research/re
 
 Previously, I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>.
 
-My research is in machine learning. More specifically, I work on estimating and sampling energy-based models, on density-ratio estimation, and on representation learning for brain imaging data. My latest publications are on optimal distribution paths for estimation and sampling problems.
+My research is in machine learning.
+More specifically, I use statistical theory to optimize the design of modern generative A.I. and also learn useful representations of brain activity.
+<!-- More specifically, I work on estimating and sampling energy-based models, on density-ratio estimation, and on representation learning for brain imaging data. -->
+<!-- My latest publications are on optimal distribution paths for estimation and sampling problems. -->
 
 <!-- I am a postdoctoral research fellow in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank">Statistics Department</a> of the Center for Research in Economics and Statistics (CREST), working with <a href="https://akorba.github.io" target="_blank">Anna Korba</a> on the development and analysis of sampling algorithms <a href="https://simons.berkeley.edu/programs/geometric-methods-optimization-sampling" target="_blank">from an optimization perspective</a>.
 
@@ -68,14 +80,13 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 <!-- (See also my <a href="https://scholar.google.com/citations?user={{site.scholar_id}}" target="_blank">google scholar</a>) -->
 
-<!-- #### <span style="color:darkblue"> Optimization and Sampling </span> -->
 
-#### <span style="color:darkblue"> Sampling </span>
+#### <span style="color:darkblue"> Statistical Theory for Generative A.I. </span>
 
 {% assign hashes = (site.data.publications) %}
 {% for hash in hashes %}
 
-{% if hash.category == "sampling" %}
+{% if hash.category == "stats" %}
 
 <div class="flex-container">
     <div class="flex-left">
@@ -125,62 +136,6 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 
 {% endfor %}
 
-
-#### <span style="color:darkblue"> Self-Supervised Learning and Statistical Estimation </span>
-
-{% assign hashes = (site.data.publications) %}
-{% for hash in hashes %}
-
-{% if hash.category == "estimation" %}
-
-<div class="flex-container">
-    <div class="flex-left">
-        <img src="/img/paper/{{ hash.img_file }}" class="z-depth-1 rounded" alt="" style="width:auto; height:auto; max-width:100%;">
-    </div>
-    <div class="flex-right">
-        <b style="font-weight: 500; letter-spacing:normal;">{{ hash.title }}</b> 
-        <br>
-        {{ hash.authors }}
-        <br>
-        <!-- Venue and year of paper (if exists)  -->
-        <i>{{ hash.venue_name }}, {{ hash.year }}.</i>
-        <!-- Distinction for paper (if exists)  -->
-        {% if hash.distinction %}
-        <span style="color: red">{{ hash.distinction }}</span>.
-        {% endif %}
-        <br>
-        <!-- Links to paper (if exists)  -->
-        {% if hash.url_paper %}
-        <a href="{{ hash.url_paper }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">PAPER</a>
-        &nbsp;
-        {% endif %}
-        <!-- Links to poster (if exists)  -->
-        {% if hash.poster_file %}
-        <a href="/documents/posters/{{ hash.poster_file }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">POSTER</a>
-        &nbsp;
-        {% endif %}
-        <!-- Links to code (if exists)  -->
-        {% if hash.url_code %}
-        <a href="{{ hash.url_code }}" class="btn" role="button" rel="external nofollow noopener" target="_blank">CODE</a>
-        &nbsp;
-        {% endif %}
-        <!-- Copy bibtex (if exists)  -->
-        <!-- {% if hash.bibtex %} -->
-        <!-- <button onclick="copyText()">Bibtex</button> -->
-        <!-- {% endif %} -->
-        <!-- One-sentence summary  -->
-        <!-- <div class="flex-right-standard">
-            <p style="margin-top:10px;">
-            {{ hash.summary }}
-            </p>
-        </div> -->
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
-
 <!-- 
 <script>
     function copyText() {
@@ -191,8 +146,7 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
     }
 </script> -->
 
-
-#### <span style="color:darkblue"> Deep Learning and Cognitive Neuroscience </span>
+#### <span style="color:darkblue"> Learning Representations of Brain Activity </span>
 
 {% assign hashes = (site.data.publications) %}
 {% for hash in hashes %}
@@ -264,8 +218,22 @@ You can reach me at <i>emir.chehab [AT] ensae.fr</i>
 </div> -->
 
 <br>
+<span style="font-size: 30px; font-weight: 350">Talks</span>
+<br> 
 
-<!-- ### <span style="color:darkblue"> Teaching </span> -->
+* 10/2024, <a href="https://sia.mit.edu" target="_blank">Gregory Wornell's team seminar</a>, MIT, USA
+
+* 10/2024, <a href="https://uqgroup.mit.edu" target="_blank">Youssef Marzouk's team seminar</a>, MIT, USA
+
+* 03/2024, <a href="https://www.riken.jp/en/research/labs/cbs/integr_comput_brainsci_collab/stat_math_collab/index.html" target="_blank">Takeru Matsuda's team seminar</a>, RIKEN, Japan
+<!-- Statistical Mathematics Unit of the Center for Brain Science, RIKEN, Saitama -->
+
+* --/2023, <a href="https://adnan1306.github.io" target="_blank">Self-Supervised Learning Reading Group</a>, Vector Institute, Canada
+
+* 02/2020 <a href="https://team.inria.fr/parietal/first-international-workshop-on-nonlinear-ica/" target="_blank">Nonlinear ICA workshop</a>, Inria Saclay, France
+<!-- <span style="color:#5a8f3b">_Principles of Self-Supervised Learning_</span>, for the  -->
+
+<br>
 <span style="font-size: 30px; font-weight: 350">Teaching</span>
 <br> 
 

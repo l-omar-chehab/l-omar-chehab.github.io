@@ -11,9 +11,10 @@
   summary: "Prove that using a popular path of distribution to steer the Langevin sampler often does not accelerate convergence."
   url_paper: 
   url_code: 
-  img_file: 
-  poster_file:
-  distinction:
+  img_file: yale_workshop_2024.png
+  poster_file: poster_yale_2024.pdf
+  distinction: Presented at the Workshop "Recent Advances and Future Directions for Sampling" at Yale University
+
 
 - layout: paper
   paper-type: inproceedings

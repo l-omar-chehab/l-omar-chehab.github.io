@@ -9,7 +9,7 @@
   authors: <i>O. Chehab</i>, A. Korba, A. Stromme, A. Vacher
   venue_name: Submitted
   summary: "Prove that using a popular path of distribution to steer the Langevin sampler often does not accelerate convergence."
-  url_paper: 
+  url_paper: https://arxiv.org/abs/2410.09697
   url_code: 
   img_file: yale_workshop_2024.png
   poster_file: poster_yale_2024.pdf

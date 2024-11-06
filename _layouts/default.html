@@ -144,10 +144,21 @@
               {% for post in site.posts %}
               {% for cat in post.categories %}
               {% if cat == 'teaching' %}
-              <span style="color:#5a8f3b">{{post.name}}</span>
-              {% if post.name %} 
-              <span style="color:#5a8f3b">{{post.name}}</span> 
-              {% endif %} 
+                {% if post.name %} 
+                <span style="color:#5a8f3b">{{post.name}}</span> 
+                {% endif %} 
+                {% if post.header %} 
+                 , {{post.header}} 
+                {% endif %} 
+                {% if post.institution %}
+                - <i>{{post.institution}}</i> 
+                {% endif %} 
+                {% if post.year %}
+                ({{post.year }})
+                {% endif %} 
+                {% if post.professors %}
+                Professors: {{ include.post.professors }} 
+                {% endif %} 
               {% endif %}
               {% endfor %}
               {% endfor %}

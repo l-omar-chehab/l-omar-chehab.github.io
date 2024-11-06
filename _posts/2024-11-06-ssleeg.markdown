@@ -5,7 +5,7 @@ date:   2021-10-03 00:00:00
 image: /images/jne_2021.png
 categories: research
 author: "Omar Chehab"
-authors: "Hubert Banville, <strong>Omar Chehab</strong>, Aapo Hyv{\"a}rinen, Denis Engemann, Alexandre Gramfort"
+authors: "Hubert Banville, <strong>Omar Chehab</strong>, Aapo Hyvärinen, Denis Engemann, Alexandre Gramfort"
 venue: "Journal of Neural Engineering"
 arxiv: https://arxiv.org/abs/2007.16104
 ---

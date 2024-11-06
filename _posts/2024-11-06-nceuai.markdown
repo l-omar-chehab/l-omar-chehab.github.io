@@ -9,4 +9,7 @@ authors: "<strong>Omar Chehab</strong>, Alexandre Gramfort, Aapo Hyvärinen"
 venue: "Conference on Uncertainty in Artificial Intelligence (UAI)"
 arxiv: https://arxiv.org/abs/2203.01110
 poster: /pdfs/poster_uai_2022.pdf
+code: https://github.com/l-omar-chehab/nce-noise-var
 ---
+
+

@@ -9,4 +9,5 @@ authors: "<strong>Omar Chehab</strong>, Aapo Hyvärinen, Andrej Risteski"
 venue: "Spotlight, Advances in Neural Information Processing Systems (NeurIPS)"
 arxiv: https://arxiv.org/abs/2310.03902
 poster: /pdfs/poster_neurips_2023.pdf
+code: https://github.com/l-omar-chehab/annealing-normalizing-constants
 ---

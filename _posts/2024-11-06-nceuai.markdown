@@ -3,8 +3,7 @@ layout: post
 title:  "The Optimal Noise in Noise-Contrastive Learning Is Not What You Think"
 date:   2022-06-20 00:00:00
 image: /images/uai_2022.png
-categories: research
-subcategories: estimation
+categories: research-estimation
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Alexandre Gramfort, Aapo Hyvärinen"
 venue: "Conference on Uncertainty in Artificial Intelligence (UAI)"

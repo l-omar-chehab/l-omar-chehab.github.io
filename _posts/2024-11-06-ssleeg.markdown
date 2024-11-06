@@ -3,8 +3,7 @@ layout: post
 title:  "Uncovering the structure of clinical EEG signals with self-supervised learning"
 date:   2021-10-03 00:00:00
 image: /images/jne_2021.png
-categories: research
-subcategories: neuro
+categories: research-neuro
 author: "Omar Chehab"
 authors: "Hubert Banville, <strong>Omar Chehab</strong>, Aapo Hyvärinen, Denis Engemann, Alexandre Gramfort"
 venue: "Journal of Neural Engineering"

@@ -3,8 +3,7 @@ layout: post
 title:  "Deep Recurrent Encoder: an end-to-end network to model magnetoencephalography at scale"
 date:   2022-10-03 00:00:00
 image: /images/nbdt_2022.png
-categories: research
-subcategories: neuro
+categories: research-neuro
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab*</strong>, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King"
 venue: "Journal of Neurons, Behavior, Data analysis, and Theory"

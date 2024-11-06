@@ -66,8 +66,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat, subcat in zip(post.categories, post.subcategories) %}
-          {% if cat == 'research' and subcat == 'sampling' %}
+          {% for cat in post.categories %}
+          {% if cat == 'research-sampling' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -163,7 +163,6 @@
             </td>
           </tr>
         </table>
-        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">

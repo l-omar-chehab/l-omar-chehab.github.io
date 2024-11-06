@@ -7,6 +7,6 @@ categories: research
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Aapo Hyv{\"a}rinen, Andrej Risteski"
 venue: "Spotlight, Advances in Neural Information Processing Systems (NeurIPS)"
-arxiv: https://arxiv.org/abs/2406.14040
+arxiv: https://arxiv.org/abs/2310.03902
 poster: /pdfs/poster_neurips_2023.pdf
 ---

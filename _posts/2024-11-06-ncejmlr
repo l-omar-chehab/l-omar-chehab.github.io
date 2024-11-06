@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation"
+date:   2023-06-20 00:00:00
+image: /images/uai_2022.png
+categories: research
+author: "Omar Chehab"
+authors: "<strong>Omar Chehab</strong>, Alexandre Gramfort, Aapo Hyv{\"a}rinen"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2301.09696
+---

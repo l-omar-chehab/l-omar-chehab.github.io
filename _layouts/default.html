@@ -65,7 +65,7 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.research %}
+          {% for post in site.posts %}
           {% for cat in post.categories %}
           <h3>{{post.categories}}</h3>
           <tr>
@@ -138,7 +138,7 @@
                 I was Teacher's Assistant for the following Masters courses.              
               </p>
               <p>
-              {% for post in site.teaching %}
+              {% for post in site.posts %}
               {% for cat in post.categories %}
               {% if cat == 'teaching' %}
                 {% if post.name %} 

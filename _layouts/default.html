@@ -136,13 +136,22 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
-              </p>
+              <h2>Teaching</h2>
+              <p> 
+                I was Teacher's Assistant for the following Masters courses.              </p>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% assign hashes = (site.courses) %}
+          {% for hash in hashes %}
+          {% if include.hash.name %} <span style="color:#5a8f3b">{{ include.hash.name }}</span> {% endif %} 
+          {% if include.hash.header %} , {{ include.hash.header }} {% endif %}
+          {% if include.hash.institution %} - <i>{{ include.hash.institution }}</i> {% endif %} 
+          {% if include.hash.year %} ({{ include.hash.year }}) {% endif %} <br/>
+          {% if include.hash.professors %} Professors: {{ include.hash.professors }} {% endif %} <br/>
+          {% endfor %}
 
           {% for post in site.posts %}
           {% for cat in post.categories %}

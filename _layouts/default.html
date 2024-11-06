@@ -143,10 +143,8 @@
               <p>
               {% for post in site.posts %}
               {% for cat in post.categories %}
-              {% if cat == teaching %}
-              {% if post.name %}
+              {% if cat == 'teaching' %}
               <span style="color:#5a8f3b">{{post.name}}</span>
-              {% endif %}
               {% endif %}
               {% endfor %}
               {% endfor %}

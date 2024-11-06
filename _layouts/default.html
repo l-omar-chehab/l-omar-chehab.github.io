@@ -67,10 +67,11 @@
 
           {% set subcategories = ['estimation', 'neuro', 'sampling'] %}
           {% for subcat in subcategories %}
-          <h2>{{ subcat | capitalize }}</h2> 
+          <h2>{{subcat}}</h2> 
           {% for post in site.posts %}
           {% if 'research' in post.categories and subcat in post.subcategories %}
-          <tr>
+          {{post.title}}
+          <!-- <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
@@ -106,7 +107,7 @@
               <p></p>
               {{ post.excerpt }}
             </td>
-          </tr>
+          </tr> -->
           {% endif %}
           {% endfor %}
           {% endfor %}

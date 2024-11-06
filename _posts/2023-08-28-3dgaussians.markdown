@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
-date:   2023-08-28 22:21:59 +00:00
+title:  "Provable Convergence and Limitations of Geometric Tempering for Langevin Dynamics"
+date:   2024-10-13 00:00:00
 image: /images/3dgaussian.jpg
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+author: "Omar Chehab"
+authors: "<strong>Omar Chehab</strong>, Anna Korba, Austin Stromme, Adrien Vacher"
 venue: "arXiv"
-arxiv: https://arxiv.org/abs/2308.14737
+arxiv: https://arxiv.org/abs/2410.09697
 code: https://github.com/leonidk/fmb-plus
-website: https://leonidk.github.io/fmb-plus
+website:
 ---
-We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 
+We presented this work at the Yale workshop on sampling.

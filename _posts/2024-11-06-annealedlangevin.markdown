@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Provable Convergence and Limitations of Geometric Tempering for Langevin Dynamics"
-date:   2024-10-13 00:00:00
 image: /images/yale_workshop_2024.png
+date:   2024-10-13 00:00:00
 categories: research
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Anna Korba, Austin Stromme, Adrien Vacher"

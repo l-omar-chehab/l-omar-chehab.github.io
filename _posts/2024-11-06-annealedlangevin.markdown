@@ -4,6 +4,7 @@ title:  "Provable Convergence and Limitations of Geometric Tempering for Langevi
 image: /images/yale_workshop_2024.png
 date:   2024-10-13 00:00:00
 categories: research
+subcategories: sampling
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Anna Korba, Austin Stromme, Adrien Vacher"
 venue: "arXiv"

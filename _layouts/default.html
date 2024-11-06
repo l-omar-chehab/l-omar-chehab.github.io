@@ -68,6 +68,8 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
+          {% for subcat in post.subcategories %}
+          {{subcat}}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -105,6 +107,7 @@
               {{ post.excerpt }}
             </td>
           </tr>
+          {% endfor %}
           {% endif %}
           {% endfor %}
           {% endfor %}
@@ -163,7 +166,6 @@
             </td>
           </tr>
         </table>
-        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">

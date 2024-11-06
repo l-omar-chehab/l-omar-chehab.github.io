@@ -4,6 +4,7 @@ title:  "A mean-field approach to the dynamics of networks of complex neurons, f
 date:   2020-10-03 00:00:00
 image: /images/jnp_2020.png
 categories: research
+subcategories: neuro
 author: "Omar Chehab"
 authors: "Mallory Carlu, <strong>Omar Chehab</strong>, Leonardo Dalla Porta, Damien Depannemaecker, Charlotte Héricé, Maciej Jedynak, Elif Köksal Ersöz, Paulo Muratore, Selma Souihe, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo"
 venue: "Journal of Neurophysiology"

@@ -4,6 +4,7 @@ title:  "Provable benefits of annealing for estimating normalizing constants: Im
 date:   2023-06-20 00:00:00
 image: /images/neurips_2023.png
 categories: research
+subcategories: estimation
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Aapo Hyvärinen, Andrej Risteski"
 venue: "Spotlight, Advances in Neural Information Processing Systems (NeurIPS)"

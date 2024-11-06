@@ -4,6 +4,7 @@ title:  "Optimizing the Noise in Self-Supervised Learning: from Importance Sampl
 date:   2023-06-20 00:00:00
 image: /images/uai2022.png
 categories: research
+subcategories: estimation
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Alexandre Gramfort, Aapo Hyvärinen"
 venue: "arXiv"

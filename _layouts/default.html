@@ -65,14 +65,6 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for subcat in [neuro, estimation, sampling] %}
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              {{subcat}}
-            </td>
-          </tr>
-          {% endfor %}
-
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -89,25 +81,25 @@
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              <a href="{{post.arxiv}} target="_blank"">arxiv</a> /
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}} target="_blank"">video</a> /
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}} target="_blank"">code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}} target="_blank"">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}} target="_blank"">slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}} target="_blank"">website</a> /
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              <a href="{{post.youtube}} target="_blank"">youtube</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}

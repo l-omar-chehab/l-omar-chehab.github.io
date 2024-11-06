@@ -142,12 +142,14 @@
             </td>
           </tr>
         </table>
-        {% for hash in site.courses %}
-        {% if include.hash.name %} <span style="color:#5a8f3b">{{ include.hash.name }}</span> {% endif %} 
-        {% if include.hash.header %} , {{ include.hash.header }} {% endif %}
-        {% if include.hash.institution %} - <i>{{ include.hash.institution }}</i> {% endif %} 
-        {% if include.hash.year %} ({{ include.hash.year }}) {% endif %} <br/>
-        {% if include.hash.professors %} Professors: {{ include.hash.professors }} {% endif %} <br/>
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'teaching' %}
+        {% if include.post.name %} <span style="color:#5a8f3b">{{ include.post.name }}</span> {% endif %} 
+        {% if include.post.header %} , {{ include.post.header }} {% endif %}
+        {% if include.post.institution %} - <i>{{ include.post.institution }}</i> {% endif %} 
+        {% if include.post.year %} ({{ include.post.year }}) {% endif %} <br/>
+        {% if include.post.professors %} Professors: {{ include.post.professors }} {% endif %} <br/>
         {% endfor %}
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">

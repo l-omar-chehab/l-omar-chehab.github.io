@@ -130,9 +130,6 @@
             </td>
           </tr>
         </table>
-        <br>
-        <br>
-        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -145,7 +142,7 @@
               {% for cat in post.categories %}
               {% if cat == 'teaching' %}
                 {% if post.name %} 
-                <span style="color:#5a8f3b">{{post.name}}</span> 
+                <br><span style="color:#5a8f3b">{{post.name}}</span> 
                 {% endif %} 
                 {% if post.header %} 
                  , {{post.header}} 

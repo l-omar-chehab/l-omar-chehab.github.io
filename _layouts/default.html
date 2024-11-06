@@ -144,9 +144,9 @@
         </table>
         {% for post in site.posts %}
         {% for cat in post.categories %}
-        {% if cat == 'teaching' %}
+        {% if cat == teaching %}
         {% if post.name %}
-        <span style="color:#5a8f3b">{{ include.post.name }}</span>
+        <span style="color:#5a8f3b">{{post.name}}</span>
         {% endif %}
         {% endif %}
         {% endfor %}

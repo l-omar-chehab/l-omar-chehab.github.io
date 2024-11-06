@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: teaching
+subcategories: 
 author: "Omar Chehab"
 name: Optimization for Data Science
 institution: Institut Polytechnique de Paris

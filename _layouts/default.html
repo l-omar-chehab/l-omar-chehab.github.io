@@ -42,9 +42,9 @@
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:emir.chehab@ensae.fr"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/l-omar-chehab">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=P0nFnfAAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/omar-chehab-paris"> LinkedIn </a>
+                <a href="https://github.com/l-omar-chehab" target="_blank" rel="noopener">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=P0nFnfAAAAAJ" target="_blank" rel="noopener">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/omar-chehab-paris" target="_blank" rel="noopener"> LinkedIn </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -66,8 +66,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
+          {% for subcat in post.subcategories %}
+          {% if cat == 'sampling' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />

@@ -11,4 +11,4 @@ venue: "arXiv"
 arxiv: https://arxiv.org/abs/2410.09697
 poster: /pdfs/poster_yale_2024.pdf
 ---
-We presented this work at the Yale workshop on sampling.
+We presented this work at the <a href="https://yalefds.swoogo.com/sampling/postersession" target="_blank">Yale workshop on sampling</a>.

@@ -11,5 +11,4 @@ venue: "SPIGM Workshop, International Conference on Machine Learning (ICML)"
 arxiv: https://arxiv.org/abs/2406.14040
 poster: /pdfs/poster_icml_2024.pdf
 ---
-
-
+Time-reversed diffusions are state-of-the-art in sampling but rely on score estimates. We aim to reduce their variance.

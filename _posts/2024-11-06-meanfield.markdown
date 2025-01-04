@@ -10,3 +10,4 @@ authors: "Mallory Carlu, <strong>Omar Chehab</strong>, Leonardo Dalla Porta, Dam
 venue: "Journal of Neurophysiology"
 arxiv: https://www.biorxiv.org/content/10.1101/870345
 ---
+Our theory predicts the average behavior of neuronal populations that fire asynchronously.

@@ -10,3 +10,4 @@ authors: "Alexandre Gramfort, Hubert Banville, <strong>Omar Chehab</strong>, Aap
 venue: "IEEE workshop on Brain-Computer Interface"
 arxiv: https://ieeexplore.ieee.org/abstract/document/9385345
 ---
+We learn rich representations of EEG brain activity using a self-supervised loss.

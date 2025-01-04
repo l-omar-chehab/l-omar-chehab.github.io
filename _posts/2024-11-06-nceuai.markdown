@@ -12,5 +12,4 @@ arxiv: https://arxiv.org/abs/2203.01110
 poster: /pdfs/poster_uai_2022.pdf
 code: https://github.com/l-omar-chehab/nce-noise-var
 ---
-
-
+NCE estimates the data density by minimizing a binary classification loss, between data and noise samples. We find the optimal noise distribution that minimizes the estimation error.

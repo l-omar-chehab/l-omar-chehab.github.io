@@ -11,3 +11,4 @@ code: https://github.com/facebookresearch/deepmeg-recurrent-encoder
 venue: "Journal of Neurons, Behavior, Data analysis, and Theory"
 arxiv: https://arxiv.org/abs/2103.02339
 ---
+We compare different models for predicting the brain's response to external stimuli. Our model, based on a deep neural network, is more accurate and interpretable.

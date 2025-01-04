@@ -10,3 +10,4 @@ authors: "Hubert Banville, <strong>Omar Chehab</strong>, Aapo Hyvärinen, Denis 
 venue: "Journal of Neural Engineering"
 arxiv: https://arxiv.org/abs/2007.16104
 ---
+We learn rich representations of EEG brain activity using a self-supervised loss.

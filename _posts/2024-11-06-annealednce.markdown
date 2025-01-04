@@ -12,4 +12,4 @@ arxiv: https://arxiv.org/abs/2310.03902
 poster: /pdfs/poster_neurips_2023.pdf
 code: https://github.com/l-omar-chehab/annealing-normalizing-constants
 ---
-We quantify how different probability paths reduce the estimation error of a normalizing constant.
+Annealed Importance Sampling uses a prescribed path of distributions to compute an estimate of a normalizing constant. We quantify how the choice of path impacts the estimation error.

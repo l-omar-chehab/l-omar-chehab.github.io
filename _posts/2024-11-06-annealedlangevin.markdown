@@ -11,4 +11,4 @@ venue: "arXiv"
 arxiv: https://arxiv.org/abs/2410.09697
 poster: /pdfs/poster_yale_2024.pdf
 ---
-Annealed MCMC follows a prescribed path of distributions. We show that the popular geometric mean path with a Gaussian has unfavorable geometry. Presented at the <a href="https://yalefds.swoogo.com/sampling/postersession" target="_blank">Yale workshop on sampling</a>.
+Annealed MCMC tries to approximate a prescribed path of distributions. We show that the popular geometric mean path with a Gaussian has unfavorable geometry. Presented at the <a href="https://yalefds.swoogo.com/sampling/postersession" target="_blank">Yale workshop on sampling</a>.

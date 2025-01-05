@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Polynomial time sampling from log-smooth distributions in fixed dimension under semi-log-concavity of the forward diffusion with application to strongly dissipative distributions"
-image: 
+image: /images/colt_2025.png
 date:   2025-01-03 00:00:00
 categories: research
 subcategories: sampling

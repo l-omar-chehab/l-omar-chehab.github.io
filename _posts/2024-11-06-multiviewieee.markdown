@@ -2,7 +2,7 @@
 layout: post
 title:  "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations"
 date:   2025-01-13 00:00:00
-image:
+image: /images/mvica2_2025.png
 categories: research
 subcategories: neuro
 author: "Omar Chehab"

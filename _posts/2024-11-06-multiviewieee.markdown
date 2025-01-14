@@ -8,7 +8,7 @@ subcategories: neuro
 author: "Omar Chehab"
 authors: "Ambroise Heurtebise, <strong>Omar Chehab</strong>, Pierre Ablin, Alexandre Gramfort"
 venue: "Arxiv"
-arxiv: 
+arxiv: https://arxiv.org/abs/2501.07426
 poster:
 code: https://github.com/AmbroiseHeurtebise/mvicad
 ---

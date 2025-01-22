@@ -7,7 +7,7 @@ categories: research
 subcategories: sampling
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Anna Korba, Austin Stromme, Adrien Vacher"
-venue: "arXiv"
+venue: "International Conference on Learning Representations (ICLR)"
 arxiv: https://arxiv.org/abs/2410.09697
 poster: /pdfs/poster_yale_2024.pdf
 ---

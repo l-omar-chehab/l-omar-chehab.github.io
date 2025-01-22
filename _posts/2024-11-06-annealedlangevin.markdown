@@ -2,7 +2,7 @@
 layout: post
 title:  "Provable Convergence and Limitations of Geometric Tempering for Langevin Dynamics"
 image: /images/yale_workshop_2024.png
-date:   2025-04-01 00:00:00
+date:   2024-04-01 00:00:00
 categories: research
 subcategories: sampling
 author: "Omar Chehab"

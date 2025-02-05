@@ -7,7 +7,7 @@ categories: research
 subcategories: estimation
 author: "Omar Chehab"
 authors: "Hanlin Yu, Arto Klami, Aapo Hyvärinen, Anna Korba, <strong>Omar Chehab</strong>"
-venue: "Preprint"
+venue: "arXiv"
 arxiv: https://arxiv.org/abs/2502.02300
 poster: 
 ---

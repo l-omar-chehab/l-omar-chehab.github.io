@@ -11,3 +11,4 @@ venue: "arXiv"
 arxiv: https://arxiv.org/abs/2502.02300
 poster: 
 ---
+A density ratio can be obtained by integrating the time score of a probability path. We present an efficient way to estimate the time score.

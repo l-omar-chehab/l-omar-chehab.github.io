@@ -11,4 +11,4 @@ venue: "arXiv"
 arxiv: https://arxiv.org/abs/2502.20115
 poster: 
 ---
-We learn a causal ordering (DAG) between random variables collected from different environments.
+We learn a causal ordering (Directed Acyclic Graph) between random variables collected from different environments.

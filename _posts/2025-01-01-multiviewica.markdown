@@ -12,4 +12,4 @@ arxiv: https://arxiv.org/abs/2501.07426
 poster:
 code: https://github.com/AmbroiseHeurtebise/mvicad
 ---
-Independent Component Anlysis (ICA) is a popular algorithm for learning a representation of data. We propose a version that handles data  collected from different contexts, and whose representations differ only by temporal delays or dilations.
+Independent Component Analysis (ICA) is a popular algorithm for learning a representation of data. We propose a version that handles data  collected from different contexts, and whose representations differ only by temporal delays or dilations.

@@ -9,6 +9,8 @@ author: "Omar Chehab"
 authors: "Hanlin Yu, Arto Klami, Aapo Hyvärinen, Anna Korba, <strong>Omar Chehab</strong>"
 venue: "International Conference on Machine Learning (ICML)"
 arxiv: https://arxiv.org/abs/2502.02300
-poster: 
+code: https://github.com/ksnxr/dre-prob-paths
+poster: /pdfs/poster_icml_2025.pdf
 ---
 A density ratio can be obtained by integrating the time score of a probability path. We present an efficient way to estimate the time score.
+

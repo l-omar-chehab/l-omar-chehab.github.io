@@ -8,7 +8,7 @@ categories: research
 subcategories: sampling
 author: "Omar Chehab"
 authors: "Adrien Vacher, <strong>Omar Chehab</strong>, Anna Korba"
-venue: "arXiv"
+venue: "Conference on Neural Information Processing Systems (NeurIPS)"
 arxiv: https://arxiv.org/abs/2501.00565
 poster: 
 ---

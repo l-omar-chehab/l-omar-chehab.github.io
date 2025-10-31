@@ -7,7 +7,7 @@ categories: research
 subcategories: neuro
 author: "Omar Chehab"
 authors: "Ambroise Heurtebise, <strong>Omar Chehab</strong>, Pierre Ablin, Alexandre Gramfort, Aapo Hyvärinen"
-venue: "arXiv"
+venue: "Oral, Workshop on Causality for Impact - Practical challenges for real-world applications of causal methods, EurIPS 2025"
 arxiv: https://arxiv.org/abs/2502.20115
 poster: 
 ---

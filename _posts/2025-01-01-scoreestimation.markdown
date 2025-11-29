@@ -10,6 +10,6 @@ author: "Omar Chehab"
 authors: "Adrien Vacher, <strong>Omar Chehab</strong>, Anna Korba"
 venue: "Conference on Neural Information Processing Systems (NeurIPS)"
 arxiv: https://arxiv.org/abs/2501.00565
-poster: 
+poster: /pdfs/poster_icml_2024.pdf
 ---
 Time-reversed diffusions are state-of-the-art for sampling multi-modal distributions, but they rely on score estimates. We analyze how estimation errors affect the final samples.

@@ -7,7 +7,7 @@ categories: research
 subcategories: sampling
 author: "Omar Chehab"
 authors: "<strong>Omar Chehab</strong>, Anna Korba"
-venue: "SPIGM Workshop, International Conference on Machine Learning (ICML)"
+venue: "Workshop on Structured Probabilistic Inference & Generative Modeling, International Conference on Machine Learning (ICML)"
 arxiv: https://arxiv.org/abs/2406.14040
 poster: /pdfs/poster_icml_2024.pdf
 ---

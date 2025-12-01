@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Conditional Noise-Contrastive Estimation of Energy-Based Models by Jumping Between Modes"
+date:   2024-06-20 00:00:00
+image: /images/icml_workshop_2024.png
+categories: research
+subcategories: estimation
+author: "Omar Chehab"
+authors: "Hanlin Yu, Michael U. Gutmann, Arto Klami, <strong>Omar Chehab</strong>"
+venue: "Workshop on Principles of Generative Modeling, EurIPS"
+arxiv: https://openreview.net/forum?id=07OWUWmUHp
+poster: 
+---
+We explore the design choices of a method called CNCE for learning energy-based models.

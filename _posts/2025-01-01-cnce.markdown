@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Conditional Noise-Contrastive Estimation of Energy-Based Models by Jumping Between Modes"
-date:   2024-06-20 00:00:00
-image: /images/icml_workshop_2024.png
+date:   2025-12-01 00:00:00
+image: /images/eurips_workshop_2025.png
 categories: research
 subcategories: estimation
 author: "Omar Chehab"

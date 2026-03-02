@@ -47,9 +47,10 @@
                 Previously, my academic life was based in Palaiseau, France — near Paris. I was a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> at ENSAE/CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>. I completed my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, under the supervision of <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>. My graduate studies led to Master’s degrees in Applied Mathematics and Engineering from <a href="https://www.ensta-paris.fr/en/node" target="_blank" rel="noopener">ENSTA Paris</a> and in Mathematics, Vision and Learning (MVA) from <a href="https://ens-paris-saclay.fr/en/school/ens-paris-saclay" target="_blank" rel="noopener">ENS Paris-Saclay</a>.
               </p> -->
               <p style="text-align:center">
-                <a href="#research"> Research</a> &nbsp;/&nbsp;
-                <a href="#talks"> Talks</a> &nbsp;/&nbsp;
-                <a href="#teaching"> Teaching</a> &nbsp;/&nbsp;
+                <a href="#research"> My research</a> &nbsp;/&nbsp;
+                <a href="#talks"> Talks I gave</a> &nbsp;/&nbsp;
+                <a href="#notes"> Notes</a> &nbsp;/&nbsp;
+                <a href="#teaching"> Teaching experience</a> &nbsp;/&nbsp;
                 <a href="#service"> Service</a>
               </p>
               <p style="text-align:center">
@@ -277,7 +278,52 @@
               </p>
             </td>
           </tr>
+        </table>        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2 id="teaching">Teaching</h2>
+              <p> 
+                I was Teacher's Assistant for the following Masters courses.              
+              </p>
+              <p>
+              {% for post in site.posts %}
+              {% for cat in post.categories %}
+              {% if cat == 'teaching' %}
+                {% if post.name %} 
+                <br><span style="color:#5a8f3b">{{post.name}}</span> 
+                {% endif %} 
+                {% if post.header %} 
+                 , {{post.header}} 
+                {% endif %} 
+                {% if post.institution %}
+                - <i>{{post.institution}}</i> 
+                {% endif %} 
+                {% if post.year %}
+                ({{post.year }})
+                {% endif %} 
+                {% if post.professors %}
+                <br> Professors: {{post.professors}} 
+                {% endif %} 
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+              </p>
+            </td>
+          </tr>
         </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr>
+              <td style="padding:2.5%;width:100%;vertical-align:middle">
+                <h2 id="notes">Notes</h2>
+                <p> 
+                  Test.              
+                </p>
+                <a href="{{ site.notes }}{% post_url 2026-03-01-my-blogpost %}">
+                    Read my blog post
+                  </a>
+              </td>
+            </tr>
+          </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -329,7 +375,7 @@
                 
                 <p>
                 I occasionally review submissions to the following journals: the Journal of Machine Learning Research (JMLR), 
-                the Annals of the Institute of Statistical Mathematics (AISM), and Mathematical Methods of Statistics.
+                Transactions on Machine Learning Research (TMLR), Annals of the Institute of Statistical Mathematics (AISM), and Mathematical Methods of Statistics.
                 <!-- </br>
                 * Journal of Machine Learning Research (JMLR)
                 </br>

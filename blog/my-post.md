@@ -1,6 +1,0 @@
----
-layout: default
-title: My Post
----
-
-This is a test.

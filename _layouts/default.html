@@ -484,33 +484,40 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2 id="teaching">Teaching</h2>
-              <p> 
-                I was Teacher's Assistant for the following Masters courses.              
-              </p>
-              <p>
-              {% for post in site.posts %}
-              {% for cat in post.categories %}
-              {% if cat == 'teaching' %}
-                {% if post.name %} 
-                <br><span style="color:#5a8f3b">{{post.name}}</span> 
-                {% endif %} 
-                {% if post.header %} 
-                 , {{post.header}} 
-                {% endif %} 
-                {% if post.institution %}
-                - <i>{{post.institution}}</i> 
-                {% endif %} 
-                {% if post.year %}
-                ({{post.year }})
-                {% endif %} 
-                {% if post.professors %}
-                <br> Professors: {{post.professors}} 
-                {% endif %} 
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              </p>
+                <h2 id="teaching">Teaching</h2>
+                <p>I was a teaching assistant for the following Master’s courses.</p>
+                
+                <div class="teaching-list">
+                  {% for post in site.posts %}
+                    {% if post.categories contains 'teaching' %}
+                      <div class="teaching-item">
+                        <div class="teaching-top">
+                          {% if post.name %}
+                            <span class="teaching-name">{{ post.name }}</span>
+                          {% endif %}
+                
+                          {% if post.year %}
+                            <span class="teaching-year">{{ post.year }}</span>
+                          {% endif %}
+                        </div>
+                
+                        {% if post.header %}
+                          <div class="teaching-header">{{ post.header }}</div>
+                        {% endif %}
+                
+                        {% if post.institution %}
+                          <div class="teaching-inst">{{ post.institution }}</div>
+                        {% endif %}
+                
+                        {% if post.professors %}
+                          <div class="teaching-prof">
+                            <span class="teaching-label">Professors:</span> {{ post.professors }}
+                          </div>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
             </td>
           </tr>
         </table>
@@ -520,23 +527,10 @@
               <h2 id="service">Service</h2>
               <p> 
                 I review submissions to the following machine learning conferences: NeurIPS, ICML, ICLR and AISTATS.
-                <!-- </br>
-                * Conference on Neural Information Processing Systems (NeurIPS)
-                </br>
-                * International Conference on Machine Learning (ICML) 
-                </br>
-                * International Conference on Learning Representations (ICLR)
-                </br>
-                * International Conference on Artificial Intelligence and Statistics (AISTATS). -->
                 </p>
                 
                 <p>
-                I occasionally review submissions to the following journals: the Journal of Machine Learning Research (JMLR), 
-                Transactions on Machine Learning Research (TMLR), Annals of the Institute of Statistical Mathematics (AISM), and Mathematical Methods of Statistics.
-                <!-- </br>
-                * Journal of Machine Learning Research (JMLR)
-                </br>
-                * Annals of the Institute of Statistical Mathematics (AISM). -->
+                I also occasionally review submissions to these journals of statistics or machine learning: JMLR, TMRL, AISM, and Mathematical Methods of Statistics.
                 </p>
                 
                 I am grateful to have been recognized as a "top reviewer" (AISTATS 2022, NeurIPS 2022-23-24). 

@@ -105,7 +105,9 @@ span.highlight {
 //@import "svg-icons";
 
 
-// Added to make image and text side by side in the "About" section of the website
+//
+// HEADER SECTION
+//
 .intro-container {
     display: flex;
     align-items: stretch;   /* makes both sides equal height */
@@ -139,4 +141,25 @@ span.highlight {
     .intro-image img {
       height: auto;  /* prevents weird stretching on phone */
     }
+  }
+
+
+//
+// TALKS SECTION
+//
+  .talk-list {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+  
+  .talk-list li {
+    margin-bottom: 6px;
+  }
+  
+  .talk-date {
+    display: inline-block;
+    width: 70px;
+    color: #666;
+    font-weight: 500;
   }

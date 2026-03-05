@@ -161,7 +161,7 @@
               <p>
                 All of the above goals can be framed as learning a probability distribution. 
                 A central question guiding my work is: “<em>How much compute and data are required to achieve a given level of accuracy?</em>”.
-                For which distributions does this work or fail. And how does the algorithmc design impact this. In other words, I aim to quantify the <strong>computational and sample efficiency</strong> of these algorithms. 
+                For which distributions does this work or fail. And how does the algorithmic design impact this. In other words, I aim to quantify the <strong>computational and sample efficiency</strong> of these algorithms. 
               </p>
         
               <p>
@@ -213,7 +213,7 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for subcat in post.subcategories %}
@@ -224,9 +224,8 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
-              <br>
+              <div style="height:4px;"></div>
               {{post.authors}}
-
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
@@ -258,7 +257,47 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-        </table>
+        </table> -->
+
+        <div class="pub-container">
+
+            {% for post in site.posts %}
+            {% for subcat in post.subcategories %}
+            {% if subcat == 'sampling' %}
+          
+            <div class="pubcard">
+              <div class="pub-thumb">
+                <img src="/tn{{post.image}}" alt="project image">
+              </div>
+          
+              <div class="pub-content">
+                <div class="pub-title">{{ post.title }}</div>
+          
+                <div class="pub-authors">{{ post.authors }}</div>
+          
+                <div class="pub-venue">
+                  <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+                </div>
+          
+                <div class="pub-links">
+                  {% if post.arxiv %}<a href="{{post.arxiv}}" target="_blank">arXiv</a>{% endif %}
+                  {% if post.video %}<a href="{{post.video}}" target="_blank">video</a>{% endif %}
+                  {% if post.code %}<a href="{{post.code}}" target="_blank">code</a>{% endif %}
+                  {% if post.poster %}<a href="{{post.poster}}" target="_blank">poster</a>{% endif %}
+                  {% if post.slides %}<a href="{{post.slides}}" target="_blank">slides</a>{% endif %}
+                  {% if post.website %}<a href="{{post.website}}" target="_blank">website</a>{% endif %}
+                  {% if post.youtube %}<a href="{{post.youtube}}" target="_blank">youtube</a>{% endif %}
+                </div>
+          
+                <div class="pub-excerpt">{{ post.excerpt }}</div>
+              </div>
+            </div>
+          
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          
+          </div>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -268,52 +307,45 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <div class="pub-container">
 
-          {% for post in site.posts %}
-          {% for subcat in post.subcategories %}
-          {% if subcat == 'estimation' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}" target="_blank">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}" target="_blank">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}" target="_blank">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}" target="_blank">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}" target="_blank">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}" target="_blank">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
+            {% for post in site.posts %}
+            {% for subcat in post.subcategories %}
+            {% if subcat == 'estimation' %}
+          
+            <div class="pubcard">
+              <div class="pub-thumb">
+                <img src="/tn{{post.image}}" alt="project image">
+              </div>
+          
+              <div class="pub-content">
+                <div class="pub-title">{{ post.title }}</div>
+          
+                <div class="pub-authors">{{ post.authors }}</div>
+          
+                <div class="pub-venue">
+                  <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+                </div>
+          
+                <div class="pub-links">
+                  {% if post.arxiv %}<a href="{{post.arxiv}}" target="_blank">arXiv</a>{% endif %}
+                  {% if post.video %}<a href="{{post.video}}" target="_blank">video</a>{% endif %}
+                  {% if post.code %}<a href="{{post.code}}" target="_blank">code</a>{% endif %}
+                  {% if post.poster %}<a href="{{post.poster}}" target="_blank">poster</a>{% endif %}
+                  {% if post.slides %}<a href="{{post.slides}}" target="_blank">slides</a>{% endif %}
+                  {% if post.website %}<a href="{{post.website}}" target="_blank">website</a>{% endif %}
+                  {% if post.youtube %}<a href="{{post.youtube}}" target="_blank">youtube</a>{% endif %}
+                </div>
+          
+                <div class="pub-excerpt">{{ post.excerpt }}</div>
+              </div>
+            </div>
+          
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          
+          </div>
           
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -323,153 +355,177 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <div class="pub-container">
 
-          {% for post in site.posts %}
-          {% for subcat in post.subcategories %}
-          {% if subcat == 'neuro' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}" target="_blank">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}" target="_blank">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}" target="_blank">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}" target="_blank">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}" target="_blank">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}" target="_blank">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
+            {% for post in site.posts %}
+            {% for subcat in post.subcategories %}
+            {% if subcat == 'neuro' %}
+          
+            <div class="pubcard">
+              <div class="pub-thumb">
+                <img src="/tn{{post.image}}" alt="project image">
+              </div>
+          
+              <div class="pub-content">
+                <div class="pub-title">{{ post.title }}</div>
+          
+                <div class="pub-authors">{{ post.authors }}</div>
+          
+                <div class="pub-venue">
+                  <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+                </div>
+          
+                <div class="pub-links">
+                  {% if post.arxiv %}<a href="{{post.arxiv}}" target="_blank">arXiv</a>{% endif %}
+                  {% if post.video %}<a href="{{post.video}}" target="_blank">video</a>{% endif %}
+                  {% if post.code %}<a href="{{post.code}}" target="_blank">code</a>{% endif %}
+                  {% if post.poster %}<a href="{{post.poster}}" target="_blank">poster</a>{% endif %}
+                  {% if post.slides %}<a href="{{post.slides}}" target="_blank">slides</a>{% endif %}
+                  {% if post.website %}<a href="{{post.website}}" target="_blank">website</a>{% endif %}
+                  {% if post.youtube %}<a href="{{post.youtube}}" target="_blank">youtube</a>{% endif %}
+                </div>
+          
+                <div class="pub-excerpt">{{ post.excerpt }}</div>
+              </div>
+            </div>
+          
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          
+          </div>
   
         <br>
         <br>
         <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2 id="talks">Talks</h2>
-              <ul class="talk-list">
-                <li>
-                  <span class="talk-date">03/2026</span>
-                  <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=87238" target="_blank">
-                    Workshop on Gradient Flows for Uncertainty Quantification
-                  </a>, SIAM Conference, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">11/2025</span>
-                  Guest Lecture, School of Engineering (ESIB), Université Saint-Joseph, Lebanon
-                </li>
-              
-                <li>
-                  <span class="talk-date">06/2025</span>
-                  <a href="https://www.andrejristeski.org" target="_blank">
-                    Risteski Group Seminar
-                  </a>, Carnegie Mellon University, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">05/2025</span>
-                  <a href="https://www.aub.edu.lb/fas/math/Pages/ags.aspx" target="_blank">
-                    Center for Advanced Mathematical Sciences Seminar
-                  </a>, American University of Beirut, Lebanon
-                </li>
-              
-                <li>
-                  <span class="talk-date">04/2025</span>
-                  <a href="https://www.stat.nus.edu.sg" target="_blank">
-                    Department of Statistics and Data Science Seminar
-                  </a>, NUS, Singapore
-                </li>
-              
-                <li>
-                  <span class="talk-date">03/2025</span>
-                  <a href="https://www-ljk.imag.fr/spip.php?article6" target="_blank">
-                    DATA Group Seminar
-                  </a>, Laboratoire Jean Kuntzmann, France
-                </li>
-              
-                <li>
-                  <span class="talk-date">03/2025</span>
-                  <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">
-                    Anima AI + Science Lab Seminar
-                  </a>, Caltech, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">12/2024</span>
-                  <a href="https://kempnerinstitute.harvard.edu" target="_blank">
-                    Kempner Institute
-                  </a>, Harvard University, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">10/2024</span>
-                  <a href="https://sia.mit.edu" target="_blank">
-                    Signals, Information, and Algorithms Laboratory Seminar
-                  </a>, MIT, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">10/2024</span>
-                  <a href="https://uqgroup.mit.edu" target="_blank">
-                    Uncertainty Quantification Group Seminar
-                  </a>, MIT, USA
-                </li>
-              
-                <li>
-                  <span class="talk-date">03/2024</span>
-                  <a href="https://www.riken.jp/en/research/labs/cbs/integr_comput_brainsci_collab/stat_math_collab/index.html" target="_blank">
-                    Statistical Mathematics Group Seminar
-                  </a>, RIKEN, Japan
-                </li>
-              
-                <li>
-                  <span class="talk-date">03/2023</span>
-                  <a href="https://adnan1306.github.io" target="_blank">
-                    Self-Supervised Learning Reading Group
-                  </a>, Vector Institute, Canada
-                </li>
-              
-                <li>
-                  <span class="talk-date">02/2020</span>
-                  <a href="https://team.inria.fr/parietal/first-international-workshop-on-nonlinear-ica/" target="_blank">
-                    First International Workshop on Nonlinear ICA
-                  </a>, Inria, France
-                </li>
-              </ul>
+            
+            <h2 id="talks">Talks</h2>
+            <p></p>
+            <ul class="talk-list">
+            
+            <li>
+            <span class="talk-date">03/2026</span>
+            <span class="talk-text">
+            <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=87238" target="_blank">
+            Workshop on Gradient Flows for Uncertainty Quantification
+            </a>, SIAM Conference, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">11/2025</span>
+            <span class="talk-text">
+            Guest Lecture, School of Engineering (ESIB), Université Saint-Joseph, Lebanon
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">06/2025</span>
+            <span class="talk-text">
+            <a href="https://www.andrejristeski.org" target="_blank">
+            Risteski Group Seminar
+            </a>, Carnegie Mellon University, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">05/2025</span>
+            <span class="talk-text">
+            <a href="https://www.aub.edu.lb/fas/math/Pages/ags.aspx" target="_blank">
+            Center for Advanced Mathematical Sciences Seminar
+            </a>, American University of Beirut, Lebanon
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">04/2025</span>
+            <span class="talk-text">
+            <a href="https://www.stat.nus.edu.sg" target="_blank">
+            Department of Statistics and Data Science Seminar
+            </a>, NUS, Singapore
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">03/2025</span>
+            <span class="talk-text">
+            <a href="https://www-ljk.imag.fr/spip.php?article6" target="_blank">
+            DATA Group Seminar
+            </a>, Laboratoire Jean Kuntzmann, France
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">03/2025</span>
+            <span class="talk-text">
+            <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">
+            Anima AI + Science Lab Seminar
+            </a>, Caltech, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">12/2024</span>
+            <span class="talk-text">
+            <a href="https://kempnerinstitute.harvard.edu" target="_blank">
+            Kempner Institute
+            </a>, Harvard University, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">10/2024</span>
+            <span class="talk-text">
+            <a href="https://sia.mit.edu" target="_blank">
+            Signals, Information, and Algorithms Laboratory Seminar
+            </a>, MIT, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">10/2024</span>
+            <span class="talk-text">
+            <a href="https://uqgroup.mit.edu" target="_blank">
+            Uncertainty Quantification Group Seminar
+            </a>, MIT, USA
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">03/2024</span>
+            <span class="talk-text">
+            <a href="https://www.riken.jp/en/research/labs/cbs/integr_comput_brainsci_collab/stat_math_collab/index.html" target="_blank">
+            Statistical Mathematics Group Seminar
+            </a>, RIKEN, Japan
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">03/2023</span>
+            <span class="talk-text">
+            <a href="https://adnan1306.github.io" target="_blank">
+            Self-Supervised Learning Reading Group
+            </a>, Vector Institute, Canada
+            </span>
+            </li>
+            
+            <li>
+            <span class="talk-date">02/2020</span>
+            <span class="talk-text">
+            <a href="https://team.inria.fr/parietal/first-international-workshop-on-nonlinear-ica/" target="_blank">
+            First International Workshop on Nonlinear ICA
+            </a>, Inria, France
+            </span>
+            </li>
+            
+            </ul>
+            
             </td>
-          </tr>
-        </table>        
+            </tr>
+        </table>     
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tr>
               <td style="padding:2.5%;width:100%;vertical-align:middle">

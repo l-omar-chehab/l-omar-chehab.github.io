@@ -45,6 +45,42 @@
     <div style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tr style="padding:0px">
             <td style="padding:0px">
+                {% if page.url contains '/notes/' %}
+                <p id="note-last-updated"
+                   data-source-path="{{ page.url | remove_first: '/' | replace: '.html', '.md' }}"
+                   style="margin:16px 0 8px; color:#667a90; font-size:13px; text-align:right;">
+                </p>
+                <script>
+                  (async function() {
+                    var el = document.getElementById('note-last-updated');
+                    if (!el) return;
+
+                    var sourcePath = el.getAttribute('data-source-path');
+                    var apiUrl = 'https://api.github.com/repos/l-omar-chehab/l-omar-chehab.github.io/commits?path='
+                      + encodeURIComponent(sourcePath) + '&per_page=1';
+
+                    try {
+                      var response = await fetch(apiUrl, {
+                        headers: { 'Accept': 'application/vnd.github+json' }
+                      });
+                      if (!response.ok) throw new Error('GitHub API request failed');
+
+                      var commits = await response.json();
+                      var isoDate = commits && commits[0] && commits[0].commit && commits[0].commit.committer && commits[0].commit.committer.date;
+                      if (!isoDate) throw new Error('No commit date found');
+
+                      var date = new Date(isoDate);
+                      el.textContent = 'Last updated: ' + date.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                      });
+                    } catch (err) {
+                      el.style.display = 'none';
+                    }
+                  })();
+                </script>
+                {% endif %}
                 {{ content }}
             </td>
         </tr>

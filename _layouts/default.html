@@ -534,6 +534,12 @@
                 <a href="/notes/cheatsheet.html" target="_blank" rel="noopener">
                     Cheatsheet of computer commands
                 </a>
+                <p></p>
+                <a href="/notes/pgm.html" target="_blank" rel="noopener">
+                    Probabilistic Graphical Models Zoo
+                    <p></p>
+                    <a href="/notes/tips.html" target="_blank" rel="noopener">
+                        Administrative Tips for French Nationals moving to the USA
               </td>
             </tr>
         </table>
@@ -549,7 +555,13 @@
                       <div class="teaching-item">
                         <div class="teaching-top">
                           {% if post.name %}
-                            <span class="teaching-name">{{ post.name }}</span>
+                            <span class="teaching-name">
+                              {% if post.course_url %}
+                                <a href="{{ post.course_url }}" target="_blank" rel="noopener">{{ post.name }}</a>
+                              {% else %}
+                                {{ post.name }}
+                              {% endif %}
+                            </span>
                           {% endif %}
                 
                           {% if post.year %}

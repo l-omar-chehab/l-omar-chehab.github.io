@@ -1,0 +1,230 @@
+---
+layout: blank
+title: Generative AI and Sampling with Markov Processes
+permalink: /teaching/generative-ai-markov.html
+---
+
+<style>
+  .course-wrap {
+    max-width: 860px;
+    margin: 30px auto 50px;
+    padding: 0 16px;
+  }
+
+  .course-hero {
+    background: linear-gradient(135deg, #f8fbff 0%, #eef5ff 55%, #f4fbf6 100%);
+    border: 1px solid #dfe8f3;
+    border-radius: 18px;
+    padding: 26px 24px;
+    box-shadow: 0 8px 24px rgba(24, 56, 92, 0.08);
+  }
+
+  .course-kicker {
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4c6480;
+  }
+
+  .course-title {
+    margin: 8px 0 10px;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #102235;
+  }
+
+  .course-subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: #314a63;
+    max-width: 700px;
+  }
+
+  .course-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+  }
+
+  .course-chip {
+    background: #ffffff;
+    border: 1px solid #dfe8f3;
+    border-radius: 10px;
+    padding: 9px 12px;
+    color: #24364a;
+    font-size: 14px;
+  }
+
+  .course-section {
+    margin-top: 20px;
+    background: #ffffff;
+    border: 1px solid #e7edf5;
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+
+  .course-section h2 {
+    display: block;
+    margin: 0 0 12px;
+    font-size: 24px;
+    color: #13263b;
+  }
+
+  .course-section p,
+  .course-section li,
+  .course-table td,
+  .course-table th {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2d3e52;
+  }
+
+  .course-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #d9e4f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .course-table th,
+  .course-table td {
+    border-bottom: 1px solid #e6edf5;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .course-table tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .course-table th {
+    background: #f4f8fd;
+    color: #1f3349;
+    font-weight: 700;
+  }
+
+  @media (max-width: 640px) {
+    .course-title {
+      font-size: 28px;
+    }
+
+    .course-hero {
+      padding: 20px 16px;
+    }
+
+    .course-section {
+      padding: 16px;
+    }
+  }
+</style>
+
+<div class="course-wrap">
+  <section class="course-hero">
+    <p class="course-kicker">Graduate Course</p>
+    <h1 class="course-title">Generative AI and Sampling with Markov Processes</h1>
+    <p class="course-subtitle">
+      A mathematically grounded introduction to modern generative AI and sampling through Markov chains. 
+    </p>
+    <div class="course-grid">
+      <div class="course-chip"><strong>Instructor:</strong> Omar Chehab</div>
+      <div class="course-chip"><strong>Level:</strong> Master/PhD</div>
+      <div class="course-chip"><strong>Focus:</strong> Theory + Algorithms</div>
+    </div>
+  </section>
+
+  <section class="course-section">
+    <h2>Course Description</h2>
+    <p>
+        Generative AI and Sampling are two fields that have recently seen a surge of interest, as they power many modern AI applications—from video generation to mathematical reasoning.
+        </p>
+        
+        <p>
+        Despite their similar goals, these fields are typically associated with different academic communities. 
+        Generative AI is mostly developed within the mainstream machine learning community, while Sampling is more commonly studied in statistics, Monte Carlo methods, Bayesian inference, chemistry, and functional analysis.
+        </p>
+        
+        <p>
+        This course aims to provide a unified treatment of these two perspectives.
+        </p>
+        
+        <p>
+        At a high level, both fields seek to generate samples from a target data distribution, but they assume different forms of access to that distribution:
+        </p>
+        
+        <ul>
+        <li><strong>Generative AI:</strong> we are given a finite dataset sampled from the distribution.</li>
+        <li><strong>Sampling:</strong> we are given an unnormalized density function.</li>
+        </ul>
+        
+        <p>
+        Over time, a significant amount of jargon has emerged in both areas.
+        </p>
+        
+        <ul>
+        <li>
+        <strong>Generative AI:</strong> diffusion models, flow models, score-based models, discrete diffusion models, edit flows.
+        </li>
+        <li>
+        <strong>Sampling:</strong> annealed MCMC, sequential Monte Carlo (SMC), parallel tempering (replica exchange), simulated tempering, simulated annealing, Wasserstein and Fisher-Rao Gradient Flows.
+        </li>
+        </ul>
+        
+        <p>
+        This course will cut through this terminology and present these methods within a simple unifying framework:
+        </p>
+        
+        <ol>
+        <li>Define a Markov chain that converges to the target data distribution.</li>
+        <li>Learn its generator when necessary.</li>
+        </ol>
+        
+        <p>
+        Throughout the course we will focus on principled questions related to the computational and sample efficiency of these methods, and highlight several open problems in the field.
+        </p>
+        
+        <p>
+        For practitioners, the goal is to provide a clear conceptual framework that summarizes recent advances. For theorists, the aim is to enable meaningful comparisons between these methods and help identify promising directions for future research.
+        </p>
+  </section>
+
+  <section class="course-section">
+    <h2>Syllabus</h2>
+    <table class="course-table">
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Topic</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Reviewing different types of access to the data distribution</td></tr>
+        <tr><td>2</td><td>Langevin Dynamics and its time-reversal</td></tr>
+        <tr><td>3</td><td>Markov Chains  Carlo estimation and MCMC fundamentals</td></tr>
+        <tr><td>8</td><td>Diagnostics, mixing, and sample quality evaluation</td></tr>
+        <tr><td>9</td><td>Computational and statistical tradeoffs in modern samplers</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="course-section">
+    <h2>Material</h2>
+    <ul>
+      <li><strong>Slides:</strong> released before each lecture.</li>
+      <li>
+        <strong>Recommended readings:</strong>
+        <ul>
+          <li><a href="https://arxiv.org/abs/2506.02070" target="_blank" rel="noopener">An Introduction to Flow Matching and Diffusion Models</a></li>
+          <li><a href="https://arxiv.org/abs/2512.05092" target="_blank" rel="noopener">Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction</a></li>
+          <li><a href="https://arxiv.org/abs/2510.21890" target="_blank" rel="noopener">The Principles of Diffusion Models</a></li>
+          <li><a href="https://arxiv.org/abs/2412.06264" target="_blank" rel="noopener">Flow Matching Guide and Code</a></li>
+        </ul>
+      </li>
+      <li><strong>Project:</strong> reproduce and analyze a sampling-based generative method, then present results.</li>
+    </ul>
+  </section>
+</div>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 626" role="img" aria-labelledby="title desc">
+  <title id="title">Markov process diagram</title>
+  <desc id="desc">Two time steps showing latent variables a_t and a_t+1 pointing to observations r_t and r_t+1.</desc>
+  <rect width="760" height="626" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#111"/>
+    </marker>
+    <style>
+      .node { fill: none; stroke: #000; stroke-width: 6; }
+      .edge { stroke: #000; stroke-width: 8; marker-end: url(#arrow); }
+      .label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 92px; }
+      .sub { font-size: 58px; }
+    </style>
+  </defs>
+
+  <ellipse class="node" cx="145" cy="140" rx="110" ry="85"/>
+  <ellipse class="node" cx="585" cy="140" rx="110" ry="85"/>
+  <ellipse class="node" cx="145" cy="505" rx="110" ry="85"/>
+  <ellipse class="node" cx="585" cy="505" rx="110" ry="85"/>
+
+  <line class="edge" x1="145" y1="390" x2="145" y2="265"/>
+  <line class="edge" x1="585" y1="390" x2="585" y2="265"/>
+
+  <text class="label" x="110" y="160">r<tspan class="sub" dy="20">t</tspan></text>
+  <text class="label" x="535" y="160">r<tspan class="sub" dy="20">t+1</tspan></text>
+  <text class="label" x="110" y="525">a<tspan class="sub" dy="20">t</tspan></text>
+  <text class="label" x="535" y="525">a<tspan class="sub" dy="20">t+1</tspan></text>
+</svg>

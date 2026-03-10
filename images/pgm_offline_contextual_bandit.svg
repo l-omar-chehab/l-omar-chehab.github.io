@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 987" role="img" aria-labelledby="title desc">
+  <title id="title">Offline contextual bandit PGM with direct context-to-reward links</title>
+  <desc id="desc">Two time steps with x_t to a_t to r_t and x_t to r_t, and similarly for t+1.</desc>
+  <rect width="896" height="987" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#000"/>
+    </marker>
+    <style>
+      .node { fill: none; stroke: #000; stroke-width: 6; }
+      .edge { stroke: #000; stroke-width: 8; marker-end: url(#arrow); fill: none; }
+      .label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 90px; }
+      .sub { font-size: 58px; }
+    </style>
+  </defs>
+
+  <ellipse class="node" cx="220" cy="130" rx="112" ry="84"/>
+  <ellipse class="node" cx="652" cy="130" rx="112" ry="84"/>
+  <ellipse class="node" cx="220" cy="470" rx="112" ry="84"/>
+  <ellipse class="node" cx="652" cy="470" rx="112" ry="84"/>
+  <ellipse class="node" cx="220" cy="855" rx="112" ry="84"/>
+  <ellipse class="node" cx="652" cy="855" rx="112" ry="84"/>
+
+  <line class="edge" x1="220" y1="748" x2="220" y2="593"/>
+  <line class="edge" x1="220" y1="365" x2="220" y2="248"/>
+  <line class="edge" x1="652" y1="748" x2="652" y2="593"/>
+  <line class="edge" x1="652" y1="365" x2="652" y2="248"/>
+
+  <path class="edge" d="M 124 770 C 8 590, 8 280, 130 170"/>
+  <path class="edge" d="M 768 770 C 888 590, 888 280, 770 170"/>
+
+  <text class="label" x="184" y="150">r<tspan class="sub" dy="20">t</tspan></text>
+  <text class="label" x="602" y="150">r<tspan class="sub" dy="20">t+1</tspan></text>
+  <text class="label" x="184" y="490">a<tspan class="sub" dy="20">t</tspan></text>
+  <text class="label" x="602" y="490">a<tspan class="sub" dy="20">t+1</tspan></text>
+  <text class="label" x="184" y="875">x<tspan class="sub" dy="20">t</tspan></text>
+  <text class="label" x="602" y="875">x<tspan class="sub" dy="20">t+1</tspan></text>
+</svg>

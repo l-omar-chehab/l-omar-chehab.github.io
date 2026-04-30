@@ -1,7 +1,7 @@
 ---
 layout: post
 # categories: teaching
-categories: 
+categories:
 subcategories:
 author: "Omar Chehab"
 name: "Generative AI and Sampling with Markov Processes"

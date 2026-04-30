@@ -11,5 +11,5 @@ venue: "International Conference on Machine Learning (ICML)"
 arxiv: https://arxiv.org/abs/2502.20115
 poster: 
 ---
-We propose three algorithms with theoretical guarantees for learning causal relationships (Directed Acyclic Graph) between random variables collected from different environments. We test them on brain recordings (MEG and fMRI). <br>
+We propose three algorithms with theoretical guarantees for learning causal relationships (Directed Acyclic Graph) between random variables, given correlated measurements. We apply our algorithms to brain recordings (MEG and fMRI). <br>
 This was previously an Oral at EurIPS 2025 Workshop on "Causality for Impact - Practical challenges for real-world applications of causal methods".

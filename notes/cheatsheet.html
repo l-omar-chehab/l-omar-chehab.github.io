@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="author" content="Omar Chehab">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Chehab | Cheatsheet</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+  <meta name="description" content="Omar Chehab, machine learning researcher.">
+</head>
+<body>
+  <div class="container homepage">
+    <div class="layout">
+      <div class="banner">
+        <h1>Omar Chehab</h1>
+        <div class="nav" id="topbar">
+            <a href="../index.html">Home</a>
+                <a href="../research.html">Research</a>
+                <a href="../talks.html">Talks</a>
+                <a href="../notes.html" id="current">Notes</a>
+                <a href="../teaching.html">Teaching</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main_text note-page">
+<p>This was written with a macOS system in mind.</p>
+
+<h2 id="-useful-tricks-in-an-editor-visual-studio-code">💻 Useful Tricks in an Editor (Visual Studio Code)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Action</strong></th>
+      <th><strong>Shortcut / Command</strong></th>
+      <th><strong>Notes</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Block indent</td>
+      <td><code>Tab</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Block unindent</td>
+      <td><code>Shift + Tab</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Single-space indent</td>
+      <td><code>Tab</code></td>
+      <td>Requires extension: indent-one-space</td>
+    </tr>
+    <tr>
+      <td>Move cursor quickly</td>
+      <td><code>Cmd + Arrow</code></td>
+      <td>Jump to start/end of line</td>
+    </tr>
+    <tr>
+      <td>Select text</td>
+      <td><code>Shift + Arrow</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Multi-select next occurrence</td>
+      <td><code>Cmd + D</code></td>
+      <td>Select and edit repeated text</td>
+    </tr>
+    <tr>
+      <td>Comment / uncomment</td>
+      <td><code>Cmd + /</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Search in entire project</td>
+      <td><code>Shift + Cmd + F</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Go to definition</td>
+      <td><code>Cmd + Click</code></td>
+      <td>Click on function name</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-useful-terminal-tricks-bash">🖥 Useful Terminal Tricks (Bash)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Goal</strong></th>
+      <th><strong>Command</strong></th>
+      <th><strong>Notes</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Export filenames containing an expression</td>
+      <td><code>ls | grep expression &gt; output.txt</code></td>
+      <td>Save results to file</td>
+    </tr>
+    <tr>
+      <td>Delete all files with a specific extension</td>
+      <td><code>find . -name "*.bak" -type f -delete</code></td>
+      <td>Recursive</td>
+    </tr>
+    <tr>
+      <td>Interrupt running process</td>
+      <td><code>Ctrl + C</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>List open processes in a directory</td>
+      <td><code>lsof +D /path</code></td>
+      <td>Shows PID numbers</td>
+    </tr>
+    <tr>
+      <td>Kill a process</td>
+      <td><code>kill &lt;pid&gt;</code></td>
+      <td>Replace <code>&lt;pid&gt;</code> with process ID</td>
+    </tr>
+    <tr>
+      <td>Clear line before cursor</td>
+      <td><code>Ctrl + U</code></td>
+      <td>Deletes current command</td>
+    </tr>
+    <tr>
+      <td>Clear terminal screen</td>
+      <td><code>Ctrl + L</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Search command history</td>
+      <td><code>Ctrl + R</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Autocomplete command</td>
+      <td><code>Tab</code></td>
+      <td>Extremely useful</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When working on a remote server or cluster, graphical file browsing disappears.  <br>
+Being comfortable with the terminal becomes essential.</p>
+
+<h2 id="-using-the-terminal-for-files">📁 Using the Terminal for Files</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Goal</strong></th>
+      <th><strong>Command</strong></th>
+      <th><strong>Notes</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Show folder disk usage</td>
+      <td><code>du -sh *</code></td>
+      <td>
+<code>-s</code> summary, <code>-h</code> human-readable</td>
+    </tr>
+    <tr>
+      <td>Show filesystem disk usage</td>
+      <td><code>df -h</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Create empty file</td>
+      <td><code>touch myfile</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Edit file</td>
+      <td><code>vim myfile</code></td>
+      <td>Or <code>code myfile</code> for VS Code</td>
+    </tr>
+    <tr>
+      <td>→ Enter insert mode (vim)</td>
+      <td><code>I</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>→ Search in vim</td>
+      <td><code>/word</code></td>
+      <td>Press <code>n</code> for next match</td>
+    </tr>
+    <tr>
+      <td>→ Save and quit (vim)</td>
+      <td><code>:wq</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>→ Quit without saving</td>
+      <td><code>:q!</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Display file content</td>
+      <td><code>cat myfile</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Scroll through file</td>
+      <td><code>less myfile</code></td>
+      <td>Press <code>q</code> to quit</td>
+    </tr>
+    <tr>
+      <td>Show beginning of file</td>
+      <td><code>head myfile</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Show end of file</td>
+      <td><code>tail myfile</code></td>
+      <td>Useful for logs</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This is particularly useful when monitoring a log file that updates during execution.</p>
+
+<h2 id="-useful-macos-visual-tricks">🍏 Useful macOS Visual Tricks</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Action</strong></th>
+      <th><strong>Shortcut</strong></th>
+      <th><strong>Notes</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Preview file without opening</td>
+      <td><code>Spacebar</code></td>
+      <td>Quick Look</td>
+    </tr>
+    <tr>
+      <td>Split screen</td>
+      <td>Hold green window button → drag</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

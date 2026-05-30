@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="author" content="Omar Chehab">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Chehab | Research</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+  <meta name="description" content="Omar Chehab, machine learning researcher.">
+</head>
+<body>
+  <div class="container homepage">
+    <div class="layout">
+      <div class="banner">
+        <h1>Omar Chehab</h1>
+        <div class="nav" id="topbar">
+            <a href="index.html">Home</a>
+                <a href="research.html" id="current">Research</a>
+                <a href="talks.html">Talks</a>
+                <a href="notes.html">Notes</a>
+                <a href="teaching.html">Teaching</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main_text research wide">
+  <p>
+    My research is in <b>machine learning</b>, with the following goals:
+  </p>
+  <ul>
+    <li>
+<span class="soft-strong">learning densities</span> from data</li>
+    <li>
+<span class="soft-strong">generating samples</span> from an unnormalized distribution and/or data</li>
+    <li>
+<span class="soft-strong">learning representations and causal structure</span> from data</li>
+  </ul>
+  <p>
+    I am particularly interested in the <i>computational and sample efficiency</i> of algorithms that achieve these goals.
+  </p>
+  <p>
+    The data I use comes in different modalities, such as synthetic data, image data and molecular data. In particular, non-invasive brain recordings (M/EEG) were central to my PhD work and remain a data modality I work on.
+    Here are keywords that best describe my research areas:
+  </p>
+  <ul class="keyword-list">
+    <li>Energy-Based Models</li>
+    <li>Diffusion and Flow Models</li>
+    <li>Sampling Algorithms</li>
+    <li>Score Matching</li>
+    <li>Density Ratio Estimation</li>
+    <li>Causal Discovery</li>
+    <li>Representation Learning</li>
+    <li>Brain Imaging</li>
+    <li>Multi-View Independent Component Analysis</li>
+  </ul>
+  <p>
+    <span class="soft-strong">Service.</span> I review submissions to the following machine learning conferences:
+    NeurIPS, ICML, ICLR and AISTATS.
+    I also occasionally review submissions to these journals of statistics or machine learning:
+    JMLR, TMRL, AISM, JUQ, and Mathematical Methods of Statistics.
+    I am grateful to have been recognized as a "top reviewer" (AISTATS 2022, NeurIPS 2022-23-24).
+  </p>
+  <div class="projectlist">
+    <h2 class="research-section">Generating Samples</h2>
+<div class="project">
+  <div class="project-img"><img src="images/blank.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Few-Step Boltzmann Generators via Scalable Likelihood Flow Maps</div>
+    <div class="project-metadata">RuiKang OuYang, Hanlin Yu, Xinyue Ai, Yutong He, Nicholas M. Boffi, Pradeep Ravikumar, José Miguel Hernández-Lobato, Max Simchowitz, Benjamin Kurt Miller, <span class="self-author">Omar Chehab</span><br><span class="project-venue">Workshop on Structured Probabilistic Inference &amp; Generative Modeling, International Conference on Machine Learning (ICML), 2026</span>
+</div>
+    <div class="project-links"></div>
+    <div class="project-text"><p></p></div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/colt_2025.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Sampling from multi-modal distributions with polynomial query complexity in fixed dimension via reverse diffusion</div>
+    <div class="project-metadata">Adrien Vacher, <span class="self-author">Omar Chehab</span>, Anna Korba<br><span class="project-venue">Conference on Neural Information Processing Systems (NeurIPS), 2025</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2501.00565" target="_blank" rel="noopener">arxiv</a> / <a href="pdfs/poster_neurips_2025.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>Time-reversed diffusions are state-of-the-art for sampling multi-modal distributions, but they rely on score estimates. We analyze how estimation errors affect the final samples.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/yale_workshop_2024.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Provable Convergence and Limitations of Geometric Tempering for Langevin Dynamics</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>, Anna Korba, Austin Stromme, Adrien Vacher<br><span class="project-venue">International Conference on Learning Representations (ICLR), 2024</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2410.09697" target="_blank" rel="noopener">arxiv</a> / <a href="pdfs/poster_yale_2024.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>Annealed MCMC tries to approximate a prescribed path of distributions. We show that the popular geometric mean path with a Gaussian has unfavorable geometry. Presented at the <a href="https://yalefds.swoogo.com/sampling/postersession" target="_blank" rel="noopener">Yale workshop on sampling</a>.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/icml_workshop_2024.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">A Practical Diffusion Path for Sampling</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>, Anna Korba<br><span class="project-venue">Workshop on Structured Probabilistic Inference &amp; Generative Modeling, International Conference on Machine Learning (ICML), 2024</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2406.14040" target="_blank" rel="noopener">arxiv</a> / <a href="pdfs/poster_icml_2024.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>Time-reversed diffusions are state-of-the-art in sampling but rely on score estimates. We aim to reduce their variance.</p>
+</div>
+  </div>
+</div>
+
+<h2 class="research-section">Learning densities</h2>
+<div class="project">
+  <div class="project-img"><img src="images/stochastic_interpolants_2026.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Learning Energy-Based Models from Stochastic Interpolants using Spatiotemporal Differences</div>
+    <div class="project-metadata">Hanlin Yu, RuiKang OuYang, Partha Kaushik, Arto Klami, Michael U. Gutmann, <span class="self-author">Omar Chehab</span><br><span class="project-venue">arXiv, 2026</span>
+</div>
+    <div class="project-links"><a href="https://arxiv.org/abs/2605.26850" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text"><p></p></div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/eurips_workshop_2025.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Conditional Noise-Contrastive Estimation of Energy-Based Models by Jumping Between Modes</div>
+    <div class="project-metadata">Hanlin Yu, Michael U. Gutmann, Arto Klami, <span class="self-author">Omar Chehab</span><br><span class="project-venue">Workshop on Principles of Generative Modeling, EurIPS, 2025</span>
+</div>
+    <div class="project-links"><a href="https://openreview.net/forum?id=07OWUWmUHp" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>We explore the design choices of a method called CNCE for learning energy-based models.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/timescore_2025.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Density Ratio Estimation with Conditional Probability Paths</div>
+    <div class="project-metadata">Hanlin Yu, Arto Klami, Aapo Hyvärinen, Anna Korba, <span class="self-author">Omar Chehab</span><br><span class="project-venue">International Conference on Machine Learning (ICML), 2025</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2502.02300" target="_blank" rel="noopener">arxiv</a> / <a href="https://github.com/ksnxr/dre-prob-paths" target="_blank" rel="noopener">code</a> / <a href="pdfs/poster_icml_2025.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>A density ratio can be obtained by integrating the time score of a probability path. We present an efficient way to estimate the time score.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/uai_2022.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Optimizing the Noise in Self-Supervised Learning: from Importance Sampling to Noise-Contrastive Estimation</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>, Alexandre Gramfort, Aapo Hyvärinen<br><span class="project-venue">arXiv, 2023</span>
+</div>
+    <div class="project-links"><a href="https://arxiv.org/abs/2301.09696" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text"><p></p></div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/neurips_2023.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Provable benefits of annealing for estimating normalizing constants: Importance Sampling, Noise-Contrastive Estimation, and beyond</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>, Aapo Hyvärinen, Andrej Risteski<br><span class="project-venue">Conference on Neural Information Processing Systems (NeurIPS), 2023 <span class="venue-note">[Spotlight]</span></span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2310.03902" target="_blank" rel="noopener">arxiv</a> / <a href="https://github.com/l-omar-chehab/annealing-normalizing-constants" target="_blank" rel="noopener">code</a> / <a href="pdfs/poster_neurips_2023.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>Annealed Importance Sampling uses a prescribed path of distributions to compute an estimate of a normalizing constant. We quantify how the choice of path impacts the estimation error.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/uai_2022.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">The Optimal Noise in Noise-Contrastive Learning Is Not What You Think</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>, Alexandre Gramfort, Aapo Hyvärinen<br><span class="project-venue">Conference on Uncertainty in Artificial Intelligence (UAI), 2022</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2203.01110" target="_blank" rel="noopener">arxiv</a> / <a href="https://github.com/l-omar-chehab/nce-noise-var" target="_blank" rel="noopener">code</a> / <a href="pdfs/poster_uai_2022.pdf" target="_blank" rel="noopener">poster</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>NCE estimates the data density by minimizing a binary classification loss, between data and noise samples. We find the optimal noise distribution that minimizes the estimation error.</p>
+</div>
+  </div>
+</div>
+
+<h2 class="research-section">Learning Representations and Causal Structure</h2>
+<div class="project">
+  <div class="project-img"><img src="images/causal_multiview_2025.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Multi-View Causal Discovery without Non-Gaussianity: Identifiability and Algorithms</div>
+    <div class="project-metadata">Ambroise Heurtebise, <span class="self-author">Omar Chehab</span>, Pierre Ablin, Alexandre Gramfort, Aapo Hyvärinen<br><span class="project-venue">International Conference on Machine Learning (ICML), 2026</span><br><span class="project-venue">Workshop on Causality for Impact, Practical challenges for real-world applications of causal methods, EurIPS 2025 <span class="venue-note">[Oral]</span></span>
+</div>
+    <div class="project-links"><a href="https://arxiv.org/abs/2502.20115" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>We propose three algorithms with theoretical guarantees for learning causal relationships (Directed Acyclic Graph) between random variables, given correlated measurements. We apply our algorithms to brain recordings (MEG and fMRI). <br></p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/mvica2_2025.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations</div>
+    <div class="project-metadata">Ambroise Heurtebise, <span class="self-author">Omar Chehab</span>, Pierre Ablin, Alexandre Gramfort<br><span class="project-venue">IEEE Transactions on Biomedical Engineering, 2025</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2501.07426" target="_blank" rel="noopener">arxiv</a> / <a href="https://github.com/AmbroiseHeurtebise/mvicad" target="_blank" rel="noopener">code</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>Independent Component Analysis (ICA) is a popular algorithm for learning a representation of data. We propose a version that handles data  collected from different contexts, and whose representations differ only by temporal delays or dilations.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/nbdt_2022.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Deep Recurrent Encoder: an end-to-end network to model magnetoencephalography at scale</div>
+    <div class="project-metadata">
+<span class="self-author">Omar Chehab</span>*, Alexandre Defossez*, Jean-Christophe Loiseau, Alexandre Gramfort, Jean-Remi King<br><span class="project-venue">Journal of Neurons, Behavior, Data analysis, and Theory, 2022</span>
+</div>
+    <div class="project-links">
+<a href="https://arxiv.org/abs/2103.02339" target="_blank" rel="noopener">arxiv</a> / <a href="https://github.com/facebookresearch/deepmeg-recurrent-encoder" target="_blank" rel="noopener">code</a>
+</div>
+    <div class="project-text">
+<p></p>
+<p>We compare different models for predicting the brain’s response to external stimuli. Our model, based on a deep neural network, is more accurate and interpretable.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/jne_2021.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Learning with self-supervision on EEG data</div>
+    <div class="project-metadata">Alexandre Gramfort, Hubert Banville, <span class="self-author">Omar Chehab</span>, Aapo Hyvärinen, Denis Engemann<br><span class="project-venue">IEEE workshop on Brain-Computer Interface, 2021</span>
+</div>
+    <div class="project-links"><a href="https://ieeexplore.ieee.org/abstract/document/9385345" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>We learn rich representations of EEG brain activity using a self-supervised loss.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/jne_2021.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Uncovering the structure of clinical EEG signals with self-supervised learning</div>
+    <div class="project-metadata">Hubert Banville, <span class="self-author">Omar Chehab</span>, Aapo Hyvärinen, Denis Engemann, Alexandre Gramfort<br><span class="project-venue">Journal of Neural Engineering, 2021</span>
+</div>
+    <div class="project-links"><a href="https://arxiv.org/abs/2007.16104" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>We learn rich representations of EEG brain activity using a self-supervised loss.</p>
+</div>
+  </div>
+</div>
+
+<div class="project">
+  <div class="project-img"><img src="images/jnp_2020.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">A mean-field approach to the dynamics of networks of complex neurons, from nonlinear Integrate-and-Fire to Hodgkin–Huxley models</div>
+    <div class="project-metadata">Mallory Carlu, <span class="self-author">Omar Chehab</span>, Leonardo Dalla Porta, Damien Depannemaecker, Charlotte Héricé, Maciej Jedynak, Elif Köksal Ersöz, Paulo Muratore, Selma Souihe, Cristiano Capone, Yann Zerlaut, Alain Destexhe, Matteo di Volo<br><span class="project-venue">Journal of Neurophysiology, 2020</span>
+</div>
+    <div class="project-links"><a href="https://www.biorxiv.org/content/10.1101/870345" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>Our theory predicts the average behavior of neuronal populations that fire asynchronously.</p>
+</div>
+  </div>
+</div>
+
+<h2 class="research-section">Miscellaneous</h2>
+<div class="project">
+  <div class="project-img"><img src="images/nano_world_models_2026.png" alt=""></div>
+  <div class="project-info">
+    <div class="project-title">Nano World Models: A Minimalist Implementation of Future Video Prediction</div>
+    <div class="project-metadata">Siqiao Huang, Partha Kaushik, Michael Chen, Hengkai Pan, <span class="self-author">Omar Chehab</span>, Fernando Moreno-Pino, Max Simchowitz<br><span class="project-venue">arXiv, 2026</span>
+</div>
+    <div class="project-links"><a href="https://arxiv.org/pdf/2605.23993" target="_blank" rel="noopener">arxiv</a></div>
+    <div class="project-text">
+<p></p>
+<p>A minimalist codebase for future video prediction centered around diffusion forcing.</p>
+</div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

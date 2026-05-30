@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="author" content="Omar Chehab">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Chehab | How to connect to a remote cluster</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+  <meta name="description" content="Omar Chehab, machine learning researcher.">
+</head>
+<body>
+  <div class="container homepage">
+    <div class="layout">
+      <div class="banner">
+        <h1>Omar Chehab</h1>
+        <div class="nav" id="topbar">
+            <a href="../index.html">Home</a>
+                <a href="../research.html">Research</a>
+                <a href="../talks.html">Talks</a>
+                <a href="../notes.html" id="current">Notes</a>
+                <a href="../teaching.html">Teaching</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main_text note-page">
+<h1 id="how-to-connect-to-a-remote-cluster">How to connect to a remote cluster</h1>
+
+<p>The protocol used to connect to remote machines is called <code>SSH</code> — <strong>S</strong>ecure <strong>Sh</strong>ell.  <br>
+It allows you to log into remote servers and clusters securely from your computer.</p>
+
+<style>
+  h1 {
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: #16304a;
+    letter-spacing: 0.15px;
+  }
+
+  p,
+  li {
+    line-height: 1.65;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #e4ecf5;
+    margin: 18px 0;
+  }
+
+  pre,
+  .highlight pre {
+    background: rgba(23, 114, 208, 0.09);
+    border: 1px solid rgba(23, 114, 208, 0.2);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+</style>
+
+<hr>
+
+<h3 id="step-1-create-a-privatepublic-key-pair">Step 1: create a private/public key pair</h3>
+
+<p>SSH authentication is typically based on a <strong>pair of cryptographic keys</strong>: a private key and a public key. The public key is mathematically derived from the private key.  You keep the private key on your machine and never share it. The public key, on the other hand, can safely be sent to the administrator of a remote server.</p>
+
+<p>These files live in the hidden directory <code>~/.ssh</code>, usually under the names <code>id_rsa</code> (private key) and <code>id_rsa.pub</code> (public key).</p>
+
+<p>You can check whether these files already exist:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/.ssh
+<span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>If they are not present, generate them with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen <span class="nt">-t</span> rsa
+</code></pre></div></div>
+
+<p>You can inspect their contents using:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat </span>id_rsa
+<span class="nb">cat </span>id_rsa.pub
+</code></pre></div></div>
+
+<hr>
+
+<h3 id="step-2-send-your-public-key-to-the-server-administrator">Step 2: send your public key to the server administrator</h3>
+
+<p>To access a remote server, your <strong>public key must be installed on that server</strong>.</p>
+
+<p>Typically, you simply send the content of <code>id_rsa.pub</code> to the administrators managing the cluster at your institution.</p>
+
+<hr>
+
+<h3 id="step-3-connect-to-the-remote-server">Step 3: connect to the remote server</h3>
+
+<p>Once your public key has been registered, you can connect using:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh username@remoteserver.com
+</code></pre></div></div>
+
+<p>The first time you connect, SSH will ask whether you trust the host. Type yes. Behind the scenes, two things happen:</p>
+
+<ul>
+  <li>The server verifies your identity by checking that your machine possesses the <strong>private key</strong> corresponding to the public key it received.</li>
+  <li>Your computer verifies the server’s identity and stores its fingerprint in the file <code>known_hosts</code> inside <code>~/.ssh</code>.</li>
+</ul>
+
+<hr>
+
+<h3 id="step-4-simplify-the-connection">Step 4: simplify the connection</h3>
+
+<p>Typing</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh username@remoteserver.com
+</code></pre></div></div>
+
+<p>can become tedious. Sometimes it is even more complicated: you may need to first connect to a <strong>gateway server</strong> at your institution before accessing the cluster.</p>
+
+<p>SSH allows you to simplify this using a configuration file called <code>config</code>, stored in the <code>~/.ssh</code> directory.</p>
+
+<p>For example, suppose your username is <em>ochehab</em> and you want to connect to a computing cluster called <em>dragon</em> at Harvard, which is accessed through a gateway server. Your configuration file could look like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host <span class="k">*</span>
+  UseKeychain <span class="nb">yes
+  </span>AddKeysToAgent <span class="nb">yes
+  </span>IdentityFile ~/.ssh/id_rsa
+
+<span class="c">##################################################</span>
+<span class="c"># Harvard gateway</span>
+
+Host harvard
+  HostName ssh.harvard.edu
+  User ochehab
+
+<span class="c">##################################################</span>
+<span class="c"># Dragon cluster</span>
+
+Host dragon
+  HostName dragon.harvard.edu
+  User ochehab
+  CheckHostIP no
+  ProxyCommand ssh harvard /usr/bin/nc %h %p
+
+<span class="c">##################################################</span>
+<span class="c"># General rule for Harvard machines</span>
+
+Host <span class="k">*</span>.harvard.edu
+  ProxyCommand ssh <span class="nt">-q</span> harvard /usr/bin/nc <span class="nt">-w</span> 1 %h 22
+  IdentityFile ~/.ssh/id_rsa
+  User ochehab
+  ForwardAgent <span class="nb">yes
+  </span>ForwardX11 no
+</code></pre></div></div>
+
+<p>With this configuration in place, connecting to the cluster becomes as simple as:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh dragon
+</code></pre></div></div>
+
+<p>instead of typing:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh ochehab@ssh.harvard.edu
+ssh ochehab@dragon.harvard.edu
+</code></pre></div></div>
+</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

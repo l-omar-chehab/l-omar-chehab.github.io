@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="author" content="Omar Chehab">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Chehab | Parallelization</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+  <meta name="description" content="Omar Chehab, machine learning researcher.">
+</head>
+<body>
+  <div class="container homepage">
+    <div class="layout">
+      <div class="banner">
+        <h1>Omar Chehab</h1>
+        <div class="nav" id="topbar">
+            <a href="../index.html">Home</a>
+                <a href="../research.html">Research</a>
+                <a href="../talks.html">Talks</a>
+                <a href="../notes.html" id="current">Notes</a>
+                <a href="../teaching.html">Teaching</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main_text note-page">
+<h1 id="parallelization">Parallelization</h1>
+
+<style>
+  h2 {
+    display: block;
+    margin-top: 24px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #dbe7f5;
+    color: #16304a;
+    letter-spacing: 0.2px;
+  }
+
+  h3 {
+    margin-top: 18px;
+    color: #17314a;
+  }
+
+  p,
+  li {
+    line-height: 1.65;
+  }
+
+  pre,
+  .highlight pre {
+    background: rgba(23, 114, 208, 0.09);
+    border: 1px solid rgba(23, 114, 208, 0.2);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+</style>
+
+<h2 id="your-code-multitasks">Your Code Multitasks</h2>
+
+<p>You can make code run faster by executing independent tasks in parallel. This is the core idea of <em>parallel computing</em>.</p>
+
+<p>Suppose your Python code already supports parallelism (for example via <code>joblib</code> or <code>pytorch</code>) and you are connected to a remote cluster. The next step is to choose the hardware used for parallel execution:</p>
+
+<ul>
+  <li>
+<strong>CPU</strong> (Central Processing Unit)</li>
+  <li>
+<strong>GPU</strong> (Graphics Processing Unit, often much faster for large numerical workloads)</li>
+</ul>
+
+<p>Check usage with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>htop     <span class="c"># CPU usage</span>
+gpustat  <span class="c"># GPU usage</span>
+</code></pre></div></div>
+
+<h3 id="1-gpu-parallelization">1) GPU Parallelization</h3>
+
+<p>Select GPUs using:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">CUDA_VISIBLE_DEVICES</span><span class="o">=</span>0,1  <span class="c"># use the first two GPUs</span>
+</code></pre></div></div>
+
+<h3 id="2-cpu-parallelization">2) CPU Parallelization</h3>
+
+<p>Even when your code dispatches jobs, performance depends on <em>how</em> CPU threads are configured.</p>
+
+<p>For large-scale workloads, it is often better to avoid heavy multithreading per process and run more single-threaded jobs in parallel. A common setup is:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># stop per-process multithreading</span>
+<span class="nb">export </span><span class="nv">MKL_NUM_THREADS</span><span class="o">=</span>1
+<span class="nb">export </span><span class="nv">NUMEXPR_NUM_THREADS</span><span class="o">=</span>1
+<span class="nb">export </span><span class="nv">OMP_NUM_THREADS</span><span class="o">=</span>1
+</code></pre></div></div>
+
+<h2 id="you-multitask">You Multitask</h2>
+
+<p>Sometimes you want to launch several experiments and leave them running overnight. Three common options are <code>&amp;</code>, <code>screen</code>, and <code>tmux</code>.</p>
+
+<h3 id="1--background-job">1) <code>&amp;</code> (Background Job)</h3>
+
+<p>Simple and quick, but the process usually stops when the terminal/session is interrupted.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 main.py &amp;
+<span class="nb">jobs</span>  <span class="c"># check running background jobs</span>
+</code></pre></div></div>
+
+<h3 id="2-screen">2) <code>screen</code>
+</h3>
+
+<p><code>screen</code> is a complete and easy session manager.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Command</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>List sessions</td>
+      <td><code>screen -ls</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Enter or create a session</td>
+      <td><code>screen -r nameofscreen</code></td>
+      <td>Then run your code</td>
+    </tr>
+    <tr>
+      <td>Detach session</td>
+      <td>
+<code>Ctrl-A</code> then <code>Ctrl-D</code>
+</td>
+      <td>Leaves code running</td>
+    </tr>
+    <tr>
+      <td>Kill session (inside)</td>
+      <td>
+<code>Ctrl-A</code> then <code>Ctrl-K</code>
+</td>
+      <td>Close when done</td>
+    </tr>
+    <tr>
+      <td>Kill session (outside)</td>
+      <td><code>screen -X -S [session #] kill</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Kill all sessions</td>
+      <td><code>killall screen</code></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3-tmux">3) <code>tmux</code>
+</h3>
+
+<p><code>tmux</code> is a powerful alternative. Useful reference: <a href="https://tmuxcheatsheet.com" target="_blank" rel="noopener">https://tmuxcheatsheet.com</a></p>
+
+<p>A <code>tmux</code> session contains windows, and windows can contain multiple panes.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Command</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>List sessions</td>
+      <td><code>tmux ls</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Create session</td>
+      <td><code>tmux new -s mysession</code></td>
+      <td>Then run your code</td>
+    </tr>
+    <tr>
+      <td>Attach to session</td>
+      <td><code>tmux attach -t mysession</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Detach session</td>
+      <td>
+<code>Ctrl-B</code> then <code>D</code>
+</td>
+      <td>Leaves code running</td>
+    </tr>
+    <tr>
+      <td>Kill session (inside)</td>
+      <td>
+<code>Ctrl-B</code> then <code>X</code>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Kill session (outside)</td>
+      <td><code>tmux kill-session -t mysession</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Kill all sessions</td>
+      <td><code>tmux kill-server</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Split pane</td>
+      <td>
+<code>Ctrl-B</code> then <code>%</code>
+</td>
+      <td>Creates another terminal pane</td>
+    </tr>
+    <tr>
+      <td>Next pane</td>
+      <td>
+<code>Ctrl-B</code> then <code>O</code>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Change layout</td>
+      <td>
+<code>Ctrl-B</code> then <code>space</code>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Scroll mode</td>
+      <td>
+<code>Ctrl-B</code> then <code>[</code>
+</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

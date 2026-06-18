@@ -135,6 +135,13 @@ a:hover {
     font-weight: 600;
 }
 
+.announcement {
+    padding: .7rem .9rem;
+    border-left: 3px solid var(--accent);
+    background: rgba(63, 111, 143, .075);
+    color: var(--heading);
+}
+
 .service-note {
     padding: .75rem .95rem;
     border-left: 2px solid rgba(63, 111, 143, .35);
@@ -148,12 +155,12 @@ a:hover {
 }
 
 .group-page h2 {
-    margin-top: 0;
+    margin-top: 1.45rem;
     margin-bottom: .85rem;
 }
 
-.group-page h2 + p {
-    margin-top: .15rem;
+.group-page h2:first-child {
+    margin-top: 0;
 }
 
 .projectlist {

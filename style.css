@@ -149,20 +149,6 @@ a:hover {
     color: #3d3d3d;
 }
 
-.group-note {
-    font-size: 10.5pt;
-    color: var(--muted);
-}
-
-.group-page h2 {
-    margin-top: 1.45rem;
-    margin-bottom: .85rem;
-}
-
-.group-page h2:first-child {
-    margin-top: 0;
-}
-
 .projectlist {
     display: flex;
     flex-direction: column;

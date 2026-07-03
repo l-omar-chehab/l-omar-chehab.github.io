@@ -146,12 +146,6 @@ a:hover {
     color: var(--heading);
 }
 
-.service-note {
-    padding: .75rem .95rem;
-    border-left: 2px solid rgba(63, 111, 143, .35);
-    background: rgba(63, 111, 143, .045);
-    color: #3d3d3d;
-}
 
 .projectlist {
     display: flex;

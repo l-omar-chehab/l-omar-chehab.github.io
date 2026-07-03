@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
             ['Research', 'research.html'],
             ['Group', 'group.html'],
             ['Talks', 'talks.html'],
-            ['Notes', 'notes.html'],
             ['Teaching', 'teaching.html']
         ];
         nav.innerHTML = items.map(([label, href]) => {

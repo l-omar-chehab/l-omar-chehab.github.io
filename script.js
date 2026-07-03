@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const nav = document.querySelector('.nav');
-    if (nav && !nav.querySelector('a[href$="group.html"]')) {
+    if (nav) {
         const prefix = window.location.pathname.includes('/notes/') || window.location.pathname.includes('/teaching/') ? '../' : '';
         const current = document.title.split('|').pop().trim().toLowerCase();
         const items = [

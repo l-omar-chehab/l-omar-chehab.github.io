@@ -76,7 +76,7 @@ a:hover {
     width: 100%;
     text-align: left;
     padding-top: 40px;
-    min-height: 140px;
+    min-height: 150px;
 }
 
 .container { display: flex; flex-direction: row; }
@@ -94,10 +94,10 @@ a:hover {
 .nav {
     margin-top: 5px;
     display: flex;
-    gap: .35rem .8rem;
-    font-size: 10pt;
+    gap: .35rem .65rem;
+    font-size: 9.5pt;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: .025em;
     flex-wrap: wrap;
 }
 

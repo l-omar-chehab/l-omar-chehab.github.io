@@ -11,8 +11,7 @@
 * { box-sizing: border-box; padding: 0; margin: 0; }
 
 body {
-    font-family: "Avenir Next Condensed", "Avenir Next", "Helvetica Neue Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-stretch: condensed;
+    font-family: "Avenir Next", "Helvetica Neue", sans-serif;
     color: var(--text);
     background: #fff;
 }
@@ -97,9 +96,8 @@ a:hover {
     display: flex;
     gap: .35rem .65rem;
     font-size: 9.5pt;
-    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: .055em;
+    letter-spacing: .025em;
     flex-wrap: wrap;
 }
 
@@ -196,7 +194,7 @@ a:hover {
 }
 
 .project-info { display: flex; flex-direction: column; gap: .28rem; }
-.project-title { font-size: 12pt; font-weight: 500; letter-spacing: .015em; }
+.project-title { font-size: 12pt; font-weight: 500; }
 .project-metadata { font-size: 10pt; }
 .self-author { font-weight: 600; }
 .project-venue { font-style: italic; }

@@ -228,10 +228,25 @@ a:hover {
 
 .teaching-list .talk-date {
     flex-basis: 105px;
+    color: var(--accent);
 }
 
 .teaching-list .talk-text {
     white-space: nowrap;
+}
+
+.teaching-list li {
+    margin-bottom: 0;
+    padding: .45rem 0;
+}
+
+.teaching-list li + li {
+    border-top: 1px solid var(--border-soft);
+}
+
+.teaching-university {
+    color: var(--accent);
+    margin-bottom: .35rem;
 }
 
 .notes-under-teaching { margin-top: 3.25rem; }

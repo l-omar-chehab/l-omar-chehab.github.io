@@ -226,6 +226,14 @@ a:hover {
     min-width: 0;
 }
 
+.teaching-list .talk-date {
+    flex-basis: 105px;
+}
+
+.teaching-list .talk-text {
+    white-space: nowrap;
+}
+
 .notes-under-teaching { margin-top: 3.25rem; }
 .note-group { margin-bottom: 1.6rem; }
 .notes-under-teaching h2 { font-size: 13pt; margin: 1rem 0 .25rem; }
@@ -278,4 +286,5 @@ a:hover {
     .project-text { display: none; }
     .project { gap: .9rem; }
     .project-img img { width: 6rem; height: 6rem; }
+    .teaching-list .talk-text { white-space: normal; }
 }

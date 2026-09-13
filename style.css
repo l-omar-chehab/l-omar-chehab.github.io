@@ -295,6 +295,21 @@ a:hover {
     margin-top: 2.6rem;
 }
 
+.group-campus-photos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .8rem;
+    margin-top: 1.5rem;
+}
+
+.group-campus-photos img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 3px;
+    display: block;
+}
+
 @media (max-width: 700px) {
     .layout { margin-left: 5vw; margin-right: 5vw; }
     .banner { height: auto; margin-bottom: 2rem; }
@@ -302,4 +317,5 @@ a:hover {
     .project { gap: .9rem; }
     .project-img img { width: 6rem; height: 6rem; }
     .teaching-list .talk-text { white-space: normal; }
+    .group-campus-photos { grid-template-columns: 1fr; }
 }

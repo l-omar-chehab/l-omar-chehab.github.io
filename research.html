@@ -20,8 +20,8 @@
         <div class="nav" id="topbar">
             <a href="index.html">Home</a>
                 <a href="research.html" id="current">Research</a>
+                <a href="group.html">Group</a>
                 <a href="talks.html">Talks</a>
-                <a href="notes.html">Notes</a>
                 <a href="teaching.html">Teaching</a>
         </div>
       </div>
@@ -43,6 +43,9 @@
   </p>
   <p>
     The data I use comes in different modalities, such as synthetic data, image data and molecular data. In particular, non-invasive brain recordings (M/EEG) were central to my PhD work and remain a data modality I work on.
+  </p>
+  <!--
+  <p>
     Here are keywords that best describe my research areas:
   </p>
   <ul class="keyword-list">
@@ -56,22 +59,25 @@
     <li>Brain Imaging</li>
     <li>Multi-View Independent Component Analysis</li>
   </ul>
-  <p class="service-note">
-    <span class="soft-strong">Service.</span> I review submissions to the following machine learning conferences:
-    NeurIPS, ICML, ICLR and AISTATS, where I was recognized as a "top reviewer" (AISTATS 2022, NeurIPS 2022-23-24).
-    I also occasionally review submissions to these journals of statistics or machine learning:
-    JMLR, TMRL, AISM, JUQ, and Mathematical Methods of Statistics.
+  -->
+  <p>
+    More specifically, here are some research themes I am currently interested in:
   </p>
+  <ul>
+    <li><span class="soft-strong">diffusion models for text data</span>: in discrete space (sequence of tokens), trans-dimensional space (the sequence of tokens has variable length), or product space (the sequence of tokens is paired with non-textual data)</li>
+    <li><span class="soft-strong">sampling algorithms for molecular data</span>: scaling algorithms to explore multi-modal landscapes, discovering representations that aid sample generation</li>
+    <li><span class="soft-strong">causal discovery algorithms for brain imaging data</span>: scaling causal discovery algorithms to multiple subjects, understanding causal pathways in dynamical systems (aka "encoding models") that model how the brain reacts to external stimuli</li>
+  </ul>
   <div class="projectlist">
     <h2 class="research-section">Generating Samples</h2>
 <div class="project">
-  <div class="project-img"><img src="images/blank.png" alt=""></div>
+  <div class="project-img"><img src="images/few_step_boltzmann_generators_2026.png" alt=""></div>
   <div class="project-info">
     <div class="project-title">Few-Step Boltzmann Generators via Scalable Likelihood Flow Maps</div>
     <div class="project-metadata">RuiKang OuYang, Hanlin Yu, Xinyue Ai, Yutong He, Nicholas M. Boffi, Pradeep Ravikumar, José Miguel Hernández-Lobato, Max Simchowitz, Benjamin Kurt Miller, <span class="self-author">Omar Chehab</span><br><span class="project-venue">Workshop on Structured Probabilistic Inference &amp; Generative Modeling, International Conference on Machine Learning (ICML), 2026</span>
 </div>
-    <div class="project-links"></div>
-    <div class="project-text"><p></p></div>
+    <div class="project-links"><a href="https://arxiv.org/abs/2606.29110" target="_blank" rel="noopener">arxiv</a> / <a href="images/poster_few_step_boltzmann_generators_2026.png" target="_blank" rel="noopener">poster</a></div>
+    <div class="project-text"><p>We generate data samples from an unnormalized distribution over molecules using sampling importance resampling. The proposal distribution is a likelihood flow map, that we train on a biased dataset with a variance-reduced objective.</p></div>
   </div>
 </div>
 
@@ -324,5 +330,6 @@
       </div>
     </div>
   </div>
+<script src="script.js?v=nav-20260703"></script>
 </body>
 </html>

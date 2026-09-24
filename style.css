@@ -295,17 +295,60 @@ a:hover {
     margin-top: 2.6rem;
 }
 
+.group-intro {
+    margin-bottom: 1.35rem;
+}
+
+.joining-announcement {
+    margin: .25rem 0 1.1rem;
+    padding: .8rem 1rem;
+    border: 1px solid rgba(118, 81, 166, .35);
+    border-radius: 4px;
+    background: rgba(118, 81, 166, .12);
+    color: #111;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+.internship-topics li {
+    margin-bottom: .45rem;
+}
+
+.internship-note {
+    margin-top: .55rem;
+    color: var(--muted);
+    font-size: .94em;
+}
+
+.topic-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+    margin-left: .35rem;
+    vertical-align: middle;
+}
+
+.topic-tags > span {
+    padding: .08rem .42rem;
+    border: 1px solid rgba(54, 101, 143, .22);
+    border-radius: 999px;
+    background: rgba(91, 143, 183, .09);
+    color: #365f7e;
+    font-size: .76em;
+    font-weight: 500;
+    letter-spacing: .01em;
+    white-space: nowrap;
+}
+
 .group-campus-photos {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .8rem;
     margin-top: 1.5rem;
 }
 
 .group-campus-photos img {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 2.25 / 1;
     object-fit: cover;
+    object-position: center bottom;
     border-radius: 3px;
     display: block;
 }
@@ -317,5 +360,4 @@ a:hover {
     .project { gap: .9rem; }
     .project-img img { width: 6rem; height: 6rem; }
     .teaching-list .talk-text { white-space: normal; }
-    .group-campus-photos { grid-template-columns: 1fr; }
 }

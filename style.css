@@ -70,6 +70,8 @@ a:hover {
 .main_text { min-width: 300px; max-width: 760px; }
 .home-text { max-width: 580px; }
 .home-credit { font-size: 9.5pt; }
+.home-contact { margin-top: 2.25rem; }
+.home-contact h2 { margin-bottom: .35rem; }
 .main_text.wide { max-width: 860px; }
 
 .banner {

@@ -233,6 +233,11 @@ a:hover {
     color: var(--accent);
 }
 
+.teaching-list {
+    width: 760px;
+    max-width: 100%;
+}
+
 .teaching-list .talk-text {
     white-space: nowrap;
 }
@@ -313,7 +318,24 @@ a:hover {
 }
 
 .internship-topics li {
-    margin-bottom: .45rem;
+    margin-bottom: .16rem;
+}
+
+.internship-category {
+    margin: .7rem 0 .85rem;
+}
+
+.internship-category h4 {
+    margin-bottom: .22rem;
+    color: #8b3345;
+    font-size: 10.2pt;
+    font-weight: 400;
+    letter-spacing: .015em;
+}
+
+.internship-category .internship-topics {
+    margin-bottom: 0;
+    line-height: 1.42;
 }
 
 .internship-note {

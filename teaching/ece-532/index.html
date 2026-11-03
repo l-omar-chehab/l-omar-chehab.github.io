@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="ECE 532: Matrix Methods in Machine Learning at UW–Madison, taught by Omar Chehab and Grigorios Chrysos.">
+  <title>ECE 532 | Matrix Methods in Machine Learning</title>
+  <link rel="stylesheet" href="style.css?v=10">
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <h1><strong>ECE 532</strong> | Matrix Methods in Machine Learning</h1>
+      <img class="university-logo" src="assets/uwmadison-logo.png" alt="University of Wisconsin–Madison" width="1102" height="371">
+    </header>
+    <section class="syllabus" aria-labelledby="syllabus-title">
+      <h2 id="syllabus-title"><span id="materials-title">Syllabus</span></h2>
+      <div class="table-wrap" id="assessment-title"><table class="program-table" aria-label="Fall 2026 lectures, quizzes, and exams">
+        <thead><tr><th scope="col">Date</th><th scope="col">Program</th><th scope="col">Instructor</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><time datetime="2026-09-03">September 3</time></th><td><div class="program-item">Course introduction</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-09-04">September 4</time>–<time datetime="2026-09-08">8</time>–<time datetime="2026-09-10">10</time></th><td><div class="program-item">Vectors</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-09-15">September 15</time>–<time datetime="2026-09-17">17</time>–<time datetime="2026-09-22">22</time></th><td><div class="program-item">Vectors and Matrices</div><div class="program-item">Linear Systems, Norms and Projections</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-09-24">September 24</time>–<time datetime="2026-09-29">29</time></th><td><div class="program-item">Least Squares</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-10-01">October 1</time>–<time datetime="2026-10-06">6</time>–<time datetime="2026-10-13">13</time>–<time datetime="2026-10-15">15</time></th><td><div class="program-item">The Singular Value Decomposition</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-10-08">October 8</time></th><td><div class="program-item"><span class="assessment-event">First midterm</span></div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-10-20">October 20</time>–<time datetime="2026-10-22">22</time></th><td><div class="program-item">Applications of the SVD</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-10-27">October 27</time>–<time datetime="2026-10-29">29</time></th><td><div class="program-item">PageRank and the SVD</div></td><td class="instructor-cell">Grigorios Chrysos</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-03">November 3</time></th><td><div class="program-item">Loss functions</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-05">November 5</time></th><td><div class="program-item">Optimization algorithms</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-10">November 10</time></th><td><div class="program-item">Convergence assumptions</div><div class="program-item"><span class="assessment-event">Homework assignment</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-12">November 12</time></th><td><div class="program-item">Convergence guarantees</div><div class="program-item"><span class="assessment-event">Homework due</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-17">November 17</time></th><td><div class="program-item"><span class="assessment-event">Second midterm</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-19">November 19</time></th><td><div class="program-item">TBD</div><div class="program-item"><span class="assessment-event">Homework assignment</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-24">November 24</time></th><td><div class="program-item">TBD</div><div class="program-item"><span class="assessment-event">Homework due</span></div><div class="program-item"><span class="assessment-event">Quiz 3</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-11-26">November 26</time></th><td><div class="program-item">TBD</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-12-01">December 1</time></th><td><div class="program-item">TBD</div><div class="program-item"><span class="assessment-event">Quiz 4</span></div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-12-03">December 3</time></th><td><div class="program-item">TBD</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-12-08">December 8</time></th><td><div class="program-item">Revision session</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+          <tr><th scope="row"><time datetime="2026-12-10">December 10</time></th><td><div class="program-item">No class (study day)</div></td><td class="instructor-cell">—</td></tr>
+          <tr><th scope="row"><time datetime="2026-12-15">December 15</time></th><td><div class="program-item assessment-event">Final exam</div></td><td class="instructor-cell">Omar Chehab</td></tr>
+        </tbody>
+      </table></div>
+      <p class="section-note">Quizzes take place during the last 20–30 minutes of class. Quizzes and exams are in person; collaboration is not allowed.</p>
+      <div class="optimization-references" aria-labelledby="references-title">
+      <h3 class="syllabus-subheading" id="references-title">Optimization references</h3>
+      <ul class="format-list">
+        <li>Bubeck: <a href="http://sbubeck.com/book.html"><em>Convex Optimization: Algorithms and Complexity.</em></a></li>
+        <li>Boyd &amp; Vandenberghe: <a href="http://web.stanford.edu/~boyd/cvxbook/"><em>Convex Optimization.</em></a></li>
+        <li>Garrigos &amp; Gower: <a href="https://gowerrobert.github.io/pdf/M2_statistique_optimisation/grad_conv.pdf"><em>Handbook of Convergence Theorems for (Stochastic) Gradient Methods.</em></a></li>
+      </ul>
+      </div>
+    </section>
+    <section class="group-description" aria-labelledby="description-title">
+      <h2 id="description-title">Description</h2>
+      <p><span class="paragraph-title"><strong>About the course.</strong></span> This course explores the linear algebra behind machine learning, including least squares, regularization, singular value decomposition, and optimization, with applications to regression, classification, clustering, and neural networks. Prior coursework in mathematical foundations and experience with numerical computing (such as Python) are required.</p>
+    </section>
+    <section class="logistics" aria-labelledby="logistics-title">
+      <h2 id="logistics-title">Logistics</h2>
+      <dl class="logistics-list">
+        <div><dt>Instructors</dt><dd><a href="https://grigoris.ece.wisc.edu/" target="_blank" rel="noopener noreferrer">Grigorios Chrysos</a> and <a href="https://l-omar-chehab.github.io/" target="_blank" rel="noopener noreferrer">Omar Chehab</a></dd></div>
+        <div><dt>Term</dt><dd>Fall 2026</dd></div>
+        <div><dt>Time</dt><dd>Tuesdays and Thursdays, 4–5:15 p.m.</dd></div>
+        <div><dt>Location</dt><dd>1800 Engineering Hall</dd></div>
+        <div><dt>TAs</dt><dd>Guruprasad Viswanathan Ramesh<br>Daiwei Chen<br>Karan Vikyath Veeranna Rupashree</dd></div>
+        <div><dt id="office-hours-title">Office hours</dt><dd>
+            <div class="office-hours-line">Omar — Nov 3 &amp; 10, 5–6 p.m., 2540 Engineering Hall; Nov 17 &amp; 24, Dec 1 &amp; 8, 5:15–6:15 p.m., 1800 Engineering Hall.</div>
+            <div class="office-hours-line">Guruprasad — Tue, 10:30 a.m.–12:30 p.m., 307 Wendt Commons.</div>
+            <div class="office-hours-line">Daiwei — Thu, 9–11 a.m., 307 Wendt Commons.</div>
+            <div class="office-hours-line">Karan — Wed, 3–5 p.m., 307 Wendt Commons.</div>
+          </dd></div>
+      </dl>
+    </section>
+  </main>
+</body>
+</html>

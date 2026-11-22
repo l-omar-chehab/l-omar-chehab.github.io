@@ -210,6 +210,15 @@ a:hover {
     margin: 0;
 }
 
+.talk-section-title {
+    margin: 0 0 .7rem;
+    font-size: 14pt;
+}
+
+.talk-list + .talk-section-title {
+    margin-top: 2.1rem;
+}
+
 .talk-list li {
     display: flex;
     gap: 12px;
